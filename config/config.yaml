@@ -1,0 +1,863 @@
+data_types:
+  btype: &btype boolean
+  ctype: &ctype category
+  dtype: &dtype datetime64[ns
+  itype: &itype Int64
+  stype: &stype StringDtype
+
+data_source:
+  - service: referring
+    sp: AK
+    name: ahmed_kayali
+    file: TS_FC_meetingOutreachReferralFollowUpAdvocacy.xlsx
+    password: Ahmed02
+  - service: pss
+    sp: IJ
+    name: Israa_Jasim
+    file: tt_psc_IJ_v04.xlsx
+    password: Israa006
+  - service: pss
+    sp: LA
+    name: lama_abbad
+    file: tt_psc_LA_v04.xlsx
+    password: Lama010
+  - service: pss
+    sp: MT
+    name: mohammad_turkawi
+    file: tt_psc_MT_v04.xlsx
+    password: Mt011
+  - service: pss
+    sp: SA
+    name: salwa_arabi
+    file: tt_psc_SA_v04.xlsx
+    password: Salwa003
+  - service: pss
+    sp: YQ
+    name: yaqzan_qanbar
+    file: tt_psc_YQ-v04.xlsx
+    password: Yaqzan004
+  - service: pt
+    sp: HJ
+    name: heba_jumaa
+    file: tt_pt_HJ_v04.1.xlsx
+    password: Heba001
+  - service: pt
+    sp: HR
+    name: hind_ragheb
+    file: tt_pt_HR_v04.1.xlsx
+    password: Hind002
+  - service: pt
+    sp: ZN
+    name: ziad_nassar
+    file: tt_pt_ZN_v04.1.xlsx
+    password: Ziad003
+  - service: td_tracker
+    sp: DH
+    name: Dima
+    file: td_tracker.xlsx
+    password: "250923"
+
+datasets:
+  - dataset: screening
+    variables:
+      - var: scspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: sex
+        type: *btype
+        level: 1
+      - var: age
+        type: *itype
+        level: 1
+      - var: nat
+        type: *ctype
+        level: 3
+      - var: sc_loc
+        type: *ctype
+        level: 1
+      - var: sc_s1
+        type: *dtype
+        level: 0
+      - var: pei_pre_as
+        type: *dtype
+        level: 0
+      - var: sc_re
+        type: *dtype
+        level: 0
+      - var: source
+        type: *ctype
+        level: 1
+      - var: source_org
+        type: *ctype
+        level: 1
+      - var: need_mhpss
+        type: *btype
+        level: 2
+      - var: need_trw
+        type: *btype
+        level: 2
+      - var: need_out_ref
+        type: *btype
+        level: 2
+      - var: need_tmh
+        type: *btype
+        level: 2
+      - var: need_pei
+        type: *btype
+        level: 2
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: intake
+    variables:
+      - var: ntspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: nt_s1
+        type: *dtype
+        level: 0
+      - var: nt_s2
+        type: *dtype
+        level: 0
+      - var: nt_s3
+        type: *dtype
+        level: 0
+      - var: nt_re
+        type: *dtype
+        level: 0
+      - var: family_of_missing
+        type: *btype
+        level: 2
+      - var: survivor_of_detention
+        type: *btype
+        level: 2
+      - var: primary_torture
+        type: *btype
+        level: 2
+      - var: secondary_torture
+        type: *btype
+        level: 2
+      - var: sexual_violation_a
+        type: *btype
+        level: 2
+      - var: sexual_violation_p
+        type: *btype
+        level: 2
+      - var: hrd
+        type: *btype
+        level: 2
+      - var: journalist
+        type: *btype
+        level: 2
+      - var: wov
+        type: *btype
+        level: 2
+      - var: stgbv
+        type: *btype
+        level: 2
+      - var: lgbti
+        type: *btype
+        level: 2
+      - var: other
+        type: *btype
+        level: 2
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: group_counseling
+    variables:
+      - var: gcspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: stringDtype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: need_pt
+        type: *btype
+        level: 3
+      - var: gc_index
+        type: *itype
+        level: 1
+      - var: gc_class
+        type: *stype
+        level: 1
+      - var: gc_s1
+        type: *dtype
+        level: 0
+      - var: gc_s2
+        type: *dtype
+        level: 0
+      - var: gc_s3
+        type: *dtype
+        level: 0
+      - var: gc_s4
+        type: *dtype
+        level: 0
+      - var: gc_check
+        type: *dtype
+        level: 1
+      - var: gc_s5
+        type: *dtype
+        level: 0
+      - var: gc_s6
+        type: *dtype
+        level: 0
+      - var: gc_s7
+        type: *dtype
+        level: 0
+      - var: gc_s8
+        type: *dtype
+        level: 0
+      - var: gc_s9
+        type: *dtype
+        level: 0
+      - var: gc_10
+        type: *dtype
+        level: 0
+      - var: gc_total
+        type: *itype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: individual_counseling
+    variables:
+      - var: icspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: need_pt
+        type: *btype
+        level: 3
+      - var: ic_s1
+        type: *dtype
+        level: 0
+      - var: ic_s2
+        type: *dtype
+        level: 0
+      - var: ic_s3
+        type: *dtype
+        level: 0
+      - var: ic_s4
+        type: *dtype
+        level: 0
+      - var: ic_s5
+        type: *dtype
+        level: 0
+      - var: ic_s6
+        type: *dtype
+        level: 0
+      - var: ic_s7
+        type: *dtype
+        level: 0
+      - var: ic_s8
+        type: *dtype
+        level: 0
+      - var: ic_s9
+        type: *dtype
+        level: 0
+      - var: ic_s10
+        type: *dtype
+        level: 0
+      - var: ic_total
+        type: *itype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: follow_up
+    variables:
+      - var: fuspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: fu_3m
+        type: *dtype
+        level: 0
+      - var: fu_6m
+        type: *dtype
+        level: 0
+      - var: fu_12m
+        type: *dtype
+        level: 0
+      - var: status
+        type: *ctype
+        level: 1
+      - var: closure_reason
+        type: *ctype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: pei
+    variables:
+      - var: pespi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: pei_loc
+        type: *ctype
+        level: 1
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: pei_s1
+        type: *dtype
+        level: 0
+      - var: pei_s2
+        type: *dtype
+        level: 0
+      - var: pei_s3
+        type: *dtype
+        level: 0
+      - var: pei_total
+        type: *itype
+        level: 1
+      - var: pei_post_as
+        type: *dtype
+        level: 0
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: trw
+    variables:
+      - var: trspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: trw_s1
+        type: *dtype
+        level: 0
+      - var: trw_s2
+        type: *dtype
+        level: 0
+      - var: trw_total
+        type: *itype
+        level: 1
+      - var: fac1
+        type: *ctype
+        level: 4
+      - var: fac2
+        type: *ctype
+        level: 4
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: td
+    variables:
+      - var: tdspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: consult
+        type: *dtype
+        level: 0
+      - var: consent
+        type: *dtype
+        level: 0
+      - var: legal_doc
+        type: *btype
+        level: 2
+      - var: individual_use
+        type: *btype
+        level: 2
+      - var: cws
+        type: *btype
+        level: 2
+      - var: communicat_use
+        type: *btype
+        level: 2
+      - var: advocacy
+        type: *btype
+        level: 2
+      - var: interview_s1
+        type: *dtype
+        level: 0
+      - var: interview_s2
+        type: *dtype
+        level: 0
+      - var: interview_s3
+        type: *dtype
+        level: 0
+      - var: interview_total
+        type: *itype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: cws
+    variables:
+      - var: cwspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: cws_s1
+        type: *dtype
+        level: 0
+      - var: cws_s2
+        type: *dtype
+        level: 0
+      - var: cws_total
+        type: *itype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: aws
+    variables:
+      - var: awspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: sex
+        type: *btype
+        level: 1
+      - var: age
+        type: *itype
+        level: 1
+      - var: aws_loc
+        type: *ctype
+        level: 1
+      - var: aws_ci
+        type: None
+        level: 4
+      - var: aws
+        type: *dtype
+        level: 0
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: psfs
+    variables:
+      - var: psfsspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: sex
+        type: *btype
+        level: 1
+      - var: age
+        type: *itype
+        level: 1
+      - var: nat
+        type: *ctype
+        level: 3
+      - var: psfs
+        type: *dtype
+        level: 0
+      - var: score
+        type: *itype
+        level: 3
+      - var: vic
+        type: *ctype
+        level: 4
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: pt_int
+    variables:
+      - var: ptntspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: *stype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: pt_nt_s1
+        type: *dtype
+        level: 0
+      - var: pt_nt_s2
+        type: *dtype
+        level: 0
+      - var: pt_nt_re
+        type: *dtype
+        level: 0
+      - var: psc
+        type: *ctype
+        level: 4
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: pt_group
+    variables:
+      - var: ptgspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: *stype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: stringDtype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: pt_g_class
+        type: *stype
+        level: 1
+      - var: pt_g_s1
+        type: *dtype
+        level: 0
+      - var: pt_g_s2
+        type: *dtype
+        level: 0
+      - var: pt_g_s3
+        type: *dtype
+        level: 0
+      - var: pt_g_s4
+        type: *dtype
+        level: 0
+      - var: pt_g_s5
+        type: *dtype
+        level: 0
+      - var: pt_g_s6
+        type: *dtype
+        level: 0
+      - var: pt_g_s7
+        type: *dtype
+        level: 0
+      - var: pt_g_s8
+        type: *dtype
+        level: 0
+      - var: pt_g_s9
+        type: *dtype
+        level: 0
+      - var: pt_g_s10
+        type: *dtype
+        level: 0
+      - var: pt_g_total
+        type: *itype
+        level: 1
+      - var: pt_status
+        type: *ctype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: pt_individual
+    variables:
+      - var: ptispi
+        type: *itype
+        level: 1
+      - var: rid
+        type: stringDtype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: stringDtype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: pt_i_s1
+        type: *dtype
+        level: 0
+      - var: pt_i_s2
+        type: *dtype
+        level: 0
+      - var: pt_i_s3
+        type: *dtype
+        level: 0
+      - var: pt_i_s4
+        type: *dtype
+        level: 0
+      - var: pt_i_s5
+        type: *dtype
+        level: 0
+      - var: pt_i_s6
+        type: *dtype
+        level: 0
+      - var: pt_i_s7
+        type: *dtype
+        level: 0
+      - var: pt_i_s8
+        type: *dtype
+        level: 0
+      - var: pt_i_s9
+        type: *dtype
+        level: 0
+      - var: pt_i_s10
+        type: *dtype
+        level: 0
+      - var: pt_i_s11
+        type: *dtype
+        level: 0
+      - var: pt_i_s12
+        type: *dtype
+        level: 0
+      - var: pt_i_s13
+        type: *dtype
+        level: 0
+      - var: pt_i_s14
+        type: *dtype
+        level: 0
+      - var: pt_i_s15
+        type: *dtype
+        level: 0
+      - var: pt_i_s16
+        type: *dtype
+        level: 0
+      - var: pt_i_s17
+        type: *dtype
+        level: 0
+      - var: pt_i_s18
+        type: *dtype
+        level: 0
+      - var: pt_i_s19
+        type: *dtype
+        level: 0
+      - var: pt_i_s20
+        type: *dtype
+        level: 0
+      - var: pt_i_s21
+        type: *dtype
+        level: 3
+      - var: pt_i_s22
+        type: *dtype
+        level: 3
+      - var: pt_i_s23
+        type: *dtype
+        level: 3
+      - var: pt_i_s24
+        type: *dtype
+        level: 3
+      - var: pt_i_total
+        type: *itype
+        level: 1
+      - var: pt_status
+        type: *ctype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: pt_follow_up
+    variables:
+      - var: ptfuspi
+        type: *itype
+        level: 1
+      - var: rid
+        type: stringDtype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: firstname
+        type: stringDtype
+        level: 0
+      - var: lastname
+        type: *stype
+        level: 0
+      - var: pt_fu_3m
+        type: *dtype
+        level: 0
+      - var: pt_fu_6m
+        type: *dtype
+        level: 0
+      - var: pt_fu_12m
+        type: *dtype
+        level: 0
+      - var: pt_status
+        type: *ctype
+        level: 1
+      - var: pt_closure_reason
+        type: *ctype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+  - dataset: td_tracker
+    variables:
+      - var: tdtindex
+        type: *itype
+        level: 1
+      - var: tdtsp
+        type: *ctype
+        level: 1
+      - var: rid
+        type: stringDtype
+        level: 0
+      - var: fcid
+        type: *itype
+        level: 0
+      - var: consult
+        type: *dtype
+        level: 0
+      - var: consent
+        type: *dtype
+        level: 0
+      - var: legal_doc
+        type: *btype
+        level: 2
+      - var: individual_use
+        type: *btype
+        level: 2
+      - var: cws
+        type: *btype
+        level: 2
+      - var: communicat_use
+        type: *btype
+        level: 2
+      - var: advocacy
+        type: *btype
+        level: 2
+      - var: interview_s1
+        type: *dtype
+        level: 0
+      - var: interview_s2
+        type: *dtype
+        level: 0
+      - var: interview_s3
+        type: *dtype
+        level: 0
+      - var: total
+        type: *itype
+        level: 1
+      - var: admsp
+        type: *dtype
+        level: 1
+      - var: sjac
+        type: *dtype
+        level: 1
+      - var: iu_del
+        type: *dtype
+        level: 1
+      - var: com_pub
+        type: *dtype
+        level: 1
+      - var: eva
+        type: *dtype
+        level: 1
+      - var: note
+        type: *stype
+        level: 3
+      - var: status
+        type: *ctype
+        level: 1
