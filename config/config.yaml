@@ -1,9 +1,31 @@
+---
 data_types:
   btype: &btype boolean
   ctype: &ctype category
   dtype: &dtype datetime64[ns
   itype: &itype Int64
   stype: &stype StringDtype
+
+sheets_names:
+  pss:
+    screening: &screening Scr
+    intake: &intake Int
+    group_counseling: &group_counseling GC
+    individual_counseling: &individual_counseling IC
+    follow_up: &follow_up FUA
+    pei: &pei PEI
+    trw: &trw TRW
+    td: &td TD
+    cws: &cws CWS
+    aws: &aws AWS
+  pt:
+    psfs: &psfs PSFS
+    pt_int: &pt_int PT Int
+    pt_group: &pt_group GPT
+    pt_individual: &pt_individual IPT
+    pt_follow_up: &pt_follow_up FUP
+  tracker_td:
+    td_tracker: &td_tracker TD
 
 data_source:
   - service: referring
@@ -51,14 +73,14 @@ data_source:
     name: ziad_nassar
     file: tt_pt_ZN_v04.1.xlsx
     password: Ziad003
-  - service: td_tracker
+  - service: tracker_td
     sp: DH
     name: Dima
     file: td_tracker.xlsx
     password: "250923"
 
 datasets:
-  - dataset: screening
+  - dataset: *screening
     variables:
       - var: scspi
         type: *itype
@@ -117,7 +139,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: intake
+  - dataset: *intake
     variables:
       - var: ntspi
         type: *itype
@@ -185,7 +207,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: group_counseling
+  - dataset: *group_counseling
     variables:
       - var: gcspi
         type: *itype
@@ -250,7 +272,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: individual_counseling
+  - dataset: *individual_counseling
     variables:
       - var: icspi
         type: *itype
@@ -306,7 +328,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: follow_up
+  - dataset: *follow_up
     variables:
       - var: fuspi
         type: *itype
@@ -341,7 +363,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: pei
+  - dataset: *pei
     variables:
       - var: pespi
         type: *itype
@@ -379,7 +401,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: trw
+  - dataset: *trw
     variables:
       - var: trspi
         type: *itype
@@ -414,7 +436,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: td
+  - dataset: *td
     variables:
       - var: tdspi
         type: *itype
@@ -467,7 +489,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: cws
+  - dataset: *cws
     variables:
       - var: cwspi
         type: *itype
@@ -496,7 +518,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: aws
+  - dataset: *aws
     variables:
       - var: awspi
         type: *itype
@@ -531,7 +553,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: psfs
+  - dataset: *psfs
     variables:
       - var: psfsspi
         type: *itype
@@ -569,7 +591,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: pt_int
+  - dataset: *pt_int
     variables:
       - var: ptntspi
         type: *itype
@@ -601,7 +623,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: pt_group
+  - dataset: *pt_group
     variables:
       - var: ptgspi
         type: *itype
@@ -660,7 +682,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: pt_individual
+  - dataset: *pt_individual
     variables:
       - var: ptispi
         type: *itype
@@ -758,7 +780,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: pt_follow_up
+  - dataset: *pt_follow_up
     variables:
       - var: ptfuspi
         type: *itype
@@ -793,7 +815,7 @@ datasets:
       - var: note
         type: *stype
         level: 3
-  - dataset: td_tracker
+  - dataset: *td_tracker
     variables:
       - var: tdtindex
         type: *itype

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="YamllintSettings">
+    <enabled>true</enabled>
+    <binPath>C:\Users\myagh\AppData\Local\Programs\Python\Python312\Scripts\yamllint.exe</binPath>
+    <disabledRules>
+      <set>
+        <option value="document-start" />
+        <option value="new-line-at-end-of-file" />
+        <option value="empty-lines" />
+      </set>
+    </disabledRules>
+  </component>
+</project>
