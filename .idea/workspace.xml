@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d827410b-2185-4b8c-973f-26d2b68d6d70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/decorator_funcs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/testbooks/tracker_testing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/testbooks/tracker_testing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator_funcs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xlsx_decryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/xlsx_decryptor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
