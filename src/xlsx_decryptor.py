@@ -1,4 +1,5 @@
 import os
+import sys
 import logging
 from typing import Dict, Union, List
 from io import BytesIO
@@ -7,6 +8,7 @@ import polars as pl
 import msoffcrypto
 import concurrent.futures
 import warnings
+from tqdm.notebook import tqdm
 
 from pandas import DataFrame
 
@@ -78,23 +80,45 @@ class FileProcessor:
         """
         self.output_format = output_format.lower()
 
+    # def read_sheets_from_file(
+    #     self, decrypted_file: BytesIO
+    # ) -> Dict[str, Union[pd.DataFrame, pl.DataFrame]]:
+    #     """
+    #     Reads all sheets from a decrypted Excel file and converts them to the specified format.
+    #
+    #     Parameters:
+    #     - decrypted_file (BytesIO): The decrypted Excel file.
+    #
+    #     Returns:
+    #     - Dict[str, Union[pd.DataFrame, pl.DataFrame]]: A dictionary of DataFrames with sheet names as keys.
+    #     """
+    #     xls = pd.ExcelFile(decrypted_file)
+    #     sheets = {}
+    #     for sheet_name in xls.sheet_names:
+    #         df = pd.read_excel(xls, sheet_name)
+    #         sheets[sheet_name] = self.convert_to_desired_format(df)
+    #     return sheets
     def read_sheets_from_file(
-        self, decrypted_file: BytesIO
+        self, decrypted_file: BytesIO, file_index: int
     ) -> Dict[str, Union[pd.DataFrame, pl.DataFrame]]:
-        """
-        Reads all sheets from a decrypted Excel file and converts them to the specified format.
-
-        Parameters:
-        - decrypted_file (BytesIO): The decrypted Excel file.
-
-        Returns:
-        - Dict[str, Union[pd.DataFrame, pl.DataFrame]]: A dictionary of DataFrames with sheet names as keys.
-        """
         xls = pd.ExcelFile(decrypted_file)
-        sheets = {}
-        for sheet_name in xls.sheet_names:
-            df = pd.read_excel(xls, sheet_name)
-            sheets[sheet_name] = self.convert_to_desired_format(df)
+        total_sheets = len(xls.sheet_names)
+
+        # Replace 'decrypted_file.name' with a suitable description
+        file_desc = "Decrypted File"  # This is a placeholder description
+
+        with tqdm(
+            total=total_sheets,
+            desc=f"Processing {file_desc}",
+            position=file_index + 1,
+            file=sys.stdout,
+        ) as file_pbar:
+            sheets = {}
+            for sheet_name in xls.sheet_names:
+                df = pd.read_excel(xls, sheet_name)
+                sheets[sheet_name] = self.convert_to_desired_format(df)
+                file_pbar.update(1)
+
         return sheets
 
     def convert_to_desired_format(
@@ -152,49 +176,102 @@ class ExcelDecryptor:
         # Suppress UserWarnings from openpyxl related to Data Validation features
         warnings.filterwarnings("ignore", category=UserWarning)
 
+    # def read_encrypted_excels(self, selected_files: List[str] = None) -> DataFrame:
+    #     """
+    #     Reads and decrypts selected Excel files in the specified directory.
+    #
+    #     Parameters:
+    #     - selected_files (List[str], optional): A list of selected filenames to process. If None, all files are processed.
+    #
+    #     Returns:
+    #     - Dict[str, Dict[str, Union[pd.DataFrame, pl.DataFrame]]]: A dictionary with filenames as keys and another
+    #       dictionary as values, containing sheet names as keys and DataFrames as values.
+    #     """
+    #     processed_data = {}
+    #     files_to_process = (
+    #         self.password_dict.keys() if selected_files is None else selected_files
+    #     )
+    #
+    #     with concurrent.futures.ThreadPoolExecutor() as executor:
+    #         futures = {
+    #             executor.submit(self.process_file, file, self.password_dict[file]): file
+    #             for file in files_to_process
+    #         }
+    #         for future in concurrent.futures.as_completed(futures):
+    #             file, result = futures[future], future.result()
+    #             if result is not None:
+    #                 processed_data[file] = result
+    #
+    #     self._processed_data = processed_data
+    #     return self.display_result_structure(self._processed_data)
     def read_encrypted_excels(self, selected_files: List[str] = None) -> DataFrame:
-        """
-        Reads and decrypts selected Excel files in the specified directory.
-
-        Parameters:
-        - selected_files (List[str], optional): A list of selected filenames to process. If None, all files are processed.
-
-        Returns:
-        - Dict[str, Dict[str, Union[pd.DataFrame, pl.DataFrame]]]: A dictionary with filenames as keys and another
-          dictionary as values, containing sheet names as keys and DataFrames as values.
-        """
-        processed_data = {}
         files_to_process = (
             self.password_dict.keys() if selected_files is None else selected_files
         )
+        total_files = len(files_to_process)
 
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            futures = {
-                executor.submit(self.process_file, file, self.password_dict[file]): file
-                for file in files_to_process
-            }
-            for future in concurrent.futures.as_completed(futures):
-                file, result = futures[future], future.result()
-                if result is not None:
-                    processed_data[file] = result
+        with tqdm(
+            total=total_files, desc="Overall Progress", position=0, file=sys.stdout
+        ) as overall_pbar:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                futures = {
+                    executor.submit(
+                        self.process_file, file, self.password_dict[file], index
+                    ): file
+                    for index, file in enumerate(files_to_process)
+                }
+                for future in concurrent.futures.as_completed(futures):
+                    file, result = futures[future], future.result()
+                    if result is not None:
+                        self._processed_data[file] = result
+                    overall_pbar.update(1)
 
-        self._processed_data = processed_data
-        return self.display_result_structure(self._processed_data)
+        if self._processed_data:
+            return self.display_result_structure(self._processed_data)
+        else:
+            # Return an empty DataFrame or a message if no data was processed
+            return pd.DataFrame(
+                columns=["File", "Sheet"]
+            )  # or return a suitable message
+
+        # return self.display_result_structure(self._processed_data)
+
+    # def process_file(
+    #     self, file: str, password: str
+    # ) -> Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]:
+    #     """
+    #     Processes a single file, decrypting it and reading its contents.
+    #
+    #     Parameters:
+    #     - file (str): The filename of the Excel file to process.
+    #     - password (str): The password for decrypting the file.
+    #
+    #     Returns:
+    #     - Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]: A dictionary of DataFrames for each sheet in the file,
+    #       or None if an error occurred.
+    #     """
+    #     file_path = os.path.join(self.directory, file)
+    #     if not os.path.exists(file_path):
+    #         logging.warning(f"File {file_path} does not exist. Skipping.")
+    #         return None
+    #
+    #     try:
+    #         decrypted_file = ExcelDecryptorUtils.decrypt_file(file_path, password)
+    #         sheets = self.file_processor.read_sheets_from_file(decrypted_file)
+    #         return sheets
+    #     except ExcelFileDecryptionError as e:
+    #         logging.error(f"Decryption error for file {file_path}: {e}")
+    #         return None
+    #     except ExcelFileReadError as e:
+    #         logging.error(f"File read error for file {file_path}: {e}")
+    #         return None
+    #     except Exception as e:
+    #         logging.error(f"Unhandled error processing file {file_path}: {e}")
+    #         return None
 
     def process_file(
-        self, file: str, password: str
+        self, file: str, password: str, file_index: int
     ) -> Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]:
-        """
-        Processes a single file, decrypting it and reading its contents.
-
-        Parameters:
-        - file (str): The filename of the Excel file to process.
-        - password (str): The password for decrypting the file.
-
-        Returns:
-        - Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]: A dictionary of DataFrames for each sheet in the file,
-          or None if an error occurred.
-        """
         file_path = os.path.join(self.directory, file)
         if not os.path.exists(file_path):
             logging.warning(f"File {file_path} does not exist. Skipping.")
@@ -202,7 +279,9 @@ class ExcelDecryptor:
 
         try:
             decrypted_file = ExcelDecryptorUtils.decrypt_file(file_path, password)
-            sheets = self.file_processor.read_sheets_from_file(decrypted_file)
+            sheets = self.file_processor.read_sheets_from_file(
+                decrypted_file, file_index
+            )
             return sheets
         except ExcelFileDecryptionError as e:
             logging.error(f"Decryption error for file {file_path}: {e}")
@@ -252,3 +331,14 @@ class ExcelDecryptor:
 # decryptor = ExcelDecryptor("path_to_directory", {"file1.xlsx": "password1", "file2.xlsx": "password2"}, "pandas")
 # decrypted_data = decryptor.read_encrypted_excels(["file1.xlsx"])
 # print(decryptor.print_data_structure)
+
+if __name__ == "__main__":
+    # Example usage of ExcelDecryptor
+    decryptor = ExcelDecryptor(
+        "path_to_directory",
+        {"file1.xlsx": "password1", "file2.xlsx": "password2"},
+        "pandas",
+    )
+    decrypted_data = decryptor.read_encrypted_excels(["file1.xlsx"])
+    print(decryptor.print_data_structure)
+    pass
