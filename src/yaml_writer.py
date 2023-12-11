@@ -1,4 +1,6 @@
 import yaml
+import toml
+import json
 from typing import Any
 
 
@@ -61,9 +63,17 @@ def replace_and_write_to_yaml_file(
         return 0
 
 
-# Example usage
-yaml_path = r"../Config/config.yaml"
-ovalue = "*types[ítype]"
-nvalue = "&itype"
-replace = replace_and_write_to_yaml_file(yaml_path, ovalue, nvalue)
-print(replace)
+def convert_yaml_to_other(yaml_file_path, file_path):
+    with open(yaml_file_path, "r") as yaml_file:
+        yaml_data = yaml.safe_load(yaml_file)
+
+    if file_path.endswith(".toml"):
+        with open(file_path, "w") as toml_file:
+            toml.dump(yaml_data, toml_file)
+    elif file_path.endswith(".json"):
+        with open(file_path, "w") as json_file:
+            json.dump(yaml_data, json_file, indent=4)
+
+
+# convert_yaml_to_other(r"../config/config.yaml", r"../config/config.toml")
+convert_yaml_to_other(r"../config/config.yaml", r"../config/config.json")

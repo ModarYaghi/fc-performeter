@@ -1,7 +1,7 @@
 from typing import Any, Dict, Callable, List, Optional, Union
 import pandas as pd
 import re
-from Scripts.data_reader import YAMLDataReader
+from src.data_reader import YAMLDataReader
 
 
 def get_column_index(df, primary_column, secondary_column):
@@ -13,7 +13,9 @@ def get_column_index(df, primary_column, secondary_column):
         return -1  # Return -1 if neither column exists
 
 
-def convert_dataframe_types(df: pd.DataFrame, dataset_name: str, yaml_reader: YAMLDataReader) -> pd.DataFrame:
+def convert_dataframe_types(
+    df: pd.DataFrame, dataset_name: str, yaml_reader: YAMLDataReader
+) -> pd.DataFrame:
     """
     Converts the types of DataFrame columns based on the type specifications from a YAML file.
 
@@ -33,8 +35,8 @@ def convert_dataframe_types(df: pd.DataFrame, dataset_name: str, yaml_reader: YA
     variable_info = yaml_reader.get_variables_by_dataset(dataset_name)
 
     for variable in variable_info:
-        column_name = variable['var']
-        column_type = variable['type']  # Ensure this is a pandas-compatible type
+        column_name = variable["var"]
+        column_type = variable["type"]  # Ensure this is a pandas-compatible type
 
         # Attempt to convert the type of the column if it exists in the DataFrame
         if column_name in df.columns:
@@ -47,7 +49,9 @@ def convert_dataframe_types(df: pd.DataFrame, dataset_name: str, yaml_reader: YA
     return df
 
 
-def parse_date_columns(df: pd.DataFrame, convert_dates: bool = False) -> Union[list, pd.DataFrame]:
+def parse_date_columns(
+    df: pd.DataFrame, convert_dates: bool = False
+) -> Union[list, pd.DataFrame]:
     """
     Identify date columns in a DataFrame and optionally convert them to datetime objects.
 
@@ -73,14 +77,14 @@ def parse_date_columns(df: pd.DataFrame, convert_dates: bool = False) -> Union[l
 
     date_columns = []
     date_patterns = [
-        r'\d{4}-\d{2}-\d{2}',  # YYYY-MM-DD
-        r'\d{2}/\d{2}/\d{4}',  # DD/MM/YYYY
-        r'\d{2}-\d{2}-\d{4}',  # DD-MM-YYYY
-        r'\d{2}/\d{2}/\d{2}',  # DD/MM/YY
-        r'\d{2}-\d{2}-\d{2}',  # DD-MM-YY
-        r'\d{4}/\d{2}/\d{2}',  # YYYY/MM/DD
-        r'\d{2}\.\d{2}\.\d{4}',  # DD.MM.YYYY
-        r'\d{2}\.\d{2}\.\d{2}',  # DD.MM.YY
+        r"\d{4}-\d{2}-\d{2}",  # YYYY-MM-DD
+        r"\d{2}/\d{2}/\d{4}",  # DD/MM/YYYY
+        r"\d{2}-\d{2}-\d{4}",  # DD-MM-YYYY
+        r"\d{2}/\d{2}/\d{2}",  # DD/MM/YY
+        r"\d{2}-\d{2}-\d{2}",  # DD-MM-YY
+        r"\d{4}/\d{2}/\d{2}",  # YYYY/MM/DD
+        r"\d{2}\.\d{2}\.\d{4}",  # DD.MM.YYYY
+        r"\d{2}\.\d{2}\.\d{2}",  # DD.MM.YY
     ]
 
     for col in df.columns:
@@ -98,7 +102,9 @@ def parse_date_columns(df: pd.DataFrame, convert_dates: bool = False) -> Union[l
 
     if convert_dates:
         df_copy = df.copy()
-        df_copy[date_columns] = df_copy[date_columns].apply(pd.to_datetime, errors='coerce')
+        df_copy[date_columns] = df_copy[date_columns].apply(
+            pd.to_datetime, errors="coerce"
+        )
         return df_copy
 
     return date_columns
@@ -128,8 +134,12 @@ def indexing_groups(df: pd.DataFrame, date_columns: List[str]) -> pd.Series:
     # Type checking for input parameters
     if not isinstance(df, pd.DataFrame):
         raise TypeError(f"Expected df to be of type pd.DataFrame, but got {type(df)}")
-    if not isinstance(date_columns, list) or not all(isinstance(col, str) for col in date_columns):
-        raise TypeError(f"Expected date_columns to be a list of strings, but got {type(date_columns)}")
+    if not isinstance(date_columns, list) or not all(
+        isinstance(col, str) for col in date_columns
+    ):
+        raise TypeError(
+            f"Expected date_columns to be a list of strings, but got {type(date_columns)}"
+        )
 
     # Generate initial mapping based on unique dates from the first date column, excluding NaT
     primary_date_col = date_columns[0]
@@ -138,15 +148,19 @@ def indexing_groups(df: pd.DataFrame, date_columns: List[str]) -> pd.Series:
     primary_mapping = {date: index + 1 for index, date in enumerate(sorted_dates)}
 
     # Map the initial date column to a group index series
-    group_index_series = df[primary_date_col].map(primary_mapping).astype('Int64')
+    group_index_series = df[primary_date_col].map(primary_mapping).astype("Int64")
 
     # Refine the group index using the subsequent date columns
     for date_col in date_columns[1:]:
         valid_rows = (group_index_series.notna()) & (~df[date_col].isna())
-        refinement_mapping = dict(zip(df[date_col][valid_rows], group_index_series[valid_rows]))
+        refinement_mapping = dict(
+            zip(df[date_col][valid_rows], group_index_series[valid_rows])
+        )
 
         missing_values = group_index_series.isna()
-        group_index_series[missing_values] = df[date_col][missing_values].map(refinement_mapping)
+        group_index_series[missing_values] = df[date_col][missing_values].map(
+            refinement_mapping
+        )
 
     # Handle remaining NaN values, which correspond to NaT in all columns
     group_index_series[group_index_series.isna()] = 0
@@ -154,7 +168,9 @@ def indexing_groups(df: pd.DataFrame, date_columns: List[str]) -> pd.Series:
     return group_index_series
 
 
-def melt_and_categorize_dates(input_df, date_columns, sort_by_date=False, var_name='', value_name=''):
+def melt_and_categorize_dates(
+    input_df, date_columns, sort_by_date=False, var_name="", value_name=""
+):
     """
     This function processes the given dataframe by performing the following steps:
     1. Validate input and convert date columns to a datetime type.
@@ -187,11 +203,18 @@ def melt_and_categorize_dates(input_df, date_columns, sort_by_date=False, var_na
     # Convert date columns to datetime type
     for date_column in date_columns:
         if not pd.api.types.is_datetime64_any_dtype(input_df[date_column]):
-            input_df[date_column] = pd.to_datetime(input_df[date_column], errors='coerce')
+            input_df[date_column] = pd.to_datetime(
+                input_df[date_column], errors="coerce"
+            )
 
     # Melt the dataframe to transform date columns into a single column 'scdate'.
-    melted_df = pd.melt(input_df, id_vars=[col for col in input_df.columns if col not in date_columns],
-                        value_vars=date_columns, var_name=var_name, value_name=value_name)
+    melted_df = pd.melt(
+        input_df,
+        id_vars=[col for col in input_df.columns if col not in date_columns],
+        value_vars=date_columns,
+        var_name=var_name,
+        value_name=value_name,
+    )
 
     # Drop rows with NaT values in the 'scdate' column
     melted_df.dropna(subset=[value_name], inplace=True)
@@ -200,7 +223,7 @@ def melt_and_categorize_dates(input_df, date_columns, sort_by_date=False, var_na
     columns = list(melted_df.columns)
     var_index = columns.index(var_name)
     value_index = columns.index(value_name)
-    position1 = get_column_index(melted_df, 'fcid', 'rid') + 1
+    position1 = get_column_index(melted_df, "fcid", "rid") + 1
     position2 = position1 + 1
     columns.insert(position1, columns.pop(var_index))  # var_position column
     columns.insert(position2, columns.pop(value_index))  # value_position column
@@ -214,5 +237,5 @@ def melt_and_categorize_dates(input_df, date_columns, sort_by_date=False, var_na
     return melted_df
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pass

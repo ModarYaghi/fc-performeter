@@ -1,0 +1,1472 @@
+{
+    "data_types": {
+        "btype": "boolean",
+        "ctype": "category",
+        "dtype": "datetime64[ns]",
+        "itype": "Int64",
+        "stype": "StringDtype"
+    },
+    "sheets_names": {
+        "pss": {
+            "screening": "Scr",
+            "intake": "Int",
+            "group_counseling": "GC",
+            "individual_counseling": "IC",
+            "follow_up": "FUA",
+            "pei": "PEI",
+            "trw": "TRW",
+            "td": "TD",
+            "cws": "CWS",
+            "aws": "AWS"
+        },
+        "pt": {
+            "psfs": "PSFS",
+            "pt_int": "PT Int",
+            "pt_group": "GPT",
+            "pt_individual": "IPT",
+            "pt_follow_up": "FUP"
+        },
+        "tracker_td": {
+            "td_tracker": "TD"
+        }
+    },
+    "data_source": [
+        {
+            "scope": "referring",
+            "sp": "AK",
+            "name": "ahmed_kayali",
+            "file": "TS_FC_meetingOutreachReferralFollowUpAdvocacy.xlsx",
+            "password": "Ahmed02"
+        },
+        {
+            "scope": "pss",
+            "sp": "IJ",
+            "name": "Israa_Jasim",
+            "file": "tt_psc_IJ_v04.xlsx",
+            "password": "Israa006"
+        },
+        {
+            "scope": "pss",
+            "sp": "LA",
+            "name": "lama_abbad",
+            "file": "tt_psc_LA_v04.xlsx",
+            "password": "Lama010"
+        },
+        {
+            "scope": "pss",
+            "sp": "MT",
+            "name": "mohammad_turkawi",
+            "file": "tt_psc_MT_v04.xlsx",
+            "password": "Mt011"
+        },
+        {
+            "scope": "pss",
+            "sp": "SA",
+            "name": "salwa_arabi",
+            "file": "tt_psc_SA_v04.xlsx",
+            "password": "Salwa003"
+        },
+        {
+            "scope": "pss",
+            "sp": "YQ",
+            "name": "yaqzan_qanbar",
+            "file": "tt_psc_YQ-v04.xlsx",
+            "password": "Yaqzan004"
+        },
+        {
+            "scope": "pt",
+            "sp": "HJ",
+            "name": "heba_jumaa",
+            "file": "tt_pt_HJ_v04.1.xlsx",
+            "password": "Heba001"
+        },
+        {
+            "scope": "pt",
+            "sp": "HR",
+            "name": "hind_ragheb",
+            "file": "tt_pt_HR_v04.1.xlsx",
+            "password": "Hind002"
+        },
+        {
+            "scope": "pt",
+            "sp": "ZN",
+            "name": "ziad_nassar",
+            "file": "tt_pt_ZN_v04.1.xlsx",
+            "password": "Ziad003"
+        },
+        {
+            "scope": "tracker_td",
+            "sp": "DH",
+            "name": "Dima",
+            "file": "td_tracker.xlsx",
+            "password": "250923"
+        }
+    ],
+    "datasets": [
+        {
+            "dataset": "Scr",
+            "variables": [
+                {
+                    "var": "scspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "sex",
+                    "type": "boolean",
+                    "level": 1
+                },
+                {
+                    "var": "age",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "nat",
+                    "type": "category",
+                    "level": 3
+                },
+                {
+                    "var": "sc_loc",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "sc_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pei_pre_as",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "sc_re",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "source",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "source_org",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "need_mhpss",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "need_trw",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "need_out_ref",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "need_tmh",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "need_pei",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "Int",
+            "variables": [
+                {
+                    "var": "ntspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "nt_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "nt_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "nt_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "nt_re",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "family_of_missing",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "survivor_of_detention",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "primary_torture",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "secondary_torture",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "sexual_violation_a",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "sexual_violation_p",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "hrd",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "journalist",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "wov",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "stgbv",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "lgbti",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "other",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "GC",
+            "variables": [
+                {
+                    "var": "gcspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "stringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "need_pt",
+                    "type": "boolean",
+                    "level": 3
+                },
+                {
+                    "var": "gc_index",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "gc_class",
+                    "type": "StringDtype",
+                    "level": 1
+                },
+                {
+                    "var": "gc_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_s4",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_check",
+                    "type": "datetime64[ns]",
+                    "level": 1
+                },
+                {
+                    "var": "gc_s5",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_s6",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_s7",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_s8",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_s9",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_10",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "gc_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "IC",
+            "variables": [
+                {
+                    "var": "icspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "need_pt",
+                    "type": "boolean",
+                    "level": 3
+                },
+                {
+                    "var": "ic_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s4",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s5",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s6",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s7",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s8",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s9",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_s10",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "ic_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "FUA",
+            "variables": [
+                {
+                    "var": "fuspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fu_3m",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "fu_6m",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "fu_12m",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "status",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "closure_reason",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "PEI",
+            "variables": [
+                {
+                    "var": "pespi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "pei_loc",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "pei_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pei_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pei_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pei_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "pei_post_as",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "TRW",
+            "variables": [
+                {
+                    "var": "trspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "trw_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "trw_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "trw_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "fac1",
+                    "type": "category",
+                    "level": 4
+                },
+                {
+                    "var": "fac2",
+                    "type": "category",
+                    "level": 4
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "TD",
+            "variables": [
+                {
+                    "var": "tdspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "consult",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "consent",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "legal_doc",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "individual_use",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "cws",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "communicat_use",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "advocacy",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "interview_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "interview_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "interview_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "interview_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "CWS",
+            "variables": [
+                {
+                    "var": "cwspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "cws_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "cws_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "cws_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "AWS",
+            "variables": [
+                {
+                    "var": "awspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "sex",
+                    "type": "boolean",
+                    "level": 1
+                },
+                {
+                    "var": "age",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "aws_loc",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "aws_ci",
+                    "type": "None",
+                    "level": 4
+                },
+                {
+                    "var": "aws",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "PSFS",
+            "variables": [
+                {
+                    "var": "psfsspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "sex",
+                    "type": "boolean",
+                    "level": 1
+                },
+                {
+                    "var": "age",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "nat",
+                    "type": "category",
+                    "level": 3
+                },
+                {
+                    "var": "psfs",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "score",
+                    "type": "Int64",
+                    "level": 3
+                },
+                {
+                    "var": "vic",
+                    "type": "category",
+                    "level": 4
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "PT Int",
+            "variables": [
+                {
+                    "var": "ptntspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "pt_nt_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_nt_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_nt_re",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "psc",
+                    "type": "category",
+                    "level": 4
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "GPT",
+            "variables": [
+                {
+                    "var": "ptgspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "stringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_class",
+                    "type": "StringDtype",
+                    "level": 1
+                },
+                {
+                    "var": "pt_g_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s4",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s5",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s6",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s7",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s8",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s9",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_s10",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_g_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "pt_status",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "IPT",
+            "variables": [
+                {
+                    "var": "ptispi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "stringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "stringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s4",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s5",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s6",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s7",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s8",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s9",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s10",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s11",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s12",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s13",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s14",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s15",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s16",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s17",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s18",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s19",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s20",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_i_s21",
+                    "type": "datetime64[ns]",
+                    "level": 3
+                },
+                {
+                    "var": "pt_i_s22",
+                    "type": "datetime64[ns]",
+                    "level": 3
+                },
+                {
+                    "var": "pt_i_s23",
+                    "type": "datetime64[ns]",
+                    "level": 3
+                },
+                {
+                    "var": "pt_i_s24",
+                    "type": "datetime64[ns]",
+                    "level": 3
+                },
+                {
+                    "var": "pt_i_total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "pt_status",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "FUP",
+            "variables": [
+                {
+                    "var": "ptfuspi",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "stringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "firstname",
+                    "type": "stringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "lastname",
+                    "type": "StringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "pt_fu_3m",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_fu_6m",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_fu_12m",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "pt_status",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "pt_closure_reason",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "dataset": "TD",
+            "variables": [
+                {
+                    "var": "tdtindex",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "tdtsp",
+                    "type": "category",
+                    "level": 1
+                },
+                {
+                    "var": "rid",
+                    "type": "stringDtype",
+                    "level": 0
+                },
+                {
+                    "var": "fcid",
+                    "type": "Int64",
+                    "level": 0
+                },
+                {
+                    "var": "consult",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "consent",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "legal_doc",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "individual_use",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "cws",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "communicat_use",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "advocacy",
+                    "type": "boolean",
+                    "level": 2
+                },
+                {
+                    "var": "interview_s1",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "interview_s2",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "interview_s3",
+                    "type": "datetime64[ns]",
+                    "level": 0
+                },
+                {
+                    "var": "total",
+                    "type": "Int64",
+                    "level": 1
+                },
+                {
+                    "var": "admsp",
+                    "type": "datetime64[ns]",
+                    "level": 1
+                },
+                {
+                    "var": "sjac",
+                    "type": "datetime64[ns]",
+                    "level": 1
+                },
+                {
+                    "var": "iu_del",
+                    "type": "datetime64[ns]",
+                    "level": 1
+                },
+                {
+                    "var": "com_pub",
+                    "type": "datetime64[ns]",
+                    "level": 1
+                },
+                {
+                    "var": "eva",
+                    "type": "datetime64[ns]",
+                    "level": 1
+                },
+                {
+                    "var": "note",
+                    "type": "StringDtype",
+                    "level": 3
+                },
+                {
+                    "var": "status",
+                    "type": "category",
+                    "level": 1
+                }
+            ]
+        }
+    ]
+}

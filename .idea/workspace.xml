@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d827410b-2185-4b8c-973f-26d2b68d6d70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01_ps_sc.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_ps_sc.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/testbooks/tracker_testing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/testbooks/tracker_testing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yaml_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/yaml_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testings/pydantic_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/testings/pydantic_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testings/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/testings/review.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fmnya/fc-performeter&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/fmnya/fc-performeter",
+    "settings.editor.selected.configurable": "editor.preferences.folding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\myagh\fc-performeter\notebooks\other_notebooks" />
