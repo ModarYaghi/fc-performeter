@@ -1,0 +1,81 @@
+Detailed Python Module Structure:
+
++------------------------------------------+
+| Exception Classes                        |
++------------------------------------------+
+| ExcelFileDecryptionError                 |
+| - Custom exception for decryption errors |
++------------------------------------------+
+        ^ (inherits)
++------------------------------------------+
+| ExcelFileReadError                       |
+| - Custom exception for file read errors  |
++------------------------------------------+
+
++-------------------------------------------------------+
+| Utility Class                                         |
++-------------------------------------------------------+
+| ExcelDecryptorUtils                                   |
+| - Static methods for Excel file decryption            |
+|                                                       |
+| + decrypt_file(file_path: str, password: str) -> BytesIO  |
+|   - Decrypts an Excel file using msoffcrypto          |
+|   - Raises ExcelFileDecryptionError on failure        |
++-------------------------------------------------------+
+
++----------------------------------------------------------+
+| File Processing Class                                    |
++----------------------------------------------------------+
+| FileProcessor                                            |
+| - Manages data format conversion                         |
+| - Attributes:                                            |
+|   - output_format: str (default 'pandas')                |
+|                                                         |
+| + read_sheets_from_file(decrypted_file: BytesIO)         |
+|   -> Dict[str, Union[pd.DataFrame, pl.DataFrame]]        |
+|   - Reads sheets from decrypted Excel file               |
+|   - Uses pandas ExcelFile and read_excel methods         |
+|                                                         |
+| + convert_to_desired_format(df: pd.DataFrame)            |
+|   -> Union[pd.DataFrame, pl.DataFrame]                   |
+|   - Converts DataFrame to 'pandas' or 'polars' format    |
++----------------------------------------------------------+
+
++-------------------------------------------------------------------+
+| Main Class                                                        |
++-------------------------------------------------------------------+
+| ExcelDecryptor                                                     |
+| - Decrypts and processes encrypted Excel files                     |
+| - Attributes:                                                      |
+|   - directory: str (Directory containing encrypted Excel files)    |
+|   - password_dict: Dict[str, str] (Maps filenames to passwords)    |
+|   - file_processor: FileProcessor                                  |
+|   - _processed_data: Dict or None (Stores processed data)          |
+|                                                                    |
+| + read_encrypted_excels(selected_files: List[str]) -> DataFrame    |
+|   - Decrypts and reads selected Excel files                        |
+|   - Uses ExcelDecryptorUtils.decrypt_file                          |
+|   - Uses FileProcessor methods for data handling                   |
+|   - Applies concurrent processing using ThreadPoolExecutor         |
+|   - Optional progress tracking with progress_tracker               |
+|                                                                    |
+| + process_file(file: str, password: str)                           |
+|   -> Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]     |
+|   - Processes a single Excel file                                  |
+|   - Handles decryption and data extraction                         |
+|   - Uses ExcelDecryptorUtils and FileProcessor methods             |
+|   - Logs errors using logging                                      |
+|                                                                    |
+| + print_data_structure() -> str                                    |
+|   - Prints the structure of processed data                         |
+|                                                                    |
+| + display_result_structure(processed_data: Dict) -> DataFrame      |
+|   - Displays the structure of processed data in a DataFrame format |
++-------------------------------------------------------------------+
+
+Relationships and Dependencies:
+- ExcelDecryptor is the central class orchestrating the decryption and processing of Excel files.
+- Utilizes ExcelDecryptorUtils for decryption tasks.
+- Aggregates FileProcessor for handling data format conversion and reading sheets from Excel files.
+- ExcelDecryptorUtils and FileProcessor are independent but provide essential functionalities used by ExcelDecryptor.
+- Custom exceptions ExcelFileDecryptionError and ExcelFileReadError provide specific error handling for the decryption and reading processes, respectively.

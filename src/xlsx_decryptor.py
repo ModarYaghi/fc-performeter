@@ -163,7 +163,7 @@ class ExcelDecryptor:
         This method is decorated with progress_bar_decorator, which injects a ProgressTracker instance. The method updates the progress bar after the completion of processing each file. It ensures the progress bar accurately reflects the processing status.
 
         Parameters:
-            selected_files (List[str], optional): Filenames to process. If None, processes all files.
+            selected_files (List[str], optional): Filenames to process. If None, process all files.
             progress_tracker (ProgressTracker, optional): An instance of ProgressTracker for updating progress.
 
         Returns:

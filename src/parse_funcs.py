@@ -1,7 +1,7 @@
 from typing import Any, Dict, Callable, List, Optional, Union
 import pandas as pd
 import re
-from src.data_reader import YAMLDataReader
+from src.data_reader import JSONDataReader
 
 
 def get_column_index(df, primary_column, secondary_column):
@@ -14,7 +14,7 @@ def get_column_index(df, primary_column, secondary_column):
 
 
 def convert_dataframe_types(
-    df: pd.DataFrame, dataset_name: str, yaml_reader: YAMLDataReader
+    df: pd.DataFrame, dataset_name: str, yaml_reader: JSONDataReader
 ) -> pd.DataFrame:
     """
     Converts the types of DataFrame columns based on the type specifications from a YAML file.
