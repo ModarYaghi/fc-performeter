@@ -1,6 +1,0 @@
-{
-    "editor.fontSize": 21,
-    "files.autoSave": "onFocusChange",
-    "editor.wordWrap": "on",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
-}
