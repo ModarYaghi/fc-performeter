@@ -161,3 +161,5 @@ cython_debug/
 .workspace.xml
 
 .vscode/
+
+fc-performeter.code-workspace
