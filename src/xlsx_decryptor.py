@@ -158,9 +158,12 @@ class ExcelDecryptor:
         self, selected_files: List[str] = None, progress_tracker=None
     ) -> DataFrame:
         """
-        Reads and decrypts selected Excel files in the specified directory, updating a progress bar for each file processed.
+        Reads and decrypts selected Excel files in the specified directory, updating a progress bar for each file
+        processed.
 
-        This method is decorated with progress_bar_decorator, which injects a ProgressTracker instance. The method updates the progress bar after the completion of processing each file. It ensures the progress bar accurately reflects the processing status.
+        This method is decorated with progress_bar_decorator, which injects a ProgressTracker instance. The method
+        updates the progress bar after the completion of processing each file. It ensures the progress bar accurately
+        reflects the processing status.
 
         Parameters:
             selected_files (List[str], optional): Filenames to process. If None, process all files.
@@ -185,10 +188,7 @@ class ExcelDecryptor:
                 executor.submit(self.process_file, file, self.password_dict[file]): file
                 for file in files_to_process
             }
-            # for future in concurrent.futures.as_completed(futures):
-            #     file, result = futures[future], future.result()
-            #     if result is not None:
-            #         processed_data[file] = result
+
             for future in concurrent.futures.as_completed(futures):
                 file = futures[future]
                 try:
@@ -216,9 +216,8 @@ class ExcelDecryptor:
         - file (str): The filename of the Excel file to process.
         - password (str): The password for decrypting the file.
 
-        Returns:
-        - Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]: A dictionary of DataFrames for each sheet in the file,
-          or None if an error occurred.
+        Returns: - Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]: A dictionary of DataFrames for each
+        sheet in the file, or None if an error occurred.
         """
         file_path = os.path.join(self.directory, file)
         if not os.path.exists(file_path):
