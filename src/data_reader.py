@@ -93,13 +93,13 @@ class JSONDataReader:
         Retrieves passwords for Excel files in the specified directory.
         """
         excel_files = [file for file in os.listdir(directory) if file.endswith(".xlsx")]
-        return {file: self.get_password_for_file(file) for file in excel_files}
+        return {file: self.get_password_for_file(file) or "" for file in excel_files}
 
 
 #
 # class YAMLDataReader:
 #     """
-#     A class to read and process data from a YAML file.
+    #     A class to read and process data from a YAML file.
 #
 #     Attributes:
 #     -----------

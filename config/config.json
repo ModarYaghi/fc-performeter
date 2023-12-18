@@ -1,11 +1,4 @@
 {
-    "data_types": {
-        "btype": "boolean",
-        "ctype": "category",
-        "dtype": "datetime64[ns]",
-        "itype": "Int64",
-        "stype": "StringDtype"
-    },
     "sheets_names": {
         "pss": {
             "screening": "Scr",
@@ -27,7 +20,7 @@
             "pt_follow_up": "FUP"
         },
         "tracker_td": {
-            "td_tracker": "TD"
+            "td_tracker": "TDT"
         }
     },
     "data_source": [
@@ -1294,7 +1287,7 @@
             ]
         },
         {
-            "dataset": "FUP",
+            "dataset": "pt_fup",
             "variables": [
                 {
                     "var": "ptfuspi",
@@ -1354,7 +1347,7 @@
             ]
         },
         {
-            "dataset": "TD",
+            "dataset": "TDT",
             "variables": [
                 {
                     "var": "tdtindex",
