@@ -942,7 +942,7 @@
             "pt_status",
             "note"
         ],
-        "pt_fup": [
+        "FUP": [
             "ptfuspi",
             "rid",
             "fcid",
