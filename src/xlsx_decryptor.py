@@ -1,12 +1,14 @@
 import os
 import logging
-from typing import Dict, Union, List
+from typing import Dict, Union, List, Any
 from io import BytesIO
 import pandas as pd
 import polars as pl
 import msoffcrypto
 import concurrent.futures
 import warnings
+
+from IPython.display import display
 
 from pandas import DataFrame
 from src.utils.decorator_funcs import progress_bar_decorator
@@ -156,7 +158,7 @@ class ExcelDecryptor:
     @progress_bar_decorator
     def read_encrypted_excels(
         self, selected_files: List[str] = None, progress_tracker=None
-    ) -> DataFrame:
+    ) -> dict[str | Any, Any]:
         """
         Reads and decrypts selected Excel files in the specified directory, updating a progress bar for each file
         processed.
@@ -197,14 +199,14 @@ class ExcelDecryptor:
                         processed_data[file] = result
                 except Exception as e:
                     # Handle exceptions if necessary
-                    pass
+                    print(f"exception in {file}: {e}")
 
                 # Update the progress tracker after each file is processed
                 if progress_tracker:
                     progress_tracker.update()
 
         self._processed_data = processed_data
-        return self.display_result_structure(self._processed_data)
+        return processed_data
 
     def process_file(
         self, file: str, password: str
