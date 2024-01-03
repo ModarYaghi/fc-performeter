@@ -1,101 +1,17 @@
 import os
-import json
+
+import pandas as pd
+# import json
 import yaml
 import logging
 from typing import Any, Dict, List, Optional, Tuple
+
+from pandas import DataFrame
 
 # Set up basic logging configuration
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
-
-
-# class JSONDataReader:
-#     """
-#     A class to read and process data from a JSON file.
-#     """
-#
-#     def __init__(self, file_path: str):
-#         """
-#         Initializes the JSONDataReader with data from the given JSON file.
-#         """
-#         self.data = self._load_json(file_path)
-#
-#     @staticmethod
-#     def _load_json(file_path: str) -> Dict[str, Any]:
-#         """
-#         Loads and parses the JSON file.
-#         """
-#         try:
-#             with open(file_path, "r") as file:
-#                 return json.load(file)
-#         except FileNotFoundError:
-#             logging.error(f"The file {file_path} was not found.")
-#             raise
-#         except json.JSONDecodeError as e:
-#             logging.error(f"Error parsing JSON file: {e}")
-#             raise
-#
-#     def get_section(self, section_name: str) -> List[Dict[str, Any]]:
-#         """
-#         Returns a specific section from the JSON file.
-#         """
-#         return self.data.get(section_name, [])
-#
-#     def get_password_for_file(self, file_name: str) -> Optional[str]:
-#         """
-#         Returns the password for a specified file, if available.
-#         """
-#         return next(
-#             (
-#                 entry["password"]
-#                 for entry in self.get_section("data_source")
-#                 if entry.get("file") == file_name
-#             ),
-#             None,
-#         )
-#
-#     def get_files_by_scope(self, service_name: str) -> List[str]:
-#         """
-#         Returns a list of file names associated with a specific scope (pss, pt, referring, tracker_td).
-#         """
-#         return [
-#             entry["file"]
-#             for entry in self.get_section("data_source")
-#             if entry.get("scope") == service_name
-#         ]
-#
-#     def get_variables_by_dataset(self, dataset_name: str) -> List[Dict[str, Any]]:
-#         """
-#         Retrieves variables for a given dataset name.
-#         """
-#         return next(
-#             (
-#                 dataset["variables"]
-#                 for dataset in self.get_section("datasets")
-#                 if dataset.get("dataset") == dataset_name
-#             ),
-#             [],
-#         )
-#
-#     def search_variables(self, search_term: str) -> List[Tuple[str, Dict[str, Any]]]:
-#         """
-#         Searches for variables across all datasets containing a specific term.
-#         """
-#         return [
-#             (dataset["dataset"], var)
-#             for dataset in self.get_section("datasets")
-#             for var in dataset.get("variables", [])
-#             if search_term in var.get("var", "")
-#         ]
-#
-#     def get_excel_passwords_by_directory(self, directory: str) -> Dict[str, str]:
-#         """
-#         Retrieves passwords for Excel files in the specified directory.
-#         """
-#         excel_files = [file for file in os.listdir(directory) if file.endswith(".xlsx")]
-#         return {file: self.get_password_for_file(file) or "" for file in excel_files}
-#
 
 
 class YAMLDataReader:
@@ -150,6 +66,7 @@ class YAMLDataReader:
             self.sheets = data.get("sheets_names", [])
             self.data_source = data.get("data_source", [])
             self.datasets = data.get("datasets", [])
+            self.structure = self.get_structure()
 
         except FileNotFoundError:
             raise FileNotFoundError(f"The file {file_path} was not found.")
@@ -164,9 +81,20 @@ class YAMLDataReader:
     #     """Returns a data type."""
     #     return self.data_types[type]
     #
-    # def get_structure(self) -> List[Dict[str, Any]]:
-    #     """Returns the structure section of the YAML file."""
-    #     return self.datasets
+    def get_structure(self) -> DataFrame:
+        """Returns the structure section of the YAML file."""
+        formatted_data = []
+
+        for dataset_dict in self.datasets:
+            dataset_name = dataset_dict["dataset"]
+            for var_info in dataset_dict["variables"]:
+                formatted_data.append({
+                    "Dataset": dataset_name,
+                    "Variable": var_info["var"],
+                    "Type": var_info["type"],
+                    "Level": var_info["level"]
+                })
+        return pd.DataFrame(formatted_data)
 
     def get_password_for_file(self, file_name: str) -> Optional[str]:
         """
@@ -321,6 +249,94 @@ class YAMLDataReader:
                 else:
                     print(f"No password for {file}")
         return passwords
+
+
+# class JSONDataReader:
+#     """
+#     A class to read and process data from a JSON file.
+#     """
+#
+#     def __init__(self, file_path: str):
+#         """
+#         Initializes the JSONDataReader with data from the given JSON file.
+#         """
+#         self.data = self._load_json(file_path)
+#
+#     @staticmethod
+#     def _load_json(file_path: str) -> Dict[str, Any]:
+#         """
+#         Loads and parses the JSON file.
+#         """
+#         try:
+#             with open(file_path, "r") as file:
+#                 return json.load(file)
+#         except FileNotFoundError:
+#             logging.error(f"The file {file_path} was not found.")
+#             raise
+#         except json.JSONDecodeError as e:
+#             logging.error(f"Error parsing JSON file: {e}")
+#             raise
+#
+#     def get_section(self, section_name: str) -> List[Dict[str, Any]]:
+#         """
+#         Returns a specific section from the JSON file.
+#         """
+#         return self.data.get(section_name, [])
+#
+#     def get_password_for_file(self, file_name: str) -> Optional[str]:
+#         """
+#         Returns the password for a specified file, if available.
+#         """
+#         return next(
+#             (
+#                 entry["password"]
+#                 for entry in self.get_section("data_source")
+#                 if entry.get("file") == file_name
+#             ),
+#             None,
+#         )
+#
+#     def get_files_by_scope(self, service_name: str) -> List[str]:
+#         """
+#         Returns a list of file names associated with a specific scope (pss, pt, referring, tracker_td).
+#         """
+#         return [
+#             entry["file"]
+#             for entry in self.get_section("data_source")
+#             if entry.get("scope") == service_name
+#         ]
+#
+#     def get_variables_by_dataset(self, dataset_name: str) -> List[Dict[str, Any]]:
+#         """
+#         Retrieves variables for a given dataset name.
+#         """
+#         return next(
+#             (
+#                 dataset["variables"]
+#                 for dataset in self.get_section("datasets")
+#                 if dataset.get("dataset") == dataset_name
+#             ),
+#             [],
+#         )
+#
+#     def search_variables(self, search_term: str) -> List[Tuple[str, Dict[str, Any]]]:
+#         """
+#         Searches for variables across all datasets containing a specific term.
+#         """
+#         return [
+#             (dataset["dataset"], var)
+#             for dataset in self.get_section("datasets")
+#             for var in dataset.get("variables", [])
+#             if search_term in var.get("var", "")
+#         ]
+#
+#     def get_excel_passwords_by_directory(self, directory: str) -> Dict[str, str]:
+#         """
+#         Retrieves passwords for Excel files in the specified directory.
+#         """
+#         excel_files = [file for file in os.listdir(directory) if file.endswith(".xlsx")]
+#         return {file: self.get_password_for_file(file) or "" for file in excel_files}
+#
 
 
 if __name__ == "__main__":

@@ -7,9 +7,6 @@ import polars as pl
 import msoffcrypto
 import concurrent.futures
 import warnings
-
-from IPython.display import display
-
 from pandas import DataFrame
 from src.utils.decorator_funcs import progress_bar_decorator
 
