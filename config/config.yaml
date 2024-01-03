@@ -2,7 +2,7 @@
 data_types:
   btype: &btype boolean
   ctype: &ctype category
-  dtype: &dtype datetime64[ns
+  dtype: &dtype datetime64[ns]
   itype: &itype Int64
   stype: &stype StringDtype
 

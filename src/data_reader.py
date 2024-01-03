@@ -144,20 +144,29 @@ class YAMLDataReader:
         try:
             with open(file_path, "r") as file:
                 data = yaml.safe_load(file)
+
+            # Initialize each section of the YAML file.
+            self.data_types = data.get("data_types", [])
+            self.sheets = data.get("sheets_names", [])
             self.data_source = data.get("data_source", [])
             self.datasets = data.get("datasets", [])
+
         except FileNotFoundError:
             raise FileNotFoundError(f"The file {file_path} was not found.")
         except yaml.YAMLError as e:
             raise yaml.YAMLError(f"Error parsing YAML file: {e}")
 
-    def get_data_source(self) -> List[Dict[str, Any]]:
-        """Returns the data source section of the YAML file."""
-        return self.data_source
-
-    def get_structure(self) -> List[Dict[str, Any]]:
-        """Returns the structure section of the YAML file."""
-        return self.datasets
+    # def get_data_source(self) -> List[Dict[str, Any]]:
+    #     """Returns the data source section of the YAML file."""
+    #     return self.data_source
+    #
+    # def get_data_type(self, type: str) -> Dict[str, Any]:
+    #     """Returns a data type."""
+    #     return self.data_types[type]
+    #
+    # def get_structure(self) -> List[Dict[str, Any]]:
+    #     """Returns the structure section of the YAML file."""
+    #     return self.datasets
 
     def get_password_for_file(self, file_name: str) -> Optional[str]:
         """
