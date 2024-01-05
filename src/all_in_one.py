@@ -1,11 +1,13 @@
 import sys
-import numpy as np
+# import numpy as np
 import pandas as pd
-import os
+
+# import os
 
 # config_path = r'../config/config.json'
 config_path = r"C:/Users/myagh/fc-performeter/config/config.yaml"
-raw_data = r"C:/Users/myagh/fc-performeter/data/raw/1023"
+raw_data = r"C:/Users/myagh/fc-performeter/data/raw/1223/"
+processed_data = r"C:/Users/myagh/fc-performeter/data/processed/1223/"
 
 sys.path.append((config_path, raw_data))
 
@@ -94,4 +96,8 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools):
         # process_dataframe(dataframe)
         dataframes.append(dataframe)
 
-    return pd.concat(dataframes, ignore_index=True)
+        compiled_dataframe = pd.concat(dataframes, ignore_index=True)
+
+
+
+    return compiled_dataframe
