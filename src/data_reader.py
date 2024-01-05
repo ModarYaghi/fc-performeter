@@ -115,6 +115,26 @@ class YAMLDataReader:
                 return entry["password"]
         return None
 
+    def get_passwords_by_directory(self, directory: str) -> Dict[str, str]:
+        """
+        Retrieves passwords for Excel files in the specified directory.
+
+        Parameters:
+        - directory (str): The directory containing Excel files.
+
+        Returns:
+        - Dict[str, str]: A dictionary mapping Excel file names to their passwords.
+        """
+        passwords = {}
+        for file in os.listdir(directory):
+            if file.endswith(".xlsx"):
+                pw = self.get_password_for_file(file)
+                if pw is not None:
+                    passwords[file] = pw
+                else:
+                    print(f"No password for {file}")
+        return passwords
+
     def get_files_by_service(self, service_name: str) -> List[Dict[str, Any]]:
         """
         Returns a list of files associated with a specific service.
@@ -229,26 +249,6 @@ class YAMLDataReader:
                 ):  # Check if 'var' key exists
                     results.append((dataset["dataset"], variable))
         return results
-
-    def get_excel_passwords_by_directory(self, directory: str) -> Dict[str, str]:
-        """
-        Retrieves passwords for Excel files in the specified directory.
-
-        Parameters:
-        - directory (str): The directory containing Excel files.
-
-        Returns:
-        - Dict[str, str]: A dictionary mapping Excel file names to their passwords.
-        """
-        passwords = {}
-        for file in os.listdir(directory):
-            if file.endswith(".xlsx"):
-                pw = self.get_password_for_file(file)
-                if pw is not None:
-                    passwords[file] = pw
-                else:
-                    print(f"No password for {file}")
-        return passwords
 
 
 # class JSONDataReader:
