@@ -1,7 +1,5 @@
 import os
-
 import pandas as pd
-# import json
 import yaml
 import logging
 from typing import Any, Dict, List, Optional, Tuple
@@ -14,7 +12,7 @@ logging.basicConfig(
 )
 
 
-class YAMLDataReader:
+class YAMLConfigReader:
     """
         A class to read and process data from a YAML file.
 
@@ -67,20 +65,16 @@ class YAMLDataReader:
             self.data_source = data.get("data_source", [])
             self.datasets = data.get("datasets", [])
             self.structure = self.get_structure()
+            self.fpss = self.get_files_names("pss")
+            self.fpt = self.get_files_names("pt")
+            self.shpss = self.get_sheets_names("pss")
+            self.shpt = self.get_sheets_names("pt")
 
         except FileNotFoundError:
             raise FileNotFoundError(f"The file {file_path} was not found.")
         except yaml.YAMLError as e:
             raise yaml.YAMLError(f"Error parsing YAML file: {e}")
 
-    # def get_data_source(self) -> List[Dict[str, Any]]:
-    #     """Returns the data source section of the YAML file."""
-    #     return self.data_source
-    #
-    # def get_data_type(self, type: str) -> Dict[str, Any]:
-    #     """Returns a data type."""
-    #     return self.data_types[type]
-    #
     def get_structure(self) -> DataFrame:
         """Returns the structure section of the YAML file."""
         formatted_data = []
@@ -95,6 +89,22 @@ class YAMLDataReader:
                     "Level": var_info["level"]
                 })
         return pd.DataFrame(formatted_data)
+
+    def get_files_names(self, service) -> List:
+        """Returns files names of a specific service."""
+        pss_files = [
+            ds["file"] for ds in self.data_source if ds["service"] == service
+        ]
+        return pss_files
+
+    def get_sheets_names(self, service) -> List:
+        """Returns sheets names of a specific service."""
+        sheets_names = [
+            sh
+            for ser, shs in self.sheets.items() if ser == service
+            for sh_name, sh in shs.items()
+        ]
+        return sheets_names
 
     def get_password_for_file(self, file_name: str) -> Optional[str]:
         """
@@ -249,6 +259,7 @@ class YAMLDataReader:
                 ):  # Check if 'var' key exists
                     results.append((dataset["dataset"], variable))
         return results
+
 
 
 # class JSONDataReader:

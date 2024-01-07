@@ -1,4 +1,9 @@
-numpy~=1.26.3
-pandas~=2.1.4
-pyyaml~=6.0.1
-ipython~=8.19.0
+numpy
+pandas
+polars
+pydantic
+PyYAML
+toml
+tqdm
+msoffcrypto-tool
+openpyxl

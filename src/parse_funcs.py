@@ -1,7 +1,7 @@
 from typing import Any, Dict, Callable, List, Optional, Union
 import pandas as pd
 import re
-from src.data_reader import JSONDataReader
+from src.config_reader import JSONDataReader
 
 
 def get_column_index(df, primary_column, secondary_column):

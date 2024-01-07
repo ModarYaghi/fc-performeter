@@ -17,7 +17,7 @@ sheets_names:
     trw: &trw TRW
     td: &td TD
     cws: &cws CWS
-    aws: &aws AWS
+    aws: &aws AW
   pt:
     psfs: &psfs PSFS
     pt_int: &pt_int PT Int
@@ -228,7 +228,7 @@ datasets:
         type: *btype
         level: 3
       - var: gc_index
-        type: *itype
+        type: *ctype
         level: 1
       - var: gc_class
         type: *stype

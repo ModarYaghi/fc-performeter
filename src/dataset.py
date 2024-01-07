@@ -1,58 +1,52 @@
 import pandas as pd
+from path_management import *
 
-from src.data_reader import YAMLDataReader
+from src.config_reader import YAMLConfigReader
 
 
 class Dataset:
     """Interface for a dataset."""
 
-    def __init__(self, config_path: str, dataset: str):
+    def __init__(self, config_path: str, sheet_name: str):
         # Initialize the dataset.
         self.config_path = config_path
-        self.dataset = dataset
+        self.sheet_name = sheet_name
 
         # Load the dataset configuration.
-        self.config = YAMLDataReader(self.config_path)
+        self.config = YAMLConfigReader(self.config_path)
 
         # Get the variable names for the dataset.
-        self.vars = self.config.get_variable_names_by_dataset(self.dataset)
+        self.vars = self.config.get_variable_names_by_dataset(self.sheet_name)
 
         # Get the variable names for the dataset at level 0.
         self.bvars = self.config.get_variable_names_by_dataset_and_level(
-            self.dataset, 0
+            self.sheet_name, 0
         )
 
         # Get the variable names for the dataset of type datetime64[ns].
         self.dvars = self.config.get_variable_names_by_dataset_and_type(
-            self.dataset, "datetime64[ns]"
+            self.sheet_name, "datetime64[ns]"
         )
 
         # Get the variable names for the dataset of type Int64.
         self.ivars = self.config.get_variable_names_by_dataset_and_type(
-            self.dataset, "Int64"
+            self.sheet_name, "Int64"
         )
 
         self.svars = self.config.get_variable_names_by_dataset_and_type(
-            self.dataset, "StringDtype"
+            self.sheet_name, "StringDtype"
         )
 
         self.cvars = self.config.get_variable_names_by_dataset_and_type(
-            self.dataset, "category"
+            self.sheet_name, "category"
         )
 
         self.bovars = self.config.get_variable_names_by_dataset_and_type(
-            self.dataset, "boolean"
+            self.sheet_name, "boolean"
         )
 
 
-def dttrans(
-    dataframe: pd.DataFrame,
-    dataset: Dataset = None,
-    config_path: str = None,
-    dataset_name: str = None,
-):
-    if dataset is None:
-        dataset = Dataset(config_path, dataset_name)
-
-    if dataset.dvars:
-        dataframe[dataset.dvars] = dataframe[dataset.dvars].apply(pd.to_datetime)
+# if __name__ == "__main__":
+# dataset = Dataset(config_file, "IPT")
+# print(dataset.vars)
+# print(len(dataset.vars))
