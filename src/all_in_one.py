@@ -79,6 +79,28 @@ def dtype_trans(
     return dataframe
 
 
+def filter_df_by_date(df, date_column_names, threshold, comparison_type):
+    # Ensure specific_date is in datetime format
+    threshold_date = pd.to_datetime(threshold)
+
+    # Convert date columns to datetime if not already
+    # for col in date_column_names:
+    #     df[col] = pd.to_datetime(df[col])
+
+    # Apply the filtering condition
+    # Apply the filtering condition based on the comparison type
+    if comparison_type == "a":
+        return df[(df[date_column_names] > threshold_date).any(axis=1)]
+    elif comparison_type == "b":
+        return df[(df[date_column_names] < threshold_date).any(axis=1)]
+    elif comparison_type == "e":
+        return df[(df[date_column_names] == threshold_date).any(axis=1)]
+    else:
+        raise ValueError(
+            "Invalid comparison type. Choose 'after', 'before', or 'equal'."
+        )
+
+
 def append_df_to_excel(
     filename,
     df,

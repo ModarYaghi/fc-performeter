@@ -1,664 +1,664 @@
-scrsp,scspi,rid,firstname,lastname,sex,age,nat,sc_loc,sc_s1,pei_pre_as,sc_re,source,source_org,need_mhpss,need_trw,need_out_ref,need_tmh,need_pei,note
-IJ,67,R1010,احمد,الخالدي,Male,53,Syrian,SF,2023-10-19,,,IRM,,Yes,No,No,Yes,Yes,
-IJ,64,R0999,امينة,الحسين,Female,39,Syrian,SF,2023-10-18,,,IRM,,Yes,No,No,No,Yes,
-IJ,22,R0511,انتصار,الاسعد,Female,47,Syrian,GTZ,2022-05-27,2023-10-09,,Family member or friend,,Yes,No,No,No,Yes,intake-Y
-IJ,30,R0587,ايمان,العلي,Female,35,Syrian,GTZ,2022-12-22,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake
-IJ,36,R0731,إبراهيم,عباس,Male,33,Syrian,GTZ,2023-05-22,,,IRM,,No,Yes,No,Yes,No,TRW-IRM
-IJ,24,R0520,إسلاف,سليمان,Female,26,Syrian,GTZ,2022-09-01,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake-S
-IJ,15,R0482,أمينة,عزو,Female,48,Syrian,GTZ,2022-08-15,,,Outreach session,,Yes,No,No,No,No,intake-S
-IJ,9,R0450,آية,فاضل,Female,26,Syrian,GTZ,2022-08-18,2023-07-07,,Outreach session,,Yes,No,No,No,Yes,intake-İ
-IJ,23,R0515,براءة,خليل الوادي,Female,35,Syrian,GTZ,2022-08-29,,,Family member or friend,,Yes,No,No,No,No,intake
-IJ,1,R0542,بيان,فاضل,Female,20,Syrian,GTZ,2023-01-31,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake
-IJ,69,R0702,حسن,الخلف,Male,38,Syrian,SF,2023-10-26,,,IRM,,Yes,No,No,Yes,Yes,
-IJ,28,R0573,حسناء,بصمجي,Female,41,Syrian,GTZ,2022-12-01,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,intake-İ
-IJ,14,R0481,حميدة,مصطفى,Female,39,Syrian,GTZ,2022-08-10,2023-06-19,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,individual-S
-IJ,51,R0477,حنان,الشيخ,Female,32,Syrian,GTZ,2022-08-18,,2023-07-24,Family member or friend,,No,No,No,No,Yes,
-IJ,6,R0417,ختام,قجة,Female,51,Syrian,GTZ,2022-11-08,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,TRW
-IJ,50,R0586,ختام,العلي,Female,31,Syrian,GTZ,2022-12-22,,2023-07-20,Family member or friend,,No,Yes,No,No,No,
-IJ,43,R0574,خولة,العلو,Female,43,Syrian,GTZ,2022-12-21,2023-06-20,,Family member or friend,,Yes,No,No,No,Yes,
-IJ,20,R0501,راميا,مشلح,Female,41,Syrian,GTZ,2022-09-09,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake-Y
-IJ,5,R0405,رشا,حريري,Female,37,Syrian,GTZ,2022-08-29,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake-S
-IJ,16,R0487,رياض,الأسعد,Male,59,Syrian,GTZ,2022-12-08,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake-İ
-IJ,49,R0813,ريم,نكمة,Female,22,Syrian,GTZ,2023-07-18,,,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-IJ,54,R0589,ريما,فياض,Female,50,Syrian,GTZ,,2023-09-01,,Family member or friend,,Yes,No,No,No,Yes,يوجد تعديل جديد للتاريخ
-IJ,34,R0714,ريهام,الحبال,Female,32,Syrian,GTZ,2023-05-12,,,IRM,,No,No,No,No,Yes,E- IRM
-IJ,17,R0491,زهراء,صباغ,Female,42,Syrian,GTZ,2022-09-08,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,TRW
-IJ,40,R0451,زينب,موسى,Female,30,Syrian,GTZ,2022-08-16,2023-06-19,,Family member or friend,,Yes,No,No,No,Yes,
-IJ,21,R0508,زينب,الحسين,Female,27,Syrian,GTZ,2022-08-26,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake-Y
-IJ,59,R0575,زينب,بغدادي,Female,41,Syrian,GTZ,2022-12-23,,2023-09-12,Family member or friend,,Yes,No,No,No,Yes,
-IJ,62,R0343,سمية,محمد,Female,43,Syrian,GTZ,,2023-10-09,,ADMSP member,,Yes,No,No,No,Yes,
-IJ,39,R0571,سميحة,نجمة,Female,25,Syrian,GTZ,,2023-06-19,,,,No,No,No,No,Yes,
-IJ,25,R0521,سهام,حسين,Female,47,Syrian,GTZ,2022-08-18,,,Family member or friend,,Yes,No,No,No,No,intake-Y
-IJ,46,R0460,سهى,الحسن,Female,27,Syrian,GTZ,2022-08-18,2023-06-07,,Family member or friend,,Yes,No,No,No,Yes,
-IJ,63,R0970,شذى,المصخي,Female,56,Syrian,SF,2023-10-13,,,IRM,,Yes,No,No,No,Yes,
-IJ,29,R0583,شروف,الحميدي,Female,35,Syrian,GTZ,2022-12-07,2023-06-14,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,intake-İ
-IJ,32,R0713,طه,خربطلي,Male,30,Syrian,GTZ,2023-05-11,,,IRM,,Yes,No,No,No,No,ملتزم بعمل- IRM
-IJ,44,R0518,عائشة,مصطفى,Female,44,Syrian,GTZ,2022-12-07,2023-06-14,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-IJ,4,R0402,عبير,عزو,Female,43,Syrian,GTZ,2022-09-13,,,Family member or friend,,Yes,No,No,No,No,intake-Y
-IJ,42,R0567,عطاء,الزعبي,Female,26,Syrian,GTZ,2023-01-05,2023-06-20,,Family member or friend,,Yes,No,No,No,Yes,
-IJ,27,R0557,علياء,عويس,Female,46,Syrian,GTZ,2023-01-31,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake
-IJ,66,R1006,علياء,الناصر,Female,48,Syrian,SF,2023-10-18,,,IRM,,Yes,No,No,Yes,Yes,
-IJ,55,R0872,عمر,تركي,Male,27,Syrian,GTZ,2023-09-01,,,IRM,,Yes,No,No,No,No,
-IJ,7,R0424,عيوش,الحسن,Female,38,Syrian,GTZ,2022-07-29,,,Family member or friend,,Yes,No,No,No,No,intake-S
-IJ,11,R0459,فاطمة,ديوك,Female,30,Syrian,GTZ,2022-07-19,,,Family member or friend,,Yes,No,No,No,No,intake-İ
-IJ,33,R0710,فؤاد,الشغري,Male,61,Syrian,GTZ,2023-05-11,,,IRM,,Yes,No,No,No,No,ıntake-M- IRM
-IJ,60,R0941,لواء,العلوش,Male,52,Syrian,GTZ,2023-09-20,,,ADMSP beneficiary (current or former),,Yes,No,No,Yes,Yes,
-IJ,19,R0499,ليندا,السعيد,Female,42,Syrian,GTZ,2022-09-09,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake-S
-IJ,38,R0740,مجد,مراد,Female,33,Syrian,GTZ,2023-06-05,,,IRM,,No,Yes,No,No,No,TRW-IRM
-IJ,37,R0733,محمد,طارق الطباع,Male,42,Syrian,GTZ,2023-05-23,,,IRM,,Yes,No,No,No,No,ıntake-I- IRM
-IJ,57,R0885,محمد,دادا,Male,61,Syrian,GTZ,2023-09-11,,,IRM,,Yes,No,No,No,Yes,
-IJ,58,R0886,محمد,القاسم,Male,52,Syrian,GTZ,2023-09-11,,,IRM,,No,No,No,Yes,Yes,تم التقييم عن بعد مقيم بالعثمانية
-IJ,68,R0967,محمد,المصطفى,Male,34,Syrian,SF,2023-10-23,,,IRM,,Yes,No,No,Yes,Yes,
-IJ,70,R1078,محمدخير,مروح,Male,61,Syrian,Rey,2023-10-31,,,IRM,,No,No,No,Yes,Yes,
-IJ,35,R0716,مديحة,فتوح,Female,29,Syrian,GTZ,2023-05-12,,,IRM,,Yes,No,No,No,No,INTAKE I  IRM
-IJ,3,R0394,مرفت,علي,Female,43,Syrian,GTZ,2022-09-08,,,Outreach session,,Yes,No,No,No,No,ملتزمة بعمل
-IJ,71,R1081,ملاك,عصمان,Female,26,Syrian,Rey,2023-10-31,,,IRM,,No,No,No,Yes,Yes,
-IJ,2,R0239,منى,الصيني,Female,46,Syrian,GTZ,2023-01-16,2023-07-13,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,intake
-IJ,26,R0530,منى,اخرس,Female,37,Syrian,GTZ,2023-01-25,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake
-IJ,8,R0447,منيرة,يوسف,Female,36,Syrian,GTZ,2022-06-07,,,Family member or friend,,Yes,No,No,No,No,intake-S
-IJ,10,R0452,مهى,شواف,Female,40,Syrian,GTZ,2022-06-29,,,Family member or friend,,Yes,Yes,No,No,No,TRW-intake-S
-IJ,65,R1000,ميديا,العبدالله,Female,50,Syrian,SF,2023-10-18,,,IRM,,Yes,No,No,Yes,Yes,
-IJ,31,R0590,نهلة,فياض,Female,52,Syrian,GTZ,2022-12-20,2023-09-04,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,intake-İ
-IJ,45,R0591,نور,العلبي,Female,31,Syrian,GTZ,,2023-06-14,,,,Yes,No,No,No,Yes,
-IJ,41,R0613,هبة,كردي,Female,28,Syrian,GTZ,2022-12-28,2023-06-21,,Family member or friend,,Yes,No,No,No,Yes,
-IJ,12,R0465,هبه,فياض,Female,18,Syrian,GTZ,2022-07-27,,,Outreach session,,No,Yes,No,No,No,TRW
-IJ,18,R0498,هبه,عبد الرحمن السعيد,Female,29,Syrian,GTZ,2022-08-18,,,Family member or friend,,No,Yes,No,No,No,TRW
-IJ,53,R0854,هديل,صالح,Female,30,Syrian,GTZ,2023-08-21,,,Family member or friend,,No,Yes,No,No,No,
-IJ,52,R0456,هناء,الشيخ,Female,34,Syrian,GTZ,2022-07-06,,2023-07-25,Family member or friend,,Yes,No,No,No,No,لا تريد اكمال الجلسات بالوقت الحالي 
-IJ,13,R0478,هناء,الزين,Female,31,Syrian,GTZ,2022-12-07,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,intake-İ
-IJ,72,R0380,وداد,رمضان,Female,44,Syrian,GTZ,2022-08-29,,,Family member or friend,,No,Yes,No,No,No,
-IJ,73,R0385,وسام,المرزوقي,Female,26,Syrian,GTZ,2022-09-02,,,Family member or friend,,No,Yes,No,No,No,
-IJ,74,R0392,حياة,ضاهر,Female,60,Syrian,GTZ,2022-08-29,,,Family member or friend,,No,Yes,No,No,No,
-IJ,75,R0395,فاطمة,مسلم,Female,17,Syrian,,2022-08-17,,,Family member or friend,,,,,,,
-IJ,76,R0440,زهراء,الخطيب,Female,62,Syrian,GTZ,2023-01-12,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,
-IJ,77,R0448,مريم,المحمد,Female,47,Syrian,GTZ,2022-06-29,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,
-IJ,78,R0454,منال,سليمان,Female,39,Syrian,GTZ,2022-07-07,,,Family member or friend,,No,Yes,No,No,No,
-IJ,79,R0461,بشرى,نديوي,Female,60,Syrian,GTZ,2022-07-27,,,Outreach session,,Yes,No,No,No,No,
-IJ,80,R0470,اسلام,الخطيب,Female,46,Syrian,GTZ,2022-07-27,,,Outreach session,,Yes,No,No,No,No,
-IJ,81,R0483,ميادة,بهاء الدين,Female,48,Syrian,GTZ,2022-11-09,,,Family member or friend,,No,Yes,No,No,No,
-IJ,82,R0488,رقية,مروح,Female,53,Syrian,GTZ,2022-09-01,,,Family member or friend,,No,Yes,No,No,No,
-IJ,83,R0489,مجد,محمد,Female,33,Syrian,GTZ,2022-08-18,,,Family member or friend,,Yes,No,No,No,No,
-IJ,84,R0504,ناديا,شوشان,Female,38,Syrian,GTZ,2022-09-09,,,Family member or friend,,No,Yes,No,No,No,
-IJ,85,R0505,حسناء,حسكل,Female,52,Syrian,GTZ,2022-08-26,,,Family member or friend,,Yes,No,No,No,No,
-IJ,86,R0510,غالية,شحرور,Female,60,Syrian,GTZ,2022-09-01,,,Family member or friend,,Yes,No,No,No,No,
-IJ,87,R0512,الاء,حلي,Female,23,Syrian,GTZ,2023-01-05,,,Family member or friend,,No,Yes,No,No,No,
-IJ,88,R0593,ضحى,مكتبي,Female,36,Syrian,GTZ,2022-12-21,,,Family member or friend,,Yes,No,No,No,No,
-IJ,89,R1086,احمد,طرابلسي,Male,62,Syrian,MR,2023-11-02,,,IRM,,No,No,No,Yes,Yes,
-IJ,90,R1090,محمد,تركي الحلبي,Male,50,Syrian,Rey,2023-11-02,,,IRM,,No,No,No,No,No,ملتزمة بعمل
-IJ,91,R1089,صدي,رمضان,Male,31,Syrian,Rey,2023-11-02,,,IRM,,No,No,No,No,No,ملتزمة بعمل
-IJ,92,R1088,عبدو,يونس اغلو,Male,47,Syrian,HT,2023-11-02,,,IRM,,No,No,No,Yes,Yes,
-IJ,93,R1087,عنود,الملحم,Female,39,Syrian,Rey,2023-11-02,,,IRM,,No,No,No,Yes,Yes,
-IJ,94,R1091,موفق,هارون,Male,28,Syrian,Rey,2023-11-03,,,IRM,,No,No,Yes,Yes,Yes,
-IJ,95,R1092,مصطفى,عبد الستار,Male,56,Syrian,Rey,2023-11-03,,,IRM,,No,No,No,No,No,ملتزمة بعمل
-IJ,96,R1095,هيام,رمضان,Female,60,Syrian,Rey,2023-11-06,,,IRM,,No,No,No,No,No,ملتزمة بعمل
-IJ,97,R1096,منى,عثمان أغلو,Female,56,Syrian,Rey,2023-11-06,,,IRM,,No,No,No,Yes,Yes,
-IJ,98,R1099,هبه,السيبي,Female,28,Syrian,Rey,2023-11-06,,,IRM,,No,No,No,Yes,Yes,
-IJ,99,R1094,عفاف,يوسف,Female,60,Syrian,Rey,2023-11-06,,,IRM,,No,No,No,Yes,Yes,
-IJ,100,R1110,مها,شامي,Female,62,Syrian,Rey,2023-11-08,,,IRM,,No,No,No,No,No,غير مهتمة مقيمة بكونيا
-IJ,101,R1112,انوار,الحمدي,Female,27,Syrian,Rey,2023-11-08,,,IRM,,No,No,No,No,No,غير مهتمة
-IJ,102,R1106,رقية,العبيد,Female,38,Syrian,Rey,2023-11-08,,,IRM,,No,No,No,Yes,Yes,
-IJ,103,R1108,بسمة,منصور,Female,29,Syrian,Rey,2023-11-08,,,IRM,,No,No,No,Yes,Yes,
-IJ,104,R0762,نشيدة,دياب,Female,39,Syrian,Rey,2023-11-08,,,IRM,,No,No,No,Yes,No,
-IJ,105,R1115,حليمة,الرجب,Female,43,Syrian,Rey,2023-11-09,,,IRM,,No,No,No,Yes,No,
-IJ,106,R1116,سحر,دخان,Female,50,Syrian,Rey,2023-10-09,,,IRM,,No,No,No,No,No,غير مهتمة مقيمة ب طرابزوان
-IJ,107,R0364,انتصار,طالب,Female,55,Syrian,Rey,2023-11-09,,,IRM,,No,No,No,Yes,No,مقيمة طرابزون
-IJ,108,R0768,رانيا,زعرور,Female,37,Syrian,Rey,2023-11-09,,,IRM,,No,No,No,No,Yes,
-IJ,109,R0761,عائدة,علي,Female,38,Syrian,Rey,2023-11-15,,,IRM,,No,No,Yes,Yes,No,مقيمة بالعثمانية
-IJ,110,R0763,سارة,اسفنجة,Female,33,Syrian,GTZ,2023-11-15,,,IRM,,No,No,No,No,Yes,مقيمة بكلس
-IJ,111,R1134,ايمان,سويد,Female,32,Syrian,Rey,2023-11-15,,,IRM,,No,No,No,No,No,مقيمة بقيصري
-IJ,112,R1036,منى,فاتو,Female,42,Syrian,Rey,2023-11-15,,,IRM,,No,No,No,No,Yes,مقيمة بانطاكيا
-IJ,113,R0765,ماجدة,محمود,Female,44,Syrian,Rey,2023-11-16,,,IRM,,No,No,No,Yes,Yes,مقيمة بأضنة
-IJ,114,R1135,منى,فارس,Female,38,Syrian,Rey,2023-11-16,,,IRM,,No,No,No,No,No,مقيمة بياليضاغ
-IJ,115,R0764,الاء,الشاطر,Female,30,Syrian,Rey,2023-11-16,,,IRM,,No,No,No,No,No,مقيمة بانطاكيا
-IJ,116,R0760,رجاء,البصير,Female,53,Syrian,MR,2023-11-16,,,IRM,,No,No,No,No,Yes,مقيمة بمرسين
-IJ,117,R1133,هناء,بكور,Female,52,Syrian,Rey,2023-11-16,,,IRM,,No,No,No,No,Yes,س
-IJ,118,R1147,وليد,عبد الله,Male,54,Syrian,Rey,2023-11-23,,,IRM,,No,No,No,Yes,No,
-IJ,119,R0759,فدوى,الجاسم,Female,45,Syrian,Rey,2023-11-23,,,IRM,,No,No,No,Yes,No,
-IJ,120,R0770,محمد,عبد الساتر,Male,32,Syrian,Rey,2023-11-23,,,IRM,,No,No,No,Yes,No,
-IJ,121,R0772,باسم,الشيخ حامد,Male,39,Syrian,Rey,2023-11-23,,,IRM,,No,No,No,Yes,Yes,
-IJ,122,R0576,ناهد,بكران,Female,38,Syrian,GTZ,2023-01-16,,,Family member or friend,,Yes,No,No,No,No,
-IJ,123,R0800,عائشة,كادورة,Female,18,Syrian,GTZ,2023-01-25,,,Family member or friend,,No,Yes,No,No,No,
-IJ,124,R0799,ندى,خليفة,Female,36,Syrian,GTZ,2023-01-26,,,Family member or friend,,Yes,No,No,No,No,
-IJ,125,R0797,خطر,عبد اللطيف,Female,48,Syrian,GTZ,2023-01-26,,,Family member or friend,,Yes,No,No,No,No,
-IJ,126,R0798,محمد,اسعد الاحمد,Male,53,Syrian,GTZ,2023-01-26,,,Family member or friend,,Yes,No,No,No,No,
-IJ,127,R0162,رغد,ابو راس,Female,21,Syrian,GTZ,2022-02-07,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,
-IJ,128,R1152,سامر,العبود,Male,35,Syrian,Rey,2023-11-28,,,IRM,,No,No,No,Yes,No,
-IJ,129,R1131,فاطمة,فياض,Female,23,Syrian,GTZ,2023-11-04,,,Family member or friend,,Yes,Yes,No,No,Yes,
-IJ,130,R1168,عبدالغني,كيالي,Male,43,Syrian,Rey,2023-12-14,,,IRM,,No,No,No,No,Yes,
-LA,1,R0605,كلثوم,اوسو,Female,47,Syrian,,2023-01-06,,,Family member or friend,,,,,,,خدمات متخصصة - اعادة تقييم 
-LA,2,R0589,ريما,الفياض,Female,50,Syrian,,2022-12-20,,2023-07-27,Family member or friend,,,,,,,TRW
-LA,3,R0603,قدرية,حمداني,Female,55,Syrian,,2022-12-22,,2023-08-03,Family member or friend,,,,,,,TRW
-LA,4,R0588,نجلاء,الفياض,Female,37,Syrian,,2022-12-14,,2023-07-21,Family member or friend,,,,,,,TRW
-LA,5,R0644,محلي,ماميك,Male,41,Syrian,,2023-04-05,,,Family member or friend,,,,,,,خدمات متخصصة
-LA,6,R0645,احسان,ماميك,Female,36,Syrian,,2023-04-05,,,Family member or friend,,,,,,,ورشة الزلزال وتقييم شامل  وتحويل الى محمد تركاوي
-LA,7,R0650,خديجة,عثمان,Female,21,Syrian,,2023-04-11,,,Family member or friend,,,,,,,TRW
-LA,8,R0649,عائشة,عيسى,Female,26,Syrian,,2023-04-11,,,Family member or friend,,,,,,,TRW
-LA,9,R0651,مفيدة,محمد,Female,57,Syrian,,2023-04-12,,,Family member or friend,,,,,,, ورشة الزلزال و TRW
-LA,10,R0719,محمد,سمسمية,Male,62,Syrian,,2023-05-12,,,IRM,,,,,,,خدمات متخصصة
-LA,11,R0717,حسان,عكوش,Male,46,Syrian,,2023-05-12,,,IRM,,,,,,,خدمات متخصصة
-LA,12,R0718,معتز,بكران,Male,51,Syrian,,2023-05-12,,,IRM,,,,,,,خدمات متخصصة
-LA,13,R0720,يامن,حسن,Male,35,Syrian,,2023-05-12,,,IRM,,Yes,,,,,خدمات متخصصة
-LA,14,R0708,هاني,اكيل,Male,33,Syrian,,2023-05-12,,,IRM,,Yes,,,,,خدمات متخصصة
-LA,15,R0732,محمد,الضويحي,Male,33,Syrian,,2023-05-23,,,IRM,,Yes,,,,,خدمات متخصصة
-LA,16,R0102,خديجة,رمضان,Female,37,Syrian,,,2023-06-19,,,,,,,,Yes,تقييم الزلازل
-LA,17,R0755,بشير,الهويدي,Male,38,Syrian,,2023-07-06,,,IRM,,,,,,Yes,خدمة اونلاين ( عثمانية ) 
-LA,18,R0744,انعام,الديب,Female,45,Syrian,,2023-07-06,,,IRM,,,,,Yes,,
-LA,19,R0745,خديجة,الزيدلاني,Female,33,Syrian,,2023-07-07,,,IRM,,,,,Yes,,خدمة اونلاين 
-LA,20,R0743,يقظان,الفاتح,Male,60,Syrian,,2023-07-07,,,IRM,,,,,Yes,,خدمة اونلاين ( انطاليا)
-LA,21,R0491,زهراء,الصباغ,Female,45,Syrian,,,,2023-07-28,Family member or friend,,,,,,,
-LA,22,R0631,ليلى,شاهين,Female,45,Syrian,,,,2023-07-28,Family member or friend,,,,,,,
-LA,23,R0768,رانيا,زعزور,Female,37,Syrian,,2023-07-25,,,IRM,,,,,Yes,,
-LA,24,R0826,مها,خلف,Female,43,Syrian,,2023-09-26,,,I/NGO or humanitarian organization,,Yes,No,No,No,Yes,
-LA,25,R0174,ماجدة,السبتي,Female,50,Syrian,,,,2023-08-07,,,No,Yes,No,No,No,
-LA,26,R0374,نهوى,مصطفى,Female,39,Syrian,,,,2023-08-17,Family member or friend,,No,Yes,No,No,No,
-LA,27,R0871,عهد,مكي,Male,35,Syrian,,2023-09-01,,,ADMSP member,,,,,,,
-LA,28,R0821,تهاني,القالش,Female,32,Syrian,,2023-09-04,,,Family member or friend,,No,No,Yes,No,Yes,
-LA,29,R0882,محمد,دعبول,Male,51,Syrian,,2023-09-05,,,IRM,,Yes,No,No,No,No,
-LA,30,R0895,فاروق,العلي,Male,40,Syrian,,2023-09-06,,,Family member or friend,,Yes,No,No,No,No,
-LA,31,R0904,محمد,حمدون,Male,38,Syrian,,2023-09-07,,,Family member or friend,,Yes,No,No,No,Yes,
-LA,32,R0896,احمد,نزال,Male,30,Syrian,,2023-09-07,,,Family member or friend,,Yes,No,No,No,Yes,
-LA,33,R0901,بهيجة,زرزون,Female,57,Syrian,,2023-09-08,,,Family member or friend,,No,Yes,No,No,No,
-LA,34,R0905,علي,العمر,Male,44,Syrian,,2023-09-08,,,Family member or friend,,No,No,No,No,Yes,
-LA,35,R0924,باسل,بورزان,Male,27,Syrian,,2023-09-11,,,IRM,,No,No,No,No,Yes,
-LA,36,R0925,ايمن,حسن,Male,38,Syrian,,2023-09-11,,,IRM,,Yes,No,No,Yes,Yes,
-LA,37,R0926,باسل,العبيد,Male,42,Syrian,,2023-09-11,,,IRM,,No,No,No,Yes,Yes,
-LA,38,R0936,نجاح,الخلف,Female,62,Syrian,,2023-09-19,,,IRM,,No,No,No,Yes,No,
-LA,39,R0939,انسام,خزام,Female,27,Syrian,,2023-09-19,,,IRM,,Yes,No,No,Yes,No,
-LA,40,R0935,هدى,مخيبر,Female,47,Syrian,,2023-09-28,,,IRM,,Yes,No,No,Yes,Yes,
-LA,41,R0881,عبدالحمن,عبد الله,Male,53,Syrian,GTZ,2023-10-03,,,IRM,,Yes,No,No,No,Yes,
-LA,42,R0314,رقية,الحسين,Female,41,Syrian,GTZ,,2023-10-09,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-LA,43,R0267,ندى,خالد,Female,48,Syrian,GTZ,,2023-10-09,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-LA,44,R0959,مصطفى,الهنداوي,Male,61,Syrian,GTZ,2023-10-12,,,IRM,,Yes,No,No,No,No,
-LA,45,R0971,يعرب,الخاطر,Male,52,Syrian,SF,2023-10-13,,,IRM,,No,No,No,No,Yes,
-LA,46,R0963,فاروق,دخيل,Male,63,Syrian,SF,2023-10-16,,,IRM,,No,No,No,No,Yes,
-LA,47,R0962,محمود,ابراهيم,Male,58,Syrian,SF,2023-10-16,,,IRM,,No,No,No,No,Yes,
-LA,48,R1020,رامي,المصري,Male,60,Syrian,SF,2023-10-17,,,Family member or friend,,Yes,No,No,Yes,Yes,
-LA,49,R1013,تركي,محمد,Male,45,Syrian,SF,2023-10-17,,,IRM,,No,No,No,No,Yes,
-LA,50,R0894,منذر,السلومي,Male,40,Syrian,GTZ,2023-10-18,,,IRM,,Yes,No,No,Yes,No,من سكان كلس 
-LA,51,R1014,عماد,الشاوي,Male,37,Syrian,SF,2023-10-18,,,IRM,,Yes,No,No,Yes,Yes,
-LA,52,R1073,خدوج,علي الشيخ,Female,40,Syrian,HT,2023-10-30,,,IRM,,No,No,No,Yes,Yes,
-LA,53,R1074,عبد الله,برادعي,Male,47,Syrian,HT,2023-10-30,,,IRM,,No,No,No,Yes,No,
-LA,54,R1075,حسين,النجار,Male,72,Syrian,HT,2023-10-30,,,IRM,,No,No,No,No,Yes,
-LA,55,R1072,زكريا,شحود,Male,40,Syrian,HT,2023-10-30,,,IRM,,No,Yes,No,No,No,
-LA,56,R1079,الاء احمد,نويران,Female,23,Syrian,SF,2023-10-31,,,Family member or friend,,No,No,Yes,No,Yes,
-LA,57,R1082,فدوى,قدور سليمان,Female,42,Syrian,HT,2023-11-01,,,IRM,,No,No,No,Yes,Yes,
-LA,58,R1083,فرح,السيد,Female,30,Syrian,HT,2023-11-01,,,IRM,,Yes,No,No,Yes,Yes,
-LA,59,R1084,ميادة,الحموي,Female,67,Syrian,HT,2023-11-02,,,IRM,,No,Yes,No,No,Yes,
-LA,60,R1085,محمد ملهم,فرحات,Male,30,Syrian,HT,2023-11-03,,,IRM,,No,No,No,Yes,No,
-LA,61,R1097,مروة,محمد,Female,29,Syrian,HT,2023-11-06,,,IRM,,No,No,No,No,Yes,
-LA,62,R1098,عبد القادر,سرحان,Female,67,Syrian,HT,2023-11-06,,,IRM,,No,No,No,Yes,Yes,
-LA,63,R1100,رفيدة,زيتون,Female,43,Syrian,HT,2023-11-07,,,IRM,,No,No,No,Yes,Yes,
-LA,64,R1101,نور,كحيل,Female,41,Syrian,HT,2023-11-07,,,IRM,,No,No,No,Yes,Yes,
-LA,65,R1104,عبد الرزاق,عثمان,Male,66,Syrian,HT,2023-11-07,,,IRM,,No,No,No,Yes,Yes,
-LA,66,R1109,فريدة,استيفان,Female,43,Syrian,HT,2023-11-08,,,IRM,,No,No,Yes,Yes,Yes,
-LA,67,R1111,نضال,مبارك,Male,36,Syrian,HT,2023-11-08,,,IRM,,No,Yes,No,No,No,
-LA,68,R0707,عمر,جمول,Male,52,Syrian,HT,2023-11-09,,,IRM,,No,No,No,No,Yes,
-LA,69,R1113,خالد,الياسين,Male,69,Syrian,HT,2023-11-09,,,IRM,,No,No,Yes,No,No,
-LA,70,R1114,عبد الرحمن,دولغن,Male,63,Other,HT,2023-11-09,,,IRM,,No,No,No,Yes,Yes,يحمل الجنسية التركية 
-LA,71,R1124,هيثم,خطاب,Male,57,Other,HT,2023-11-13,,,IRM,,No,Yes,No,No,No,يحمل الجنسية التركية 
-LA,72,R1125,سهام,الصيرفي,Female,48,Syrian,HT,2023-11-13,,,IRM,,No,No,No,Yes,Yes,
-LA,73,R1123,زياد,سريول,Male,29,Syrian,HT,2023-11-13,,,IRM,,No,Yes,No,No,No,يسكن ببورصة حاليا 
-LA,74,R1126,محمد,القاسم,Male,42,Syrian,HT,2023-11-13,,,IRM,,No,Yes,No,No,No,
-LA,75,R1127,احمد,هواش,Male,61,Syrian,HT,2023-11-13,,,IRM,,No,Yes,No,No,No,
-LA,76,R0775,ايهاب,السبع,Male,34,Syrian,HT,2023-11-14,,,IRM,,No,No,No,Yes,No,
-LA,77,R1130,محمد,تركي,Male,36,Syrian,GTZ,2023-11-21,,,IRM,,Yes,No,No,No,Yes,
-LA,78,R0773,خيرو,الأطرش,Male,73,Syrian,HT,2023-11-22,,,IRM,,No,No,No,Yes,No,
-LA,79,R1142,دعاء,منى,Female,28,Syrian,HT,2023-11-22,,,IRM,,No,No,No,No,Yes,
-LA,80,R1144,فيروز,شيخ حامد,Female,42,Syrian,HT,2023-11-22,,,IRM,,No,No,No,Yes,No,
-LA,81,R1145,وفاء,طوزان,Female,60,Syrian,MR,2023-11-22,,,IRM,,No,No,No,Yes,Yes,
-LA,82,R1146,سهام,شعبان,Female,32,Syrian,MR,2023-11-22,,,IRM,,No,No,No,Yes,Yes,
-LA,83,R0502,قدرية,الويس,Female,50,Syrian,GTZ,2023-12-04,,,Family member or friend,,Yes,No,No,No,No,
-LA,84,R1136,يوسف,العلي,Male,42,Syrian,HT,2023-11-27,,,IRM,,No,No,No,No,Yes,تم عمل السكريينغ بتاريخ 27-11-2023 ولكن تم ادخال البيانات بتاريخ 11-12-2023
-MT,1,R0627,محمد,ثابت,Male,59,Syrian,GTZ,2023-04-05,,,ADMSP member,,No,No,No,No,No,تم الاغلاق- غير محتاج للخدمة
-MT,2,R0629,نور,الزعبي,Female,25,Syrian,GTZ,2023-04-06,,,Family member or friend,,Yes,No,No,No,No,جلسات جماعي
-MT,3,R0646,سارة,صعب,Female,28,Syrian,GTZ,2023-04-06,,,Family member or friend,,No,No,No,No,No,تم الاغلاق- لاتريد الاستمرار
-MT,4,R0626,عزيزة,هنداوي,Female,33,Syrian,GTZ,2023-05-03,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,جلسات جماعي - جلسات زلزال
-MT,5,R0631,ليلى,شاهين,Female,45,Syrian,GTZ,2023-05-03,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,ورشة مقاومة الصدمات 
-MT,6,R0625,سمية,العلو,Female,26,Syrian,GTZ,2023-05-03,,,ADMSP beneficiary (current or former),,No,No,Yes,No,No,تم وضع خطة حماية وتحويلها للداعم الاجتماعي من أجل التحويل لسامز تم اجراء جلستين متابعة وتجديد للموعد بسبب عدم ذهابها للموعد الأول
-MT,7,R0712,محمد,منصور الأطرش,Male,41,Syrian,GTZ,2023-05-10,,,IRM,,Yes,No,No,No,No,محول من مشروع جبر الضرر- جلسات جماعي
-MT,8,R0715,محمد,ناموس,Male,34,Syrian,GTZ,2023-05-11,,,IRM,,Yes,No,No,No,Yes,محول من مشروع جبر الضرر- جلسات جماعي- زلزال لكن مشغول في الفترة الحالية
-MT,9,R0721,جلال,عبد العال,Male,45,Syrian,GTZ,2023-05-16,,,IRM,,Yes,No,No,No,No,محول من مشروع جبر الضرر- جلسات جماعي
-MT,10,R0722,محمد,كلاوي,Male,42,Syrian,GTZ,2023-05-16,,,IRM,,No,Yes,No,No,No,محول من مشروع جبر الضرر- ورشة مقاومة الصدمات
-MT,11,R0729,نذير,وتي,Male,36,Syrian,GTZ,2023-05-18,,,IRM,,No,Yes,No,No,No,محول من مشروع جبر الضرر - ورشة مقاومة الصدمات
-MT,12,R0057,رحاب,المصري,Male,39,Syrian,GTZ,,,2023-06-21,Family member or friend,,No,No,No,No,Yes,
-MT,13,R0623,علي,زين العابدين,Male,31,Syrian,GTZ,,2023-06-22,,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-MT,14,R0750,محمد غازي,سعيد,Male,73,Syrian,,2023-07-05,,,IRM,,No,No,No,No,No,صرح الشخص انه لا يريد تلقي أي خدمة من مركز العائلة وأن اموره بخير - كلس - جلسات توعية
-MT,15,R0748,كمال,شحادة,Male,71,Syrian,,2023-07-06,,,IRM,,No,No,No,No,No,صرح الشخص انه لا يريد تلقي أي خدمة من مركز العائلة وأن اموره بخير - كلس - جلسات توعية
-MT,16,R0382,وحيد,عبد الله,Male,59,Syrian,GTZ,,,2023-07-14,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-MT,17,R0327,شريفة,إبراهيم,Female,45,Syrian,GTZ,,,2023-06-14,ADMSP beneficiary (current or former),,Yes,Yes,No,No,No,
-MT,18,R0354,الاء,الجلم,Female,44,Syrian,GTZ,,,2023-06-14,ADMSP beneficiary (current or former),,No,Yes,No,No,No,
-MT,19,R0794,عمر,الجمال,Male,35,Syrian,GTZ,2023-06-04,,,IRM,,Yes,No,No,No,No,كنت قد نسيت تسجيله لذلك وضعته اليوم
-MT,23,R0865,لميا,الخالد,Female,36,Syrian,GTZ,2023-09-01,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-MT,24,R0869,نسرين,فهد,Female,40,Syrian,GTZ,2023-09-06,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-MT,25,R0870,سحر,العمر,Female,47,Syrian,GTZ,2023-09-06,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-MT,26,R0897,ندى,القيم,Female,53,Syrian,GTZ,2023-09-06,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-MT,27,R0913,آلاء,الديري,Female,27,Syrian,SF,2023-09-07,,,IRM,,No,No,No,Yes,No,
-MT,28,R0914,محمد زكريا,الحاج صقر,Male,66,Syrian,SF,2023-09-07,,,IRM,,No,No,No,Yes,No,
-MT,29,R0915,فاطمة,الحسن,Female,47,Syrian,SF,2023-09-07,,,IRM,,No,No,No,Yes,Yes,
-MT,30,R0916,ناصر,البدر,Male,53,Syrian,SF,2023-09-07,,,IRM,,No,No,No,No,Yes,
-MT,31,R0891,إبراهيم,اجفيف,Male,30,Syrian,GTZ,2023-09-10,,,IRM,,No,No,No,Yes,No,المستفيد من كلس والجلسة كانت اونلاين لكن لا يوجد خيار مدينة كلس
-MT,32,R0866,حسنا,عمر,Female,42,Syrian,GTZ,2023-09-11,,,ADMSP beneficiary (current or former),,No,No,No,No,No,لا تستطيع الحضور بسبب الالتزام بالعمل- اغلاق
-MT,33,R0879,محمد,السعيد,Male,41,Syrian,GTZ,2023-09-11,,,IRM,,Yes,No,No,No,No,
-MT,34,R0927,جميلة,الكردي,Female,38,Syrian,SF,2023-09-12,,,IRM,,No,No,No,No,No,لا ترغب بتلقي أي نوع من أنواع خدمة الدعم النفسي وترفض الإحالة لطبيب نفسي
-MT,35,R0928,عبد الفتاح,العجيل,Male,27,Syrian,SF,2023-09-13,,,IRM,,No,No,No,Yes,No,
-MT,36,R0701,محمد,حميش,Male,43,Syrian,SF,,2023-09-13,,IRM,,No,No,No,Yes,Yes,
-MT,37,R0929,خالد,مرزوك,Male,56,Syrian,SF,2023-09-13,,,IRM,,No,No,No,Yes,Yes,
-MT,38,R0561,نجاح,العبد الله,Female,53,Syrian,SF,,,2023-09-15,IRM,,No,No,Yes,No,No,تم اجراء سكريننغ سابقا وتم تحويلها لمنظمة سامز تاريخ السكريننغ السابق في الشهر العاشر 2022- وسيتم تحويلها مجددا بسب عدم القدرة على التدخل حاليا
-MT,39,R0930,ظافر,غزال,Male,64,Syrian,SF,2023-09-19,,,IRM,,No,No,No,No,No,لا يوحد لدية أي شكااية على المستوى النفسي وغير محتاج للخدمة
-MT,40,R0931,ريم,العواد,Female,46,Syrian,SF,2023-09-19,,,IRM,,No,No,No,Yes,No,
-MT,41,R0940,عصام,محملجي,Male,29,Syrian,SF,2023-09-19,,,IRM,,No,No,No,Yes,No,
-MT,42,R0934,علي,الكداب,Male,33,Syrian,SF,2023-09-25,,,IRM,,No,No,No,Yes,Yes,
-MT,43,R0747,عبد الله,الصطوف,Male,42,Syrian,GTZ,2023-10-03,,,IRM,,No,No,No,Yes,No,مقيم حاليا في ايلازاغ
-MT,44,R0751,غياث,زنكيح,Male,31,Syrian,GTZ,2023-10-03,,,IRM,,No,No,No,No,No,لا يوجد احتياج وليس عنده رغبة بتلقي الخدمة
-MT,45,R0856,جيهان,عبد العظيم,Female,34,Syrian,GTZ,2023-10-09,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,
-MT,46,R0892,أسماء,حميد التركي,Female,36,Syrian,GTZ,2023-10-09,,,IRM,,No,No,No,Yes,No,تقيم في كلس - من مشروع جبر الضرر
-MT,47,R0626,عزيزة,هنداوي,Female,34,Syrian,GTZ,,2023-10-09,,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-MT,48,R0631,ليلى,شاهين,Female,44,Syrian,GTZ,,2023-10-09,,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-MT,49,R0392,ليالي,الخليف,Female,41,Syrian,SF,2023-10-10,,,IRM,,No,No,No,Yes,No,
-MT,50,R0937,يزيد,الحاج,Male,30,Syrian,SF,2023-10-13,,,IRM,,No,No,No,Yes,No,
-MT,51,R0951,نورا,رباح,Female,41,Syrian,SF,2023-10-13,,,IRM,,No,No,No,Yes,Yes,
-MT,52,R1025,عبد الرزاق,الشحود,Male,22,Syrian,HT,2023-10-25,,,IRM,,No,No,No,Yes,No,
-MT,53,R1030,عوض,الزعبي,Male,48,Syrian,HT,2023-10-25,,,IRM,,No,No,No,Yes,No,
-MT,54,R1077,رحاب,نويران,Female,30,Syrian,SF,2023-10-30,,,ADMSP member,,No,No,No,No,Yes,
-MT,55,R1080,صدام,الجاسر,Male,47,Syrian,SF,2023-10-31,,,IRM,,No,No,No,No,Yes,
-MT,56,R1093,الاء,موريلي,Female,33,Syrian,HT,2023-11-06,,,IRM,,No,No,No,Yes,No,
-MT,57,R1102,نواف,شنتوت,Male,46,Syrian,HT,2023-11-07,,,IRM,,No,No,No,No,Yes,
-MT,58,R1103,ياسر,الضرغام,Male,54,Syrian,HT,2023-11-07,,,IRM,,No,No,No,No,Yes,
-MT,59,R1105,سوسن,لطوف,Female,42,Syrian,HT,2023-11-07,,,IRM,,No,No,No,No,Yes,
-MT,60,R0978,ياسمين,تركمان,Female,40,Syrian,GTZ,2023-10-16,,,I/NGO or humanitarian organization,,No,Yes,No,No,No,محولة من منظمة سامز تأخر الأدخال حتى تم مناقشة الحالة مع المشرف
-MT,61,R1128,يحيى,سيدة,Male,28,Syrian,GTZ,2023-11-15,,,IRM,,No,No,No,Yes,No,
-MT,62,R0688,منيرة,مطلق,Female,52,Syrian,GTZ,2023-11-15,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,
-MT,63,R0778,عبد الكريم,الصبوح,Male,40,Syrian,HT,2023-11-20,,,IRM,,No,No,No,Yes,No,
-MT,64,R0779,عبد الهادي,النجار,Male,34,Syrian,HT,2023-11-20,,,IRM,,No,No,No,Yes,No,
-MT,65,R1137,محمد,شعبان,Male,31,Syrian,HT,2023-11-20,,,IRM,,No,No,No,Yes,No,
-MT,66,R1138,بلال,التلاوي,Male,35,Syrian,HT,2023-11-20,,,IRM,,No,No,No,Yes,No,
-MT,67,R0777,محمد,عجينة,Male,53,Syrian,HT,2023-11-20,,,IRM,,No,No,No,No,Yes,
-MT,68,R1139,عمر,دويك,Male,31,Syrian,HT,2023-11-21,,,IRM,,No,No,No,Yes,No,
-MT,69,R1140,المثنى,المروح,Male,31,Syrian,HT,2023-11-21,,,IRM,,No,No,No,Yes,No,
-MT,70,R1141,عبد الرحمن,عثمان,Male,22,Syrian,HT,2023-11-22,,,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-MT,71,R1143,ملاك,عثمان اوغلو,Female,23,Syrian,HT,2023-11-22,,,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-MT,72,R1158,عبد الرحمن,خطاب,Male,74,Syrian,HT,2023-12-06,,,IRM,,No,No,No,No,Yes,
-MT,73,R0253,رويدا,القاسمي,Female,31,Syrian,HT,2023-12-06,,,IRM,,No,No,No,Yes,Yes,
-MT,74,R1159,أحمد,دوشانية,Male,49,Syrian,HT,2023-12-06,,,IRM,,No,No,No,No,No,
-MT,75,R1161,عماد,بكداش,Male,29,Syrian,HT,2023-12-06,,,IRM,,No,No,No,Yes,No,
-MT,76,R1157,طارق,الابرش,Male,37,Syrian,HT,2023-12-08,,,IRM,,No,No,No,No,Yes,
-MT,77,R1162,محمد,المحلي,Male,42,Syrian,HT,2023-12-13,,,IRM,,No,No,No,Yes,Yes,
-MT,78,R1160,نبيل,اندرون,Male,61,Syrian,HT,2023-12-13,,,IRM,,No,No,No,No,No,لا يرغب بتلقي الخدمة- اغلاق
-MT,79,R1163,قدري,الصوفي,Male,37,Syrian,HT,2023-12-13,,,IRM,,No,No,No,No,No,ليس لديه حاجة او رغبة- اغلاق
-MT,80,R1169,حاتم,الحاج أحمد,Male,38,Syrian,HT,2023-12-15,,,IRM,,No,No,No,No,No,ليس لديه حاجة او رغبة- اغلاق
-SA,1,R0050,عدوية,صباغ,Female,53,Syrian,,2021-04-14,,,I/NGO or humanitarian organization,جمعية الحياة ,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات
-SA,2,R0076,أديبة,شيخو,Female,43,Syrian,,2021-06-24,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,3,R0063,آمنة,رزوق,Female,41,Syrian,,2021-07-09,,,I/NGO or humanitarian organization,عائلات من أجل الحرية,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,4,R0131,رضوان,حياني,Male,35,Syrian,,2021-09-07,,,Family member or friend,,No,No,Yes,No,No,لا ينطبق مع خدماتنا-تم تحويله لجهة أخرى تناسب احتياجه
-SA,5,R0090,بسام,الوسي,Male,50,Syrian,,2021-10-05,,,I/NGO or humanitarian organization,سامز,Yes,No,No,No,No,تم  تحويله للخدمات المتخصصة
-SA,6,R0091,خزامى,حميدة,Female,45,Syrian,,2021-10-07,,,Family member or friend,,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,7,R0092,إيمان,الصالح,Female,46,Syrian,,2021-10-18,,,ADMSP member,,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,8,R0093,خليل,أحمد علي,Male,31,Syrian,,2021-10-18,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,تم تحويله لورشة مقاومة الصدمات
-SA,9,R0094,وفاء,السيد,Female,40,Syrian,,2021-10-19,,,Outreach session,جلسة تعريفية لفريق الرابطة في الآيدا,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,10,R0095,نوى,عطونو,Female,43,Syrian,,2021-10-20,,,Outreach session,جلسة تعريفية لفريق الرابطة في الآيدا,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة
-SA,11,R0102,خديجة,رمضان,Female,37,Syrian,,2021-11-03,,,Outreach session,جلسة توعية في مركز العائلة,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة
-SA,12,R0101,ليلى,ريحاوي,Female,65,Syrian,,2021-11-03,,,Outreach session,جلسة توعية في مركز العائلة,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة
-SA,13,R0104,فاطمة,الأحمد,Female,39,Syrian,,2021-11-05,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة
-SA,14,R0106,ديدار,علي,Female,42,Syrian,,2021-11-09,,,Social Media,,No,No,Yes,No,No,لا ينطبق مع خدماتنا- ترغب في التوثيق القاانوني
-SA,15,R0107,بشرى,طه,Female,31,Syrian,,2021-11-10,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,16,R0109,نديمة,المصري,Female,55,Syrian,,2021-11-16,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,17,R0114,إيباء,دوارة,Female,34,Syrian,,2021-11-19,,,Outreach session,جلسة توعية في مركز العائلة,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,18,R0111,ابتسام,مرعشلي,Female,41,Syrian,,2021-11-19,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,19,R0110,فريال,عيسى,Female,44,Syrian,,2021-11-19,,,Outreach session,جلسة تعريفية لفريق الرابطة في الآيدا,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,20,R0112,خديجة,دندل,Female,36,Syrian,,2021-11-19,,,Outreach session,جلسة تعريفية لفريق الرابطة في الآيدا,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,21,R0121,مفيدة,خواتمي,Female,34,Syrian,,2021-11-29,,2022-11-02,Outreach session,جلسة تعريفية لفريق الرابطة في الآيدا,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,22,R0125,نهلة,جبارة,Female,41,Syrian,,2021-12-02,,,Outreach session,جلسة توعية في مركز العائلة,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,23,R0124,نرجس,سعيد,Female,43,Syrian,,2021-12-02,,,Outreach session,جلسة توعية في مركز العائلة,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,24,R0128,أسمهان,سعيد رشيد,Female,47,Syrian,,2021-12-09,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,25,R0129,بشرى,محمد,Female,48,Syrian,,2021-12-13,,,Outreach session,جلسة توعية في مركز العائلة,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة
-SA,26,R0181,أحمد,رزوق,Male,18,Syrian,,2021-12-15,,,ADMSP member,,Yes,No,Yes,No,No,تم تحويله للخدمات المتخصصة
-SA,27,R0182,حليمة,خنوس,Female,41,Syrian,,2021-12-17,,,Family member or friend,,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات
-SA,28,R0009,نور,ديري,Female,26,Syrian,,2021-10-20,,,ADMSP beneficiary (current or former),,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات
-SA,29,R0122,آية,تيت,Female,25,Syrian,,2021-11-30,,,Outreach session,جلسة تعريفية لفريق الرابطة في الآيدا,Yes,No,Yes,No,No,تم تحويلها للخدمات المتخصصة-وتحويلها لسامز
-SA,30,R0100,أميرة,بكران,Female,45,Syrian,,2021-11-30,,,Outreach session,جلسة توعية في مركز العائلة,Yes,No,Yes,No,No,تم تحويلها للخدمات المتخصصة- وتحويلها لسامز
-SA,31,R0123,خولة,فرجاني,Female,51,Syrian,,2021-11-30,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,32,R0187,زليخة,الناصر,Female,40,Syrian,,2022-01-04,2023-10-06,,ADMSP member,,Yes,No,No,No,Yes,تم تحويلها للخدمات المتخصصة - الجلسة الثانية للسكريننغ كانت لتقييم الزلزال 
-SA,33,R0188,سهاد,عديل,Female,46,Syrian,,2022-01-04,,,ADMSP member,,,,,,,تم تحويلها للخدمات المتخصصة
-SA,34,R0066,غادة,عرجة,Female,55,Syrian,,2021-04-22,,,I/NGO or humanitarian organization,عائلات من أجل الحرية,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) 
-SA,35,R0190,ميساء,الجراقي,Female,48,Syrian,,2022-01-07,,,ADMSP member,,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,36,R0189,هالة,غزال,Female,58,Syrian,,2022-01-06,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة
-SA,37,R0191,لطيفة,حسناتو,Female,63,Syrian,,2022-01-07,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,38,R0049,شهناز,منلا,Female,47,Syrian,,2021-04-13,,,I/NGO or humanitarian organization,جمعية الحياة ,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) 
-SA,39,R0077,فاطمة,الحريري,Female,56,Syrian,,2021-06-30,,,Family member or friend,,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) 
-SA,40,R0088,ابراهيم,العلي,Male,51,Syrian,,2021-09-02,,,Social Media,,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) 
-SA,41,R0065,عروبة,دوارة,Female,56,Syrian,,2021-04-22,,,I/NGO or humanitarian organization,عائلات من أجل الحرية,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) 
-SA,42,R0133,حليمة,عابد,Female,46,Syrian,,2022-03-02,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة-مسؤول السكريننغ محمد
-SA,43,R0194,فاطمة,شواخ,Female,43,Syrian,,2022-03-02,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة-وتحويلها للتوثيق وخدمات غير نفسية- مسؤول السكريننغ محمد
-SA,44,R0361,آمنة,عبد السلام,Female,23,Syrian,,2022-03-08,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,45,R0357,ضحى,مبيض,Female,41,Syrian,,2022-03-09,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة-وتحويلها للتوثيق وخدمات غير نفسية
-SA,46,R0221,عائشة,خالد الحمد,Female,38,Syrian,,2022-03-09,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة-وتحويلها لسامز
-SA,47,R0174,ماجدة,السبتي,Female,48,Syrian,,2022-03-09,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,48,R0208,رسمية,محمد أمين,Female,65,Syrian,,2022-03-09,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة-إحالة لسامز للعلاج الفيزيائي
-SA,49,R0226,مها,الكردي,Female,60,Syrian,,2022-03-09,,,ADMSP member,,,,,,,تم تحويلها للخدمات المتخصصة
-SA,50,R0360,هدى,نور أوزدمير,Female,45,Syrian,,2022-03-09,,,Family member or friend,,,,,,,لا تنطبق مع خدماتنا-تم توجيهها لسامز لتلقي الخدمة المناسبة
-SA,51,R0259,مياس,عمر,Female,37,Syrian,,2022-03-10,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة
-SA,52,R0285,مزجين,أوزترك,Female,26,Syrian,,2022-03-10,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,53,R0224,غفران,جزار,Female,31,Syrian,,2022-03-10,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة
-SA,54,R0258,نورس,عبد الكريم جبر,Female,41,Syrian,,2022-03-10,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,55,R0235,سامر,عبود,Male,45,Syrian,,2022-03-11,,,ADMSP member,,,,,,,تم تحويله للخدمات المتخصصة
-SA,56,R0400,فاطمة,عايد,Female,53,Syrian,,2022-03-15,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة - التوثيق القانوني 
-SA,57,R0247,فاطمة,شوكة,Female,56,Syrian,,2022-03-15,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة - التوثيق القانوني 
-SA,58,R0362,إيمان,عبد السلام,Female,26,Syrian,,2022-03-25,,,ADMSP beneficiary (current or former),,,,,,,تحويل للخدمات المتخصصة
-SA,59,R0352,محمود,السبيني,Male,35,Syrian,,2022-03-28,,,I/NGO or humanitarian organization,سامز,,,,,,تم تحويله للخدمات المتخصصة- للتوثيق القانوني
-SA,60,R0218,فدوى,نعمة,Female,26,Syrian,,2022-03-28,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,61,R0365,إيمان,قاسم,Female,37,Syrian,,2022-03-28,,,I/NGO or humanitarian organization,سامز,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,62,R0335,هنادي,عجيل,Female,35,Syrian,,2022-03-30,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,63,R0210,كفاء,رمضان,Female,51,Syrian,,2022-03-31,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,64,R0401,أسماء,حسين,Female,55,Syrian,,2022-03-31,,,Family member or friend,,,,,,,لا تنطبق مع خدماتنا
-SA,65,R0406,إبتسام,غزال,Female,50,Syrian,,2022-04-01,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,66,R0409,ابتهال,كعكة,Female,40,Syrian,,2022-04-05,,,Family member or friend,,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,67,R0213,ذكاء,نعمة,Female,45,Syrian,,2022-04-05,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة
-SA,68,R0257,غفران,خالد,Female,22,Syrian,,2022-04-07,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,69,R0411,إتحاد,حسن السيد,Female,51,Syrian,,2022-04-07,,,Social Media,,,,,,,تم تحويلها للخدمات المتخصصة-إحالة لسامز للطبيب النفسي
-SA,70,R0317,رهف,الأحمر,Female,37,Syrian,,2022-04-11,,,Family member or friend,,,,,,,تم تحويلها لورشة مقاومة الصدمات- وتزويدها برقم سامز لإبنها
-SA,71,R0269,منار,خالد نديوي,Female,44,Syrian,,2022-04-12,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات 
-SA,72,R0277,عبد,الرزاق هلال,Male,62,Syrian,,2022-04-13,,,Family member or friend,,,,,,,تم تحويله لورشة مقاومة الصدمات - التوثيق القانوني
-SA,73,R0283,ميادة,يوسف,Female,46,Syrian,,2022-04-13,,,Family member or friend,,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,74,R0237,هدى,عبد الفتاح طالب,Female,42,Syrian,,2022-04-14,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,75,R0231,نجلاء,العويدات,Female,26,Syrian,,2022-04-18,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة
-SA,76,R0281,مريم,طالب,Female,21,Syrian,,2022-04-18,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,77,R0293,مرح,محمد,Female,23,Syrian,,2022-04-19,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات-التوثيق القانوني
-SA,78,R0347,أسمهان,سلو,Female,27,Syrian,,2022-04-20,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة
-SA,79,R0346,فضيلة,حمدني,Female,30,Syrian,,2022-04-20,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة
-SA,80,R0238,سميرة,نعسان قويدر,Female,56,Syrian,,2022-04-22,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,81,R0336,إيمان,محمد,Female,41,Syrian,,2022-04-25,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,82,R0326,أسماء,محمد عزيزة,Female,32,Syrian,,2022-04-27,,2023-08-08,Family member or friend,,Yes,,,,,تم تحويلها لورشة مقاومة الصدمات - بجلسة إعادة السكريننغ تم تحويلها للجلسات الجماعية العلاجية
-SA,83,R0423,مطيعة,شريف,Female,61,Syrian,,2022-04-29,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,84,R0430,منصور,الصيني,Male,39,Syrian,,2022-05-11,,,I/NGO or humanitarian organization,تعافي,,,,,,تم تحويله للخدمات المتخصصة
-SA,85,R0438,هدى,طقطق,Female,30,Syrian,,2022-05-17,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,86,R0439,إيمان,الصيني,Female,37,Syrian,,2022-05-17,,,ADMSP beneficiary (current or former),,,,,,,تم تحويها للخدمات المتخصصة
-SA,87,R0308,هيام,بادنجكي,Female,59,Syrian,,2022-05-27,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة- تم التواصل معها للتقييم ، لا تستطيع الحضور  بالمواصلات العامة
-SA,88,R0310,غنوة,سواس,Female,55,Syrian,,2022-05-27,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة
-SA,89,R0311,ريم,كرمان,Female,39,Syrian,,2022-05-27,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,90,R0315,نعيمة,الحمد,Female,54,Syrian,,2022-06-06,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,91,R0455,مريم,الحسين,Female,41,Syrian,,2022-06-06,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,92,R0330,مها,ريحاوي,Female,41,Syrian,,2022-06-06,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,93,R0441,فاطمة,حسن الأحمد,Female,43,Syrian,,2022-06-03,,,Family member or friend,,,,,,,تم تحويلها للخدمات المتخصصة
-SA,94,R0444,فاطمة,حج علي,Female,29,Syrian,,2022-06-06,,2023-06-22,ADMSP beneficiary (current or former),,Yes,,,,Yes,تم تحويلها للخدمات المتخصصة
-SA,95,R0340,وردة,حمدان,Female,24,Syrian,,2022-06-08,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,96,R0486,زكريا,هدلة,Female,55,Syrian,,2022-06-17,,,ADMSP beneficiary (current or former),,,,,,,تم تحويله للخدمات المتخصصة
-SA,97,R0391,رقية,عبد الله,Female,44,Syrian,,2022-06-20,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة
-SA,98,R0382,وحيد,عبد الله,Male,58,Syrian,,2022-06-20,,,ADMSP beneficiary (current or former),,,,,,,تم تحويله للخدمات المتخصصة
-SA,99,R0485,أحمد,الصيني,Male,44,Syrian,,2022-06-20,,,ADMSP beneficiary (current or former),,,,,,,تم تحويله للخدمات المتخصصة
-SA,100,R0390,هناء,خطيب,Female,54,Syrian,,2022-06-20,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة
-SA,101,R0378,عائشة,الخاطر,Female,38,Syrian,,2022-06-22,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,102,R0387,ختام,كحلاوي,Female,34,Syrian,,2022-06-30,,,Outreach session,جلسة توعية في مركز العائلة,Yes,,,,,تم تحويلها للخدمات المتخصصة
-SA,103,R0388,ثريا,النجار,Female,56,Syrian,,2022-06-30,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها لورشة مقاومة الصدمات- التوثيق القانوني
-SA,104,R0503,جواهر,حشيشو,Female,51,Syrian,,2022-07-05,,,Family member or friend,,,,,,,تم تحويلها لورشة مقاومة الصدمات - تحويل لسامز لخدمة الطبيب النفسي
-SA,105,R0458,مروة,عدنان عشموطي,Female,34,Syrian,,2022-07-19,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,106,R0466,انتصار,دعاس,Female,46,Syrian,,2022-07-27,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,107,R0513,عدوية,عيد,Female,32,Syrian,,2022-07-28,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,108,R0323,دلال,الحسن,Female,52,Syrian,,2022-08-18,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,109,R0519,سارة,نديوي,Female,19,Syrian,,2022-08-18,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,110,R0473,منال,محمد,Female,23,Syrian,,2022-08-18,,2023-06-22,Outreach session,جلسة توعية في مركز العائلة,Yes,,,,Yes,تم تحويلها للخدمات المتخصصة
-SA,111,R0379,سوسن,الأسود,Female,52,Syrian,,2022-08-19,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات-للتوثيق القانوني من أجل أخيها المفقود
-SA,112,R0386,فهيمة,شيخ إبراهيم,Female,51,Syrian,,2022-08-22,,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,113,R0331,جيزان,عبد الله جار الله,Female,40,Syrian,,2022-08-24,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,114,R0507,بسمة,الحريري,Female,28,Syrian,,2022-08-29,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,115,R0526,نوال,السليم,Female,58,Syrian,,2022-08-29,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,116,R0484,سمية,مروح,Female,50,Syrian,,2022-09-01,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها لورشة مقاومة الصدمات
-SA,117,R0527,أحمد,أبو عابد,Male,18,Syrian,,2022-09-01,,,ADMSP beneficiary (current or former),,,,,,,تم تحويله لورشة مقاومة الصدمات- تحويل لسامز لتلقي جلسات دعم نفسي
-SA,118,R0528,وائل,يسقي,Male,33,Syrian,,2022-09-07,,,I/NGO or humanitarian organization,LDHR,,,,,,تم تحويله للخدمات المتخصصة
-SA,119,R0532,راما,أبو راس,Female,23,Syrian,,2022-09-14,,,ADMSP beneficiary (current or former),,,,,,,لا تنطبق مع خدماتنا-تم تزويدها برقم خدمة نفسية في إسطنبول لأنها عائدة لاسطنبول
-SA,120,R0535,هالة,أكتيش,Female,28,Other,,2022-09-29,,,ADMSP beneficiary (current or former),,,,,,,لا تنطبق مع خدماتنا-تم توجيهها لسامز لتلقي الخدمة المناسبة
-SA,121,R0534,دلال,الجادر,Female,37,Syrian,,2022-09-30,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,122,R0553,أمارة,الضاهر,Female,31,Syrian,,2022-10-03,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,123,R0393,زهراء,علوش,Female,48,Syrian,,2022-10-10,2023-09-09,,Outreach session,جلسة توعية في مركز العائلة,,,,,,تم تحويلها للخدمات المتخصصة- جلسة السكريننغ الثانية كانت لتقييم بعد الزلزال
-SA,124,R0558,فيصل,بلال براز,Male,49,Syrian,,2022-10-21,,,ADMSP beneficiary (current or former),,,,,,,لا ينطبق مع خدماتنا-تم تزويده برقم تواصل لسامز لتلقي الخدمة المناسبة
-SA,125,R0540,غزالة,سقا عكة,Female,46,Syrian,,2022-10-25,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة
-SA,127,R0582,حمزة,الحريري,Male,32,Syrian,,2022-12-08,,2023-06-22,ADMSP member,,Yes,,,,Yes,تم تحويله للخدمات المتخصصة
-SA,128,R0591,نور,العلبي,Female,31,Syrian,,2022-12-12,,,ADMSP beneficiary (current or former),,,,,,,تم تحويلها للخدمات المتخصصة-والعلاج الطبيعي
-SA,129,R0599,بسام,محمد,Male,56,Syrian,,2022-12-28,,2023-07-06,ADMSP beneficiary (current or former),,Yes,,,,Yes,تم تحويله للخدمات المتخصصة
-SA,130,R0203,أنس,عبد الله,Male,37,Syrian,,2022-12-28,,2023-07-06,ADMSP beneficiary (current or former),,Yes,,,,Yes,تم تحويله للخدمات المتخصصة
-SA,131,R0592,مهند,صعب,Male,30,Syrian,,2022-12-21,,,ADMSP member,,,,,,,تم تحويله للخدمات المتخصصة
-SA,132,R0633,جميلة,منصور,Female,48,Syrian,,2023-01-05,,,ADMSP beneficiary (current or former),,Yes,,,,,تم تحويله للخدمات المتخصصة
-SA,133,R0707,عمر,جمول,Male,52,Syrian,,2023-04-29,,,IRM,,Yes,No,No,No,Yes,تم تحويله للخدمات المتخصصة-لورشة الزلزال
-SA,134,R0623,زين,العابدين العلي,Male,31,Syrian,,2023-05-03,,,ADMSP beneficiary (current or former),,,,,,,تم تحويله للخدمات المتخصصة
-SA,135,R0701,محمد,حميش,Male,43,Syrian,,2023-05-06,,,IRM,,Yes,No,No,No,No,تم تحويله للخدمات المتخصصة
-SA,136,R0705,أماني,عموري,Female,36,Syrian,,2023-05-09,,,IRM,,No,No,No,Yes,Yes,مقيمة خارج عنتاب
-SA,137,R0711,ممدوح,عبد القادر,Male,52,Syrian,,2023-05-11,,,IRM,,No,Yes,No,No,No,تم تحويله لورشة مقاومة الصدمات
-SA,138,R0365,إيمان,القاسم,Female,43,Syrian,,,,2023-05-11,IRM,,No,No,No,No,No,غير مهتمة بخدمة الدعم النفسي 
-SA,139,R0742,ولاء,الخطيب,Female,32,Syrian,,2023-06-23,,,IRM,,No,Yes,No,No,No,مقيمة خارج عنتاب
-SA,140,R0057,رحاب,المصري,Female,38,Syrian,,2023-05-11,,,IRM,,Yes,,,,,تم تحويلها للخدمات المتخصصة 
-SA,141,R0406,ابتسام,غزال,Female,51,Syrian,,,,2023-05-11,IRM,,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات
-SA,142,R0102,خديجة,رمضان,Female,38,Syrian,,,,2023-05-17,IRM,,,,,,Yes,تم تحويلها لورشة الزلزال
-SA,143,R0749,بشير,العبدو,Male,38,Syrian,MR,2023-06-15,,,IRM,,No,No,No,Yes,No,مقيم خارج غنتاب
-SA,144,R0725,ربى,قطشة,Female,33,Syrian,,2023-06-16,,,IRM,,Yes,No,No,No,Yes,تم عمل خطة أمان لوجود محاولات انتحار - تقييم الزلازل بعد التقييم 
-SA,145,R0757,أحمد,برو,Male,59,Syrian,,2023-06-19,,,IRM,,No,No,No,No,No,غير مهتم بخدمة الدعم النفسي 
-SA,146,R0487,رياض,أسعد,Male,59,Syrian,,,,2023-06-21,,,No,No,No,No,Yes,
-SA,147,R0117,آية,حمد,Female,26,Syrian,,,,2023-06-21,,,No,No,No,No,Yes,
-SA,148,R0795,محمد,حلوم,Male,37,Syrian,,2023-06-23,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,
-SA,149,R0855,آمنة,سلامة,Female,42,Syrian,,2023-08-17,,,ADMSP member,,Yes,No,No,No,No,محولة من قسم التوثيق - ستكون في سوريا خلال 4 أشهر القادمة - سيتم التواصل معها بعد عودتها للتقييم
-SA,150,R0825,أسعد,محمد,Male,54,Syrian,,2023-08-17,,,ADMSP member,,Yes,No,No,No,No,محول من قسم التوثيق - تم تحويله للجلسات العلاجية الجماعية
-SA,151,R0585,هناء,قشعم,Female,53,Syrian,,2023-09-01,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,تم أيضاً تقييم بعد الزلزال بعد السكريننغ مباشرة
-SA,152,R0860,رانيا,غرير,Female,40,Syrian,,2023-09-01,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-SA,153,R0864,فدوى,حفيان,Female,44,Syrian,,2023-09-01,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,
-SA,154,R0863,صالحة,عطية,Female,50,Syrian,,2023-09-01,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-SA,155,R0906,عبد الله,الخطاب,Male,36,Syrian,,2023-09-05,,,IRM,,Yes,No,Yes,No,No,بحاجة لخدمات الصحة النفسية - تم تحويله لسامز لتلقي الخدمة وخاصة الدوائية
-SA,156,R0887,محمد,مدلج,Male,68,Syrian,,2023-09-06,,,IRM,,Yes,No,No,No,No,بحاجة لخدمات الصحة النفسية - إذا كان هناك كروب في كلس ممكن ضمه للكروب-لا يرغب ب Tele
-SA,157,R0888,عهد,اسماعيل,Female,29,Syrian,,2023-09-06,,,IRM,,Yes,No,No,No,No, ترغب بالخدمة النفسية من قبلنا إذا توفرت في كلس - ليس لديها مشكلة في الحضور لعنتاب لتلقي العلاج النفسي
-SA,158,R0910,أمينة,اسماعيل,Female,47,Syrian,,2023-09-06,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No, ترغب بالخدمة النفسية من قبلنا إذا توفرت في كلس - ليس لديها مشكلة في الحضور لعنتاب لتلقي العلاج النفسي
-SA,159,R0912,حسناء,عيد,Female,21,Syrian,,2023-09-07,,,ADMSP beneficiary (current or former),,No,No,Yes,No,No,لا تنطبق مع خدماتنا- تم تزويدها برقم تواصل مع سامز لتلقي الخدمة المناسبة
-SA,160,R0889,أحمد,الإمام,Male,47,Syrian,,2023-09-07,,,IRM,,Yes,No,No,Yes,No,
-SA,161,R0890,عبد القادر,حمشو,Male,53,Syrian,,2023-09-08,,,IRM,,No,No,No,No,No,المراجع ليس بحاجة لأي خدمة نفسية 
-SA,162,R0907,خديجة,دندل,Female,43,Syrian,,2023-09-08,,,ADMSP beneficiary (current or former),,No,Yes,Yes,No,Yes,
-SA,163,R0909,أحمد,الفارس,Male,39,Syrian,,2023-09-08,2023-09-27,,ADMSP beneficiary (current or former),,No,Yes,No,No,Yes,
-SA,164,R0918,عامر,محمد,Male,62,Syrian,SF,2023-09-08,,,IRM,,Yes,No,No,Yes,No,
-SA,165,R0917,محمد,مطلق,Male,26,Syrian,GTZ,2023-09-08,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-SA,166,R0702,حسن,علي خلف,Male,37,Syrian,SF,,,2023-09-12,IRM,,Yes,No,No,Yes,,لم يجري تقييم الزلزال بعد - يرغب بحضور الجلسات العلاجية إن كانت ستتم في أورفا
-SA,167,R0505,حسناء,حسكل,Female,53,Syrian,GTZ,,,2023-10-13,Family member or friend,,Yes,No,No,No,No,
-SA,168,R0993,هاندي,حسين,Female,37,Syrian,SF,2023-10-13,,,IRM,,No,No,No,Yes,Yes,
-SA,169,R0992,عمر,الخلف,Male,51,Syrian,SF,2023-10-16,,,IRM,,No,No,No,No,Yes,
-SA,170,R0510,غالية,شحرور,Female,60,Syrian,GTZ,2022-09-01,,,Family member or friend,,Yes,No,No,No,No,
-SA,171,R1021,زياد,محمد,Male,39,Syrian,GTZ,2023-10-23,2023-10-26,,ADMSP member,,Yes,No,No,No,Yes,
-SA,172,R1024,نظيرة,محمد,Female,30,Syrian,GTZ,2023-10-24,2023-10-26,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-SA,173,R1026,محمد,خطاب,Male,46,Syrian,Rey,2023-10-24,,,IRM,,No,No,No,No,Yes,
-SA,174,R1027,إيمان,المحمود,Female,26,Syrian,Rey,2023-10-24,,,IRM,,No,Yes,No,No,No,
-SA,175,R1028,أيمن,الدرغام,Male,32,Syrian,Rey,2023-10-24,,,IRM,,No,No,No,No,Yes,
-SA,176,R1029,هبة,أوغلو,Female,37,Syrian,Rey,2023-10-24,,,IRM,,No,No,No,No,Yes,
-SA,177,R1023,باري,عبد اللطيف,Male,41,Syrian,GTZ,2023-10-25,,,I/NGO or humanitarian organization,,Yes,No,No,No,No,
-SA,178,R1032,عائشة,خوالدة,Female,48,Syrian,GTZ,2023-10-25,,,ADMSP beneficiary (current or former),,No,Yes,No,No,Yes,
-SA,179,R1076,زيلان,مصطفى,Female,27,Syrian,GTZ,2023-10-30,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,
-SA,180,R1118,محمد,سامر صالح,Male,53,Syrian,Rey,2023-11-10,,,IRM,,No,No,No,No,No,تقييمه النفسي لا يستدعي الدعم والعلاج النفسي
-SA,181,R1119,حميدة,خليف,Female,62,Syrian,Rey,2023-11-10,,,IRM,,No,No,No,Yes,Yes,
-SA,182,R1120,فدوى,زينة,Female,51,Syrian,Rey,2023-11-10,,,IRM,,No,No,No,Yes,No,
-SA,183,R1121,أحمد,الراغب,Male,40,Syrian,Rey,2023-11-10,,,IRM,,No,Yes,No,No,No,
-SA,184,R1122,أيمن,المحيميد,Male,36,Syrian,Rey,2023-11-10,,,IRM,,No,No,No,Yes,No,
-SA,185,R1132,وفاء,عبود,Female,42,Syrian,GTZ,2023-11-17,,,ADMSP member,,Yes,No,No,No,Yes,
-SA,186,R1151,محمد,منى,Male,42,Syrian,HT,2023-11-24,,,IRM,,No,Yes,No,No,Yes,
-SA,187,R1153,هيثم,العمر,Male,43,Syrian,HT,2023-11-24,,,IRM,,No,No,No,Yes,Yes,
-SA,188,R1148,هشام,سويد,Male,68,Syrian,HT,2023-11-24,,,IRM,,No,No,No,Yes,No,موجود حالياً في قيصري 
-SA,189,R1150,خالد,قاسم,Male,30,Syrian,HT,2023-11-24,,,IRM,,No,No,No,Yes,No,
-SA,190,R1149,عبد الكافي,سليم,Male,38,Syrian,Rey,2023-11-24,,,IRM,,No,No,No,Yes,Yes,
-SA,191,R1154,رويدة,ماميك,Female,48,Syrian,GTZ,2023-12-06,,,ADMSP beneficiary (current or former),,Yes,No,No,No,No,
-SA,192,R1164,ماجد,حج سليمان,Male,56,Syrian,HT,2023-12-14,,,IRM,,No,No,No,Yes,No,
-SA,193,R1165,حامد,النابو,Male,38,Syrian,Rey,2023-12-14,,,IRM,,No,No,No,No,Yes,
-SA,194,R1166,محمد,المحمد,Male,28,Syrian,HT,2023-12-14,,,IRM,,No,No,No,No,No,
-SA,195,R1167,لؤي,قدور,Male,29,Syrian,HT,2023-12-14,,,IRM,,No,No,No,Yes,No,
-YQ,1,R0028,جميلة,مصطفى,Female,48,Syrian,,2020-06-23,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,2,R0031,يحيى,يحيى,Male,59,Syrian,,2020-07-02,,,Social Media,,,,,,,
-YQ,3,R0034,محمد,موفق مرجان,Male,34,Syrian,,2020-07-03,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,4,R0029,ميساء,جمعة,Female,46,Syrian,,2020-06-24,,,I/NGO or humanitarian organization,MASSARAT ,,,,,,
-YQ,5,R0055,تيم,سيوفي,Male,26,Syrian,,2020-12-08,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,6,R0043,ميساء,حديدي,Female,40,Syrian,,2020-12-17,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,7,R0039,بارعة,زبيدي,Female,43,Syrian,,2020-11-10,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,8,R0046,منيب,نصار,Male,19,Syrian,,2021-01-06,,,I/NGO or humanitarian organization,تعافي,,,,,,
-YQ,9,R0062,سوسن,دومان,Female,48,Syrian,,2021-04-21,,,I/NGO or humanitarian organization,عائلات من أجل الحرية ,,,,,,
-YQ,10,R0061,خديجة,كوسا,Female,45,Syrian,,2021-04-21,,,I/NGO or humanitarian organization,عائلات من أجل الحرية ,,,,,,
-YQ,11,R0084,خالد,الأغا,Male,56,Syrian,,2021-08-12,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,12,R0096,عائشة,إبراهيم,Female,39,Syrian,,2021-10-21,,,Outreach session,,,,,,,
-YQ,13,R0097,أمينة,محمد,Female,31,Syrian,,2021-10-22,,,Family member or friend,,,,,,,
-YQ,14,R0098,غالية,منلا,Female,32,Syrian,,2021-10-22,,,Family member or friend,,,,,,,
-YQ,15,R0099,أحمد,دخان,Male,55,Syrian,,2021-10-27,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,16,R0103,مروة,رحمون,Female,24,Syrian,,2021-11-04,,,Outreach session,,,,,,,
-YQ,17,R0105,نورا,ماملي,Female,33,Syrian,,2021-11-09,,,Family member or friend,,,,,,,
-YQ,18,R0132,معينة,ديري,Female,40,Syrian,,2021-11-09,,,Outreach session,,,,,,,
-YQ,19,R0108,منى,العمر,Female,53,Syrian,,2021-11-11,,,Outreach session,,,,,,,
-YQ,20,R0113,نبيهة,حسن,Female,42,Syrian,,2021-11-19,,,Outreach session,,,,,,,
-YQ,21,R0115,رقية,عبيد,Female,34,Syrian,,2021-11-22,,,Outreach session,,,,,,,
-YQ,22,R0127,جوهرة,إبراهيم,Female,44,Syrian,,2021-12-06,,,Outreach session,,,,,,,
-YQ,23,R0183,رفيق,الخنوس,Male,48,Syrian,,2021-12-17,,2023-06-21,Outreach session,,,,,,Yes,
-YQ,24,R0184,أمل,العلي,Female,42,Syrian,,2021-12-21,,,Outreach session,,,,,,,
-YQ,25,R0185,محمد,رمضان,Male,35,Syrian,,2021-12-22,2023-10-09,,Outreach session,,Yes,No,No,No,Yes,
-YQ,26,R0186,مريم,الشيخ محمد,Female,46,Syrian,,2021-12-22,,,Outreach session,,,,,,,
-YQ,27,R0118,فاطمة,علي سليمان,Female,43,Syrian,,2021-11-25,2023-10-09,,Outreach session,,Yes,No,No,No,Yes,
-YQ,28,R0120,رعد,دندل,Male,44,Syrian,,2021-11-29,,2023-06-21,Outreach session,,Yes,No,No,No,Yes,
-YQ,29,R0089,حنان,جزار,Female,43,Syrian,,2021-09-03,,,Family member or friend,,,,,,,
-YQ,30,R0071,صباح,حمادة,Female,39,Syrian,,2021-06-18,,,Family member or friend,,,,,,,
-YQ,31,R0069,أمينة,الغلاص,Female,44,Syrian,,2021-06-16,,,Family member or friend,,,,,,,
-YQ,32,R0083,منال,المصري,Female,36,Syrian,,2021-08-05,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,33,R0070,هيفاء,العبد الله,Female,42,Syrian,,2021-06-16,,,Family member or friend,,,,,,,
-YQ,34,R0078,جميلة,حويلي,Female,40,Syrian,,2021-07-06,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,35,R0119,ياسمين,العمر,Female,23,Syrian,,2021-11-25,,,Outreach session,,,,,,,
-YQ,36,R0126,رقية,القيم,Female,46,Syrian,,2021-12-06,,,Outreach session,,,,,,,
-YQ,37,R0155,نابغة,عبد اللطيف,Female,51,Syrian,,2022-01-10,,,Outreach session,,,,,,,
-YQ,38,R0251,سعاد,بكور,Female,45,Syrian,,2022-02-03,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,39,R0245,علية,شيخ محمد,Female,43,Syrian,,2022-01-31,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,40,R0263,نصرة,كبير,Female,48,Syrian,,2022-02-08,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,41,R0268,رانية,نديوي,Female,46,Syrian,,2022-02-09,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,42,R0273,مريم,الأسود,Female,47,Syrian,,2022-02-10,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,43,R0157,فوزية,غش,Female,56,Syrian,,2022-02-16,,,Outreach session,,,,,,,
-YQ,44,R0147,سارية,مروح,Female,29,Syrian,,2022-01-11,,,Outreach session,,,,,,,
-YQ,45,R0156,فاطمة,مروح,Female,26,Syrian,,2022-01-11,,,Outreach session,,,,,,,
-YQ,46,R0206,نعمة,الصغير,Female,28,Syrian,,2022-01-14,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,47,R0140,مريم,المحمود,Female,56,Syrian,,2022-01-14,,,Family member or friend,,,,,,,
-YQ,48,R0192,هدية,طالب,Female,45,Syrian,,2022-01-17,,,Outreach session,,,,,,,
-YQ,49,R0214,وفاء,رجو,Female,41,Syrian,,2022-01-17,,,Outreach session,,,,,,,
-YQ,50,R0198,فطومة,الشيخ محمد,Female,40,Syrian,,2022-01-17,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,51,R0151,مرشة,عبد ربه,Female,65,Syrian,,2022-01-17,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,52,R0215,أميرة,ريحاوي,Female,40,Syrian,,2022-01-18,,,Outreach session,,,,,,,
-YQ,53,R0196,أسماء,بكار,Female,42,Syrian,,2022-01-18,,,Outreach session,,,,,,,
-YQ,54,R0217,مسياء,نعمة,Female,47,Syrian,,2022-02-01,,,Outreach session,,,,,,,
-YQ,55,R0230,عزيزة,حسن,Female,42,Syrian,,2022-02-02,,,Family member or friend,,,,,,,
-YQ,56,R0254,جملية,عمر,Female,39,Syrian,,2022-02-07,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,57,R0138,أمل,يوسف,Female,31,Syrian,,2022-02-25,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,58,R0146,سماح,صالح,Female,31,Syrian,,2022-02-16,,,Outreach session,,,,,,,
-YQ,59,R0173,خديجة,يوسف,Female,38,Syrian,,2022-02-25,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,60,R0200,خولة,عبد القادر,Female,21,Syrian,,2022-03-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,61,R0199,جليلة,الشاهر,Female,51,Syrian,,2022-03-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,62,R0145,عائشة,العبد الله,Female,42,Syrian,,2022-03-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,63,R0339,فاطمة,حياني,Female,63,Syrian,,2022-03-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,64,R0202,وفاء,مشاعل,Female,33,Syrian,,2022-03-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,65,R0223,سهام,صبحان,Female,75,Syrian,,2022-03-09,,,Outreach session,,,,,,,
-YQ,66,R0222,مفيدة,عبد الكريم,Female,56,Syrian,,2022-03-09,,,Outreach session,,,,,,,
-YQ,67,R0207,صبحية,مروح,Female,64,Syrian,,2022-03-09,,,Outreach session,,,,,,,
-YQ,68,R0227,أحلام,الحسن,Female,38,Syrian,,2022-03-09,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,69,R0359,رنا,العيسى,Female,39,Syrian,,2022-03-09,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,70,R0241,هديل,الخطيب,Female,41,Syrian,,2022-03-10,,,Family member or friend,,,,,,,
-YQ,71,R0334,أمل,صابوني,Female,61,Syrian,,2022-03-15,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,72,R0117,أية,حمد,Female,26,Syrian,,2021-11-25,,,Family member or friend,,,,,,,
-YQ,73,R0260,زهور,الحسين,Female,58,Syrian,,2022-04-04,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,74,R0266,فاطمة,العيسى,Female,27,Syrian,,2022-04-04,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,75,R0272,فهمية,قط,Female,63,Syrian,,2022-04-05,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,76,R0279,أمينة,خضر,Female,39,Syrian,,2022-04-05,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,77,R0246,إسراء,العبدالله,Female,20,Syrian,,2022-04-06,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,78,R0274,محمد,نديوي,Male,58,Syrian,,2022-04-07,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,79,R0282,فاطمة,شاشو,Female,43,Syrian,,2022-04-07,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,80,R0290,أسماء,العيسى,Female,34,Syrian,,2022-04-07,,2023-06-16,ADMSP beneficiary (current or former),,,,,,Yes,
-YQ,81,R0287,أحلام,حمدني,Female,35,Syrian,,2022-04-08,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,82,R0414,سوزان,كليج,Female,40,Syrian,,2022-04-08,,,Family member or friend,,,,,,,
-YQ,83,R0261,غصون,كردي,Female,37,Syrian,,2022-04-11,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,84,R0286,ليلى,الفرج,Female,36,Syrian,,2022-04-11,,,Family member or friend,,,,,,,
-YQ,85,R0415,قيس,أبو نقطة,Male,25,Syrian,,2022-03-12,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,86,R0284,بدر,الزعبي,Female,54,Syrian,,2022-04-13,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,87,R0297,رنا,الخطيب,Female,41,Syrian,,2022-04-13,,,Outreach session,,,,,,,
-YQ,88,R0288,أية,الحسن,Female,19,Syrian,,2022-04-13,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,89,R0295,نجلاء,شمان,Female,35,Syrian,,2022-04-13,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,90,R0298,يسرى,الحويل,Female,36,Syrian,,2022-04-13,,2023-06-20,Outreach session,,,,,,Yes,
-YQ,91,R0418,عبد,الله سلامات,Female,39,Syrian,,2022-04-15,,,ADMSP member,,,,,,,
-YQ,92,R0280,كوثر,طالب,Female,22,Syrian,,2022-04-18,,,Family member or friend,,,,,,,
-YQ,93,R0314,رقية,الحسين,Female,41,Syrian,,2022-04-19,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,94,R0412,زين,المرعي,Female,41,Syrian,,2022-04-20,,,I/NGO or humanitarian organization,SAMS ,,,,,,
-YQ,95,R0356,حليمة,حمدني,Female,22,Syrian,,2022-04-20,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,96,R0300,مروة,التريس,Female,44,Syrian,,2022-04-21,,,Outreach session,,,,,,,
-YQ,97,R0383,نادين,حمادي,Female,28,Syrian,,2022-04-22,,,Outreach session,,,,,,,
-YQ,98,R0337,ايمن,دعاس,Male,53,Syrian,,2022-04-25,,2023-06-19,ADMSP beneficiary (current or former),,,,,,Yes,
-YQ,99,R0327,شريفة,إبراهيم,Female,46,Syrian,,2022-04-27,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,100,R0376,الاء,حمد,Female,21,Syrian,,2022-05-17,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,101,R0389,بشرى,مطلق,Female,25,Syrian,,2022-05-18,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,102,R0368,فاطمة,بهاء الدين,Female,26,Syrian,,2022-05-18,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,103,R0342,ندى,العمر,Female,24,Syrian,,2022-05-25,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,104,R0341,خالدية,العمر,Female,49,Syrian,,2022-05-25,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,105,R0141,فاطمة,العلي,Female,30,Syrian,,2022-05-26,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,106,R0306,سلمى,المصطفى,Female,51,Syrian,,2022-05-27,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,107,R0294,ريمة,طالب,Female,46,Syrian,,2022-05-27,2023-10-06,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-YQ,108,R0305,فاطمة,العمر,Female,45,Syrian,,2022-05-27,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,109,R0307,أميرة,العمر,Female,66,Syrian,,2022-05-27,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,110,R0313,حميدة,محمد,Female,57,Syrian,,2022-05-30,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,111,R0318,بدرية,خليل,Female,52,Syrian,,2022-05-30,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,112,R0333,راميا,مراد,Female,41,Syrian,,2022-05-31,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,113,R0329,أمهان,أحمد,Female,47,Syrian,,2022-05-31,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,114,R0348,ناديا,عبد المجيد,Female,43,Syrian,,2022-06-01,,,Family member or friend,,,,,,,
-YQ,115,R0332,محمود,جبان,Male,52,Syrian,,2022-06-01,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,116,R0367,أمينة,صباهي,Female,40,Syrian,,2022-06-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,117,R0370,منار,ادريس,Female,39,Syrian,,2022-06-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,118,R0353,دلال,الشيخ,Female,41,Syrian,,2022-06-02,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,119,R0350,خلود,السعد,Female,36,Syrian,,2022-06-17,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,120,R0494,أمل,زيات,Female,40,Syrian,,2022-06-20,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,121,R0309,بدور,صوراني,Female,36,Syrian,,2022-06-21,,,outreach session,,,,,,,
-YQ,122,R0369,سهيلة,بهاء الدين,Female,50,Syrian,,2022-06-21,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,123,R0358,ناريمان,خلف,Female,36,Syrian,,2022-06-23,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,124,R0375,أحلام,خطاب,Female,53,Syrian,,2022-06-24,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,125,R0422,أميرة,عزت,Female,47,Syrian,,2022-06-30,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,126,R0354,الاء,الجلم,Female,43,Syrian,,2022-07-04,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,127,R0431,وصال,حنكي,Female,65,Syrian,,2022-07-04,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,128,R0432,راميا,حمادة,Female,35,Syrian,,2022-07-04,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,129,R0372,مريم,عيد,Female,40,Syrian,,2022-07-19,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,130,R0041,عبيدة,صابرين,Female,41,Syrian,,2021-01-18,,,Family member or friend,,,,,,,
-YQ,131,R0003,عبير,الخطيب,Female,37,Syrian,,2021-10-18,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,132,R0074,هويدا,مامو,Female,38,Syrian,,2021-06-24,,,Family member or friend,,,,,,,
-YQ,133,R0116,هناء,خليل,Female,43,Syrian,,2021-12-23,,,Family member or friend,,,,,,,
-YQ,134,R0299,عليا,الطالب,Female,39,Syrian,,2022-08-16,,,Outreach session,,,,,,,
-YQ,135,R0374,نهوى,المصطفى,Female,38,Syrian,,2022-08-18,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,136,R0437,عبد,الله العلي,Male,34,Syrian,,2022-08-18,,,Social Media,,,,,,,
-YQ,137,R0435,جميل,العلو,Male,27,Syrian,,2022-08-19,,,Family member or friend,,,,,,,
-YQ,138,R0396,ألفت,المرزوقي,Female,50,Syrian,,2022-08-22,,,Outreach session,,,,,,,
-YQ,139,R0373,سهام,حيدر,Female,39,Syrian,,2022-08-23,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,140,R0476,فطومة,الحسين,Female,50,Syrian,,2022-08-24,,,Outreach session,,,,,,,
-YQ,141,R0343,سمية,محمد,Female,46,Syrian,,2022-08-25,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,142,R0497,هلا,الحلبي,Female,47,Syrian,,2022-08-25,,,Family member or friend,,,,,,,
-YQ,143,R0205,عائشة,النايف,Female,51,Syrian,,2022-02-01,,,Outreach session,,,,,,,ادخالات محمد
-YQ,144,R0255,أمل,باكير,Female,45,Syrian,,2022-02-08,,,ADMSP beneficiary (current or former),,,,,,,ادخالات محمد
-YQ,145,R0267,ندى,خالد,Female,47,Syrian,,2022-02-09,,,ADMSP beneficiary (current or former),,,,,,,ادخالات محمد
-YQ,146,R0150,كوثر,خطيب,Female,47,Syrian,,2022-02-23,,,ADMSP beneficiary (current or former),,,,,,,ادخالات محمد
-YQ,147,R0232,أمل,عزيزة,Female,44,Syrian,,2022-03-21,,,ADMSP beneficiary (current or former),,,,,,,ادخالات محمد
-YQ,148,R0262,رغد,أبو راس,Female,21,Syrian,,2022-02-07,,,ADMSP beneficiary (current or former),,,,,,,ادخالات محمد
-YQ,149,R0211,جميلة,أنيس,Female,57,Syrian,,2022-03-09,,,Outreach session,,,,,,,ادخالات محمد
-YQ,150,R0209,أماني,محمد,Female,21,Syrian,,2022-03-02,,,Family member or friend,,,,,,,ادخالات محمد
-YQ,151,R0638,مرفت,جعجول,Female,35,Syrian,,2023-01-18,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,152,R0193,مصطفى,مصطفى,Male,20,Syrian,,2022-03-02,,,ADMSP beneficiary (current or former),,,,,,,ادخالات محمد
-YQ,153,R0552,فدوى,حج يوسف,Female,37,Syrian,,2022-10-04,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,154,R0556,ماجد,العلوش,Male,63,Syrian,,2022-10-24,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,155,R0006,فاطمة,محمد,Female,45,Syrian,,2022-11-02,,,ADMSP beneficiary (current or former),,,,,,,مراجعة قديمة تلقت لدينا كل الخدمات و  لكن لديها انتكاسة فتقرر ادخالها الى ورشة مقاومة الصدمات
-YQ,156,R0571,سميحة,نجمة,Female,25,Syrian,,2022-11-24,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,157,R0446,إسماعيل,السعدي,Male,38,Syrian,GTZ,2023-01-03,,,ADMSP beneficiary (current or former),,,,,,,لا يرغب بتلقي اي خدمة
-YQ,158,R0442,إبراهيم,الكردي,Male,36,Syrian,MR,2023-01-25,,,ADMSP beneficiary (current or former),,,,,,,لا يرغب بتلقي اي خدمة
-YQ,159,R0694,باسل,حج حسين,Male,36,Syrian,GTZ,2023-01-27,,,ADMSP beneficiary (current or former),,,,,,,
-YQ,160,R0703,أحمد,البطمان,Male,33,Syrian,GTZ,2023-04-26,,,ADMSP beneficiary (current or former),,Yes,No,Yes,No,No,
-YQ,161,R0142,عبدالعزيز,بيطار,Male,26,Syrian,GTZ,2023-05-11,,,IRM,,Yes,No,No,No,No,مشروع جبر الضرر
-YQ,162,R0709,جمعة,حاج داوود,Male,32,Syrian,GTZ,2023-05-11,,,IRM,,Yes,No,No,No,No,مشروع جبر الضرر
-YQ,163,R0434,فطيم,بكري,Female,38,Syrian,GTZ,2023-05-11,,,IRM,,Yes,No,No,No,No,مشروع جبر الضرر
-YQ,164,R0047,بلال,اللبان,Male,38,Syrian,GTZ,2023-05-17,,,IRM,,No,No,No,Yes,No,مشروع جبر الضرر
-YQ,165,R0702,حسن,الخلف,Male,37,Syrian,SF,2023-05-17,,,IRM,,No,Yes,No,No,Yes,مشروع جبر الضرر  اونلاين المراجع موجود باورفا و لا يرغب بتلقي خدمة الصحة النفسية عن طريق الاونلاين وتم الاتفاق على اعطاء اي خدمة فيزيائية ممكن نقدمها باورفا
-YQ,166,R0706,تمام,الموسى,Male,31,Syrian,MR,2023-05-17,,,IRM,,No,No,Yes,No,No,مشروع جبر الضرر اونلاين المراجع موجود بمرسين 
-YQ,167,R0730,أسامة,شروكي,Male,30,Syrian,MR,2023-05-18,,,IRM,,Yes,No,No,No,No,مشروع  جبر الضرر 
-YQ,168,R0724,المنذر,عكو,Male,31,Syrian,MR,2023-05-30,,,IRM,,No,No,No,Yes,No,مشروع جبر الضرر اونلاين المراجع موجود بمرسين
-YQ,169,R0540,غزالة,السقا,Female,46,Syrian,GTZ,,,2023-06-15,ADMSP beneficiary (current or former),,No,No,No,No,Yes,
-YQ,170,R0486,زكريا,هدلة,Male,56,Syrian,GTZ,,,2023-06-21,IRM,,Yes,No,No,No,Yes,
-YQ,171,R0553,أمارة,الظاهر,Female,31,Syrian,GTZ,,,2023-06-19,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-YQ,172,R0485,أحمد,الصيني,Male,43,Syrian,GTZ,,,2023-06-20,IRM,,Yes,No,No,No,Yes,
-YQ,173,R0801,كاتنة,إسماعيل,Female,42,Syrian,GTZ,2023-09-01,2023-10-09,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,ستذهب الى سامز و بعدها سيتم اجراء تقييم نفسي و كذلك تقييم زلزال
-YQ,174,R0796,بثينة,فياض,Female,48,Syrian,GTZ,2023-09-05,,,ADMSP beneficiary (current or former),,Yes,No,No,No,Yes,
-YQ,175,R0874,هويدا,الرجب أغا,Female,53,Syrian,GTZ,2023-09-06,,,IRM,,Yes,No,Yes,No,Yes,
-YQ,176,R0922,جمال,الحسين,Male,66,Syrian,SF,2023-09-08,,,IRM,,No,No,No,No,Yes,
-YQ,177,R0923,عبدالله,سلامة,Male,37,Syrian,SF,2023-09-08,,,IRM,,No,Yes,No,Yes,Yes,
-YQ,178,R1035,سمر,عبيد,Female,56,Syrian,Rey,2023-10-26,,,IRM,,No,No,No,Yes,Yes,
-YQ,179,R1034,خالد,زيتون,Male,52,Syrian,Rey,2023-10-26,,,IRM,,No,No,No,No,No,تحويل لجلسة توعية 
-YQ,180,R1033,فادية,زيدان,Female,47,Syrian,Rey,2023-10-26,,,IRM,,No,No,No,Yes,Yes,
-YQ,181,R1022,محمد,منذر عتقي,Male,34,Syrian,GTZ,2023-11-08,,,ADMSP member,,Yes,No,No,No,No,
-YQ,182,R1107,عبد القادر,الراغب,Male,34,Syrian,Rey,2023-11-08,,,IRM,,No,No,No,Yes,Yes,
+scrsp,scspi,rid,firstname,lastname,sex,age,nat,sc_loc,sc_s1,pei_pre_as,sc_re,source,source_org,need_mhpss,need_trw,need_out_ref,need_tmh,need_pei,note,scloc
+IJ,67,R1010,احمد,الخالدي,Male,53,Syrian,SF,2023-10-19,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+IJ,64,R0999,امينة,الحسين,Female,39,Syrian,SF,2023-10-18,,,IRM,NA_,Yes,No,No,No,Yes,,nan
+IJ,22,R0511,انتصار,الاسعد,Female,47,Syrian,GZT,2022-05-27,2023-10-09,,Family_or_Friend,NA_,Yes,No,No,No,Yes,intake-Y,GZT
+IJ,30,R0587,ايمان,العلي,Female,35,Syrian,GZT,2022-12-22,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake,GZT
+IJ,36,R0731,إبراهيم,عباس,Male,33,Syrian,GZT,2023-05-22,,,IRM,NA_,No,Yes,No,Yes,No,TRW-IRM,GZT
+IJ,24,R0520,إسلاف,سليمان,Female,26,Syrian,GZT,2022-09-01,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake-S,GZT
+IJ,15,R0482,أمينة,عزو,Female,48,Syrian,GZT,2022-08-15,,,Outreach_Session,,Yes,No,No,No,No,intake-S,GZT
+IJ,9,R0450,آية,فاضل,Female,26,Syrian,GZT,2022-08-18,2023-07-07,,Outreach_Session,,Yes,No,No,No,Yes,intake-İ,GZT
+IJ,23,R0515,براءة,خليل الوادي,Female,35,Syrian,GZT,2022-08-29,,,Family_or_Friend,NA_,Yes,No,No,No,No,intake,GZT
+IJ,1,R0542,بيان,فاضل,Female,20,Syrian,GZT,2023-01-31,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake,GZT
+IJ,69,R0702,حسن,الخلف,Male,38,Syrian,SF,2023-10-26,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+IJ,28,R0573,حسناء,بصمجي,Female,41,Syrian,GZT,2022-12-01,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,intake-İ,GZT
+IJ,14,R0481,حميدة,مصطفى,Female,39,Syrian,GZT,2022-08-10,2023-06-19,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,individual-S,GZT
+IJ,51,R0477,حنان,الشيخ,Female,32,Syrian,GZT,2022-08-18,,2023-07-24,Family_or_Friend,NA_,No,No,No,No,Yes,,GZT
+IJ,6,R0417,ختام,قجة,Female,51,Syrian,GZT,2022-11-08,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,TRW,GZT
+IJ,50,R0586,ختام,العلي,Female,31,Syrian,GZT,2022-12-22,,2023-07-20,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,43,R0574,خولة,العلو,Female,43,Syrian,GZT,2022-12-21,2023-06-20,,Family_or_Friend,NA_,Yes,No,No,No,Yes,,GZT
+IJ,20,R0501,راميا,مشلح,Female,41,Syrian,GZT,2022-09-09,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake-Y,GZT
+IJ,5,R0405,رشا,حريري,Female,37,Syrian,GZT,2022-08-29,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake-S,GZT
+IJ,16,R0487,رياض,الأسعد,Male,59,Syrian,GZT,2022-12-08,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake-İ,GZT
+IJ,49,R0813,ريم,نكمة,Female,22,Syrian,GZT,2023-07-18,,,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,GZT
+IJ,54,R0589,ريما,فياض,Female,50,Syrian,GZT,,2023-09-01,,Family_or_Friend,NA_,Yes,No,No,No,Yes,يوجد تعديل جديد للتاريخ,GZT
+IJ,34,R0714,ريهام,الحبال,Female,32,Syrian,GZT,2023-05-12,,,IRM,NA_,No,No,No,No,Yes,E- IRM,GZT
+IJ,17,R0491,زهراء,صباغ,Female,42,Syrian,GZT,2022-09-08,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,TRW,GZT
+IJ,40,R0451,زينب,موسى,Female,30,Syrian,GZT,2022-08-16,2023-06-19,,Family_or_Friend,NA_,Yes,No,No,No,Yes,,GZT
+IJ,21,R0508,زينب,الحسين,Female,27,Syrian,GZT,2022-08-26,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake-Y,GZT
+IJ,59,R0575,زينب,بغدادي,Female,41,Syrian,GZT,2022-12-23,,2023-09-12,Family_or_Friend,NA_,Yes,No,No,No,Yes,,GZT
+IJ,62,R0343,سمية,محمد,Female,43,Syrian,GZT,,2023-10-09,,ADMSP_Member,NA_,Yes,No,No,No,Yes,,GZT
+IJ,39,R0571,سميحة,نجمة,Female,25,Syrian,GZT,,2023-06-19,,,,No,No,No,No,Yes,,GZT
+IJ,25,R0521,سهام,حسين,Female,47,Syrian,GZT,2022-08-18,,,Family_or_Friend,NA_,Yes,No,No,No,No,intake-Y,GZT
+IJ,46,R0460,سهى,الحسن,Female,27,Syrian,GZT,2022-08-18,2023-06-07,,Family_or_Friend,NA_,Yes,No,No,No,Yes,,GZT
+IJ,63,R0970,شذى,المصخي,Female,56,Syrian,SF,2023-10-13,,,IRM,NA_,Yes,No,No,No,Yes,,nan
+IJ,29,R0583,شروف,الحميدي,Female,35,Syrian,GZT,2022-12-07,2023-06-14,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,intake-İ,GZT
+IJ,32,R0713,طه,خربطلي,Male,30,Syrian,GZT,2023-05-11,,,IRM,NA_,Yes,No,No,No,No,ملتزم بعمل- IRM,GZT
+IJ,44,R0518,عائشة,مصطفى,Female,44,Syrian,GZT,2022-12-07,2023-06-14,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+IJ,4,R0402,عبير,عزو,Female,43,Syrian,GZT,2022-09-13,,,Family_or_Friend,NA_,Yes,No,No,No,No,intake-Y,GZT
+IJ,42,R0567,عطاء,الزعبي,Female,26,Syrian,GZT,2023-01-05,2023-06-20,,Family_or_Friend,NA_,Yes,No,No,No,Yes,,GZT
+IJ,27,R0557,علياء,عويس,Female,46,Syrian,GZT,2023-01-31,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake,GZT
+IJ,66,R1006,علياء,الناصر,Female,48,Syrian,SF,2023-10-18,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+IJ,55,R0872,عمر,تركي,Male,27,Syrian,GZT,2023-09-01,,,IRM,NA_,Yes,No,No,No,No,,GZT
+IJ,7,R0424,عيوش,الحسن,Female,38,Syrian,GZT,2022-07-29,,,Family_or_Friend,NA_,Yes,No,No,No,No,intake-S,GZT
+IJ,11,R0459,فاطمة,ديوك,Female,30,Syrian,GZT,2022-07-19,,,Family_or_Friend,NA_,Yes,No,No,No,No,intake-İ,GZT
+IJ,33,R0710,فؤاد,الشغري,Male,61,Syrian,GZT,2023-05-11,,,IRM,NA_,Yes,No,No,No,No,ıntake-M- IRM,GZT
+IJ,60,R0941,لواء,العلوش,Male,52,Syrian,GZT,2023-09-20,,,ADMSP_Beneficiary,NA_,Yes,No,No,Yes,Yes,,GZT
+IJ,19,R0499,ليندا,السعيد,Female,42,Syrian,GZT,2022-09-09,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake-S,GZT
+IJ,38,R0740,مجد,مراد,Female,33,Syrian,GZT,2023-06-05,,,IRM,NA_,No,Yes,No,No,No,TRW-IRM,GZT
+IJ,37,R0733,محمد,طارق الطباع,Male,42,Syrian,GZT,2023-05-23,,,IRM,NA_,Yes,No,No,No,No,ıntake-I- IRM,GZT
+IJ,57,R0885,محمد,دادا,Male,61,Syrian,GZT,2023-09-11,,,IRM,NA_,Yes,No,No,No,Yes,,GZT
+IJ,58,R0886,محمد,القاسم,Male,52,Syrian,GZT,2023-09-11,,,IRM,NA_,No,No,No,Yes,Yes,تم التقييم عن بعد مقيم بالعثمانية,GZT
+IJ,68,R0967,محمد,المصطفى,Male,34,Syrian,SF,2023-10-23,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+IJ,70,R1078,محمدخير,مروح,Male,61,Syrian,Rey,2023-10-31,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,35,R0716,مديحة,فتوح,Female,29,Syrian,GZT,2023-05-12,,,IRM,NA_,Yes,No,No,No,No,INTAKE I  IRM,GZT
+IJ,3,R0394,مرفت,علي,Female,43,Syrian,GZT,2022-09-08,,,Outreach_Session,,Yes,No,No,No,No,ملتزمة بعمل,GZT
+IJ,71,R1081,ملاك,عصمان,Female,26,Syrian,Rey,2023-10-31,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,2,R0239,منى,الصيني,Female,46,Syrian,GZT,2023-01-16,2023-07-13,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,intake,GZT
+IJ,26,R0530,منى,اخرس,Female,37,Syrian,GZT,2023-01-25,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake,GZT
+IJ,8,R0447,منيرة,يوسف,Female,36,Syrian,GZT,2022-06-07,,,Family_or_Friend,NA_,Yes,No,No,No,No,intake-S,GZT
+IJ,10,R0452,مهى,شواف,Female,40,Syrian,GZT,2022-06-29,,,Family_or_Friend,NA_,Yes,Yes,No,No,No,TRW-intake-S,GZT
+IJ,65,R1000,ميديا,العبدالله,Female,50,Syrian,SF,2023-10-18,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+IJ,31,R0590,نهلة,فياض,Female,52,Syrian,GZT,2022-12-20,2023-09-04,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,intake-İ,GZT
+IJ,45,R0591,نور,العلبي,Female,31,Syrian,GZT,,2023-06-14,,,,Yes,No,No,No,Yes,,GZT
+IJ,41,R0613,هبة,كردي,Female,28,Syrian,GZT,2022-12-28,2023-06-21,,Family_or_Friend,NA_,Yes,No,No,No,Yes,,GZT
+IJ,12,R0465,هبه,فياض,Female,18,Syrian,GZT,2022-07-27,,,Outreach_Session,,No,Yes,No,No,No,TRW,GZT
+IJ,18,R0498,هبه,عبد الرحمن السعيد,Female,29,Syrian,GZT,2022-08-18,,,Family_or_Friend,NA_,No,Yes,No,No,No,TRW,GZT
+IJ,53,R0854,هديل,صالح,Female,30,Syrian,GZT,2023-08-21,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,52,R0456,هناء,الشيخ,Female,34,Syrian,GZT,2022-07-06,,2023-07-25,Family_or_Friend,NA_,Yes,No,No,No,No,لا تريد اكمال الجلسات بالوقت الحالي ,GZT
+IJ,13,R0478,هناء,الزين,Female,31,Syrian,GZT,2022-12-07,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,intake-İ,GZT
+IJ,72,R0380,وداد,رمضان,Female,44,Syrian,GZT,2022-08-29,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,73,R0385,وسام,المرزوقي,Female,26,Syrian,GZT,2022-09-02,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,74,R0392,حياة,ضاهر,Female,60,Syrian,GZT,2022-08-29,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,75,R0395,فاطمة,مسلم,Female,17,Syrian,GZT,2022-08-17,,,Family_or_Friend,NA_,,,,,,,nan
+IJ,76,R0440,زهراء,الخطيب,Female,62,Syrian,GZT,2023-01-12,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,,GZT
+IJ,77,R0448,مريم,المحمد,Female,47,Syrian,GZT,2022-06-29,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,,GZT
+IJ,78,R0454,منال,سليمان,Female,39,Syrian,GZT,2022-07-07,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,79,R0461,بشرى,نديوي,Female,60,Syrian,GZT,2022-07-27,,,Outreach_Session,,Yes,No,No,No,No,,GZT
+IJ,80,R0470,اسلام,الخطيب,Female,46,Syrian,GZT,2022-07-27,,,Outreach_Session,,Yes,No,No,No,No,,GZT
+IJ,81,R0483,ميادة,بهاء الدين,Female,48,Syrian,GZT,2022-11-09,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,82,R0488,رقية,مروح,Female,53,Syrian,GZT,2022-09-01,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,83,R0489,مجد,محمد,Female,33,Syrian,GZT,2022-08-18,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,84,R0504,ناديا,شوشان,Female,38,Syrian,GZT,2022-09-09,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,85,R0505,حسناء,حسكل,Female,52,Syrian,GZT,2022-08-26,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,86,R0510,غالية,شحرور,Female,60,Syrian,GZT,2022-09-01,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,87,R0512,الاء,حلي,Female,23,Syrian,GZT,2023-01-05,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,88,R0593,ضحى,مكتبي,Female,36,Syrian,GZT,2022-12-21,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,89,R1086,احمد,طرابلسي,Male,62,Syrian,MR,2023-11-02,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,90,R1090,محمد,تركي الحلبي,Male,50,Syrian,Rey,2023-11-02,,,IRM,NA_,No,No,No,No,No,ملتزمة بعمل,nan
+IJ,91,R1089,صدي,رمضان,Male,31,Syrian,Rey,2023-11-02,,,IRM,NA_,No,No,No,No,No,ملتزمة بعمل,nan
+IJ,92,R1088,عبدو,يونس اغلو,Male,47,Syrian,HT,2023-11-02,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,93,R1087,عنود,الملحم,Female,39,Syrian,Rey,2023-11-02,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,94,R1091,موفق,هارون,Male,28,Syrian,Rey,2023-11-03,,,IRM,NA_,No,No,Yes,Yes,Yes,,nan
+IJ,95,R1092,مصطفى,عبد الستار,Male,56,Syrian,Rey,2023-11-03,,,IRM,NA_,No,No,No,No,No,ملتزمة بعمل,nan
+IJ,96,R1095,هيام,رمضان,Female,60,Syrian,Rey,2023-11-06,,,IRM,NA_,No,No,No,No,No,ملتزمة بعمل,nan
+IJ,97,R1096,منى,عثمان أغلو,Female,56,Syrian,Rey,2023-11-06,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,98,R1099,هبه,السيبي,Female,28,Syrian,Rey,2023-11-06,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,99,R1094,عفاف,يوسف,Female,60,Syrian,Rey,2023-11-06,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,100,R1110,مها,شامي,Female,62,Syrian,Rey,2023-11-08,,,IRM,NA_,No,No,No,No,No,غير مهتمة مقيمة بكونيا,nan
+IJ,101,R1112,انوار,الحمدي,Female,27,Syrian,Rey,2023-11-08,,,IRM,NA_,No,No,No,No,No,غير مهتمة,nan
+IJ,102,R1106,رقية,العبيد,Female,38,Syrian,Rey,2023-11-08,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,103,R1108,بسمة,منصور,Female,29,Syrian,Rey,2023-11-08,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,104,R0762,نشيدة,دياب,Female,39,Syrian,Rey,2023-11-08,,,IRM,NA_,No,No,No,Yes,No,,nan
+IJ,105,R1115,حليمة,الرجب,Female,43,Syrian,Rey,2023-11-09,,,IRM,NA_,No,No,No,Yes,No,,nan
+IJ,106,R1116,سحر,دخان,Female,50,Syrian,Rey,2023-10-09,,,IRM,NA_,No,No,No,No,No,غير مهتمة مقيمة ب طرابزوان,nan
+IJ,107,R0364,انتصار,طالب,Female,55,Syrian,Rey,2023-11-09,,,IRM,NA_,No,No,No,Yes,No,مقيمة طرابزون,nan
+IJ,108,R0768,رانيا,زعرور,Female,37,Syrian,Rey,2023-11-09,,,IRM,NA_,No,No,No,No,Yes,,nan
+IJ,109,R0761,عائدة,علي,Female,38,Syrian,Rey,2023-11-15,,,IRM,NA_,No,No,Yes,Yes,No,مقيمة بالعثمانية,nan
+IJ,110,R0763,سارة,اسفنجة,Female,33,Syrian,GZT,2023-11-15,,,IRM,NA_,No,No,No,No,Yes,مقيمة بكلس,GZT
+IJ,111,R1134,ايمان,سويد,Female,32,Syrian,Rey,2023-11-15,,,IRM,NA_,No,No,No,No,No,مقيمة بقيصري,nan
+IJ,112,R1036,منى,فاتو,Female,42,Syrian,Rey,2023-11-15,,,IRM,NA_,No,No,No,No,Yes,مقيمة بانطاكيا,nan
+IJ,113,R0765,ماجدة,محمود,Female,44,Syrian,Rey,2023-11-16,,,IRM,NA_,No,No,No,Yes,Yes,مقيمة بأضنة,nan
+IJ,114,R1135,منى,فارس,Female,38,Syrian,Rey,2023-11-16,,,IRM,NA_,No,No,No,No,No,مقيمة بياليضاغ,nan
+IJ,115,R0764,الاء,الشاطر,Female,30,Syrian,Rey,2023-11-16,,,IRM,NA_,No,No,No,No,No,مقيمة بانطاكيا,nan
+IJ,116,R0760,رجاء,البصير,Female,53,Syrian,MR,2023-11-16,,,IRM,NA_,No,No,No,No,Yes,مقيمة بمرسين,nan
+IJ,117,R1133,هناء,بكور,Female,52,Syrian,Rey,2023-11-16,,,IRM,NA_,No,No,No,No,Yes,س,nan
+IJ,118,R1147,وليد,عبد الله,Male,54,Syrian,Rey,2023-11-23,,,IRM,NA_,No,No,No,Yes,No,,nan
+IJ,119,R0759,فدوى,الجاسم,Female,45,Syrian,Rey,2023-11-23,,,IRM,NA_,No,No,No,Yes,No,,nan
+IJ,120,R0770,محمد,عبد الساتر,Male,32,Syrian,Rey,2023-11-23,,,IRM,NA_,No,No,No,Yes,No,,nan
+IJ,121,R0772,باسم,الشيخ حامد,Male,39,Syrian,Rey,2023-11-23,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+IJ,122,R0576,ناهد,بكران,Female,38,Syrian,GZT,2023-01-16,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,123,R0800,عائشة,كادورة,Female,18,Syrian,GZT,2023-01-25,,,Family_or_Friend,NA_,No,Yes,No,No,No,,GZT
+IJ,124,R0799,ندى,خليفة,Female,36,Syrian,GZT,2023-01-26,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,125,R0797,خطر,عبد اللطيف,Female,48,Syrian,GZT,2023-01-26,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,126,R0798,محمد,اسعد الاحمد,Male,53,Syrian,GZT,2023-01-26,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+IJ,127,R0162,رغد,ابو راس,Female,21,Syrian,GZT,2022-02-07,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,,GZT
+IJ,128,R1152,سامر,العبود,Male,35,Syrian,Rey,2023-11-28,,,IRM,NA_,No,No,No,Yes,No,,nan
+IJ,129,R1131,فاطمة,فياض,Female,23,Syrian,GZT,2023-11-04,,,Family_or_Friend,NA_,Yes,Yes,No,No,Yes,,GZT
+IJ,130,R1168,عبدالغني,كيالي,Male,43,Syrian,Rey,2023-12-14,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,1,R0605,كلثوم,اوسو,Female,47,Syrian,,2023-01-06,,,Family_or_Friend,NA_,,,,,,خدمات متخصصة - اعادة تقييم ,nan
+LA,2,R0589,ريما,الفياض,Female,50,Syrian,,2022-12-20,,2023-07-27,Family_or_Friend,NA_,,,,,,TRW,nan
+LA,3,R0603,قدرية,حمداني,Female,55,Syrian,,2022-12-22,,2023-08-03,Family_or_Friend,NA_,,,,,,TRW,nan
+LA,4,R0588,نجلاء,الفياض,Female,37,Syrian,,2022-12-14,,2023-07-21,Family_or_Friend,NA_,,,,,,TRW,nan
+LA,5,R0644,محلي,ماميك,Male,41,Syrian,,2023-04-05,,,Family_or_Friend,NA_,,,,,,خدمات متخصصة,nan
+LA,6,R0645,احسان,ماميك,Female,36,Syrian,,2023-04-05,,,Family_or_Friend,NA_,,,,,,ورشة الزلزال وتقييم شامل  وتحويل الى محمد تركاوي,nan
+LA,7,R0650,خديجة,عثمان,Female,21,Syrian,,2023-04-11,,,Family_or_Friend,NA_,,,,,,TRW,nan
+LA,8,R0649,عائشة,عيسى,Female,26,Syrian,,2023-04-11,,,Family_or_Friend,NA_,,,,,,TRW,nan
+LA,9,R0651,مفيدة,محمد,Female,57,Syrian,,2023-04-12,,,Family_or_Friend,NA_,,,,,, ورشة الزلزال و TRW,nan
+LA,10,R0719,محمد,سمسمية,Male,62,Syrian,,2023-05-12,,,IRM,NA_,,,,,,خدمات متخصصة,nan
+LA,11,R0717,حسان,عكوش,Male,46,Syrian,,2023-05-12,,,IRM,NA_,,,,,,خدمات متخصصة,nan
+LA,12,R0718,معتز,بكران,Male,51,Syrian,,2023-05-12,,,IRM,NA_,,,,,,خدمات متخصصة,nan
+LA,13,R0720,يامن,حسن,Male,35,Syrian,,2023-05-12,,,IRM,NA_,Yes,,,,,خدمات متخصصة,nan
+LA,14,R0708,هاني,اكيل,Male,33,Syrian,,2023-05-12,,,IRM,NA_,Yes,,,,,خدمات متخصصة,nan
+LA,15,R0732,محمد,الضويحي,Male,33,Syrian,,2023-05-23,,,IRM,NA_,Yes,,,,,خدمات متخصصة,nan
+LA,16,R0102,خديجة,رمضان,Female,37,Syrian,,,2023-06-19,,,,,,,,Yes,تقييم الزلازل,nan
+LA,17,R0755,بشير,الهويدي,Male,38,Syrian,,2023-07-06,,,IRM,NA_,,,,,Yes,خدمة اونلاين ( عثمانية ) ,nan
+LA,18,R0744,انعام,الديب,Female,45,Syrian,,2023-07-06,,,IRM,NA_,,,,Yes,,,nan
+LA,19,R0745,خديجة,الزيدلاني,Female,33,Syrian,,2023-07-07,,,IRM,NA_,,,,Yes,,خدمة اونلاين ,nan
+LA,20,R0743,يقظان,الفاتح,Male,60,Syrian,,2023-07-07,,,IRM,NA_,,,,Yes,,خدمة اونلاين ( انطاليا),nan
+LA,21,R0491,زهراء,الصباغ,Female,45,Syrian,,,,2023-07-28,Family_or_Friend,NA_,,,,,,,nan
+LA,22,R0631,ليلى,شاهين,Female,45,Syrian,,,,2023-07-28,Family_or_Friend,NA_,,,,,,,nan
+LA,23,R0768,رانيا,زعزور,Female,37,Syrian,,2023-07-25,,,IRM,NA_,,,,Yes,,,nan
+LA,24,R0826,مها,خلف,Female,43,Syrian,,2023-09-26,,,NGO,,Yes,No,No,No,Yes,,nan
+LA,25,R0174,ماجدة,السبتي,Female,50,Syrian,,,,2023-08-07,,,No,Yes,No,No,No,,nan
+LA,26,R0374,نهوى,مصطفى,Female,39,Syrian,,,,2023-08-17,Family_or_Friend,NA_,No,Yes,No,No,No,,nan
+LA,27,R0871,عهد,مكي,Male,35,Syrian,,2023-09-01,,,ADMSP_Member,NA_,,,,,,,nan
+LA,28,R0821,تهاني,القالش,Female,32,Syrian,,2023-09-04,,,Family_or_Friend,NA_,No,No,Yes,No,Yes,,nan
+LA,29,R0882,محمد,دعبول,Male,51,Syrian,,2023-09-05,,,IRM,NA_,Yes,No,No,No,No,,nan
+LA,30,R0895,فاروق,العلي,Male,40,Syrian,,2023-09-06,,,Family_or_Friend,NA_,Yes,No,No,No,No,,nan
+LA,31,R0904,محمد,حمدون,Male,38,Syrian,,2023-09-07,,,Family_or_Friend,NA_,Yes,No,No,No,Yes,,nan
+LA,32,R0896,احمد,نزال,Male,30,Syrian,,2023-09-07,,,Family_or_Friend,NA_,Yes,No,No,No,Yes,,nan
+LA,33,R0901,بهيجة,زرزون,Female,57,Syrian,,2023-09-08,,,Family_or_Friend,NA_,No,Yes,No,No,No,,nan
+LA,34,R0905,علي,العمر,Male,44,Syrian,,2023-09-08,,,Family_or_Friend,NA_,No,No,No,No,Yes,,nan
+LA,35,R0924,باسل,بورزان,Male,27,Syrian,,2023-09-11,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,36,R0925,ايمن,حسن,Male,38,Syrian,,2023-09-11,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+LA,37,R0926,باسل,العبيد,Male,42,Syrian,,2023-09-11,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,38,R0936,نجاح,الخلف,Female,62,Syrian,,2023-09-19,,,IRM,NA_,No,No,No,Yes,No,,nan
+LA,39,R0939,انسام,خزام,Female,27,Syrian,,2023-09-19,,,IRM,NA_,Yes,No,No,Yes,No,,nan
+LA,40,R0935,هدى,مخيبر,Female,47,Syrian,,2023-09-28,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+LA,41,R0881,عبدالحمن,عبد الله,Male,53,Syrian,GZT,2023-10-03,,,IRM,NA_,Yes,No,No,No,Yes,,GZT
+LA,42,R0314,رقية,الحسين,Female,41,Syrian,GZT,,2023-10-09,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+LA,43,R0267,ندى,خالد,Female,48,Syrian,GZT,,2023-10-09,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+LA,44,R0959,مصطفى,الهنداوي,Male,61,Syrian,GZT,2023-10-12,,,IRM,NA_,Yes,No,No,No,No,,GZT
+LA,45,R0971,يعرب,الخاطر,Male,52,Syrian,SF,2023-10-13,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,46,R0963,فاروق,دخيل,Male,63,Syrian,SF,2023-10-16,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,47,R0962,محمود,ابراهيم,Male,58,Syrian,SF,2023-10-16,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,48,R1020,رامي,المصري,Male,60,Syrian,SF,2023-10-17,,,Family_or_Friend,NA_,Yes,No,No,Yes,Yes,,nan
+LA,49,R1013,تركي,محمد,Male,45,Syrian,SF,2023-10-17,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,50,R0894,منذر,السلومي,Male,40,Syrian,GZT,2023-10-18,,,IRM,NA_,Yes,No,No,Yes,No,من سكان كلس ,GZT
+LA,51,R1014,عماد,الشاوي,Male,37,Syrian,SF,2023-10-18,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+LA,52,R1073,خدوج,علي الشيخ,Female,40,Syrian,HT,2023-10-30,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,53,R1074,عبد الله,برادعي,Male,47,Syrian,HT,2023-10-30,,,IRM,NA_,No,No,No,Yes,No,,nan
+LA,54,R1075,حسين,النجار,Male,72,Syrian,HT,2023-10-30,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,55,R1072,زكريا,شحود,Male,40,Syrian,HT,2023-10-30,,,IRM,NA_,No,Yes,No,No,No,,nan
+LA,56,R1079,الاء احمد,نويران,Female,23,Syrian,SF,2023-10-31,,,Family_or_Friend,NA_,No,No,Yes,No,Yes,,nan
+LA,57,R1082,فدوى,قدور سليمان,Female,42,Syrian,HT,2023-11-01,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,58,R1083,فرح,السيد,Female,30,Syrian,HT,2023-11-01,,,IRM,NA_,Yes,No,No,Yes,Yes,,nan
+LA,59,R1084,ميادة,الحموي,Female,67,Syrian,HT,2023-11-02,,,IRM,NA_,No,Yes,No,No,Yes,,nan
+LA,60,R1085,محمد ملهم,فرحات,Male,30,Syrian,HT,2023-11-03,,,IRM,NA_,No,No,No,Yes,No,,nan
+LA,61,R1097,مروة,محمد,Female,29,Syrian,HT,2023-11-06,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,62,R1098,عبد القادر,سرحان,Female,67,Syrian,HT,2023-11-06,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,63,R1100,رفيدة,زيتون,Female,43,Syrian,HT,2023-11-07,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,64,R1101,نور,كحيل,Female,41,Syrian,HT,2023-11-07,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,65,R1104,عبد الرزاق,عثمان,Male,66,Syrian,HT,2023-11-07,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,66,R1109,فريدة,استيفان,Female,43,Syrian,HT,2023-11-08,,,IRM,NA_,No,No,Yes,Yes,Yes,,nan
+LA,67,R1111,نضال,مبارك,Male,36,Syrian,HT,2023-11-08,,,IRM,NA_,No,Yes,No,No,No,,nan
+LA,68,R0707,عمر,جمول,Male,52,Syrian,HT,2023-11-09,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,69,R1113,خالد,الياسين,Male,69,Syrian,HT,2023-11-09,,,IRM,NA_,No,No,Yes,No,No,,nan
+LA,70,R1114,عبد الرحمن,دولغن,Male,63,Other,HT,2023-11-09,,,IRM,NA_,No,No,No,Yes,Yes,يحمل الجنسية التركية ,nan
+LA,71,R1124,هيثم,خطاب,Male,57,Other,HT,2023-11-13,,,IRM,NA_,No,Yes,No,No,No,يحمل الجنسية التركية ,nan
+LA,72,R1125,سهام,الصيرفي,Female,48,Syrian,HT,2023-11-13,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,73,R1123,زياد,سريول,Male,29,Syrian,HT,2023-11-13,,,IRM,NA_,No,Yes,No,No,No,يسكن ببورصة حاليا ,nan
+LA,74,R1126,محمد,القاسم,Male,42,Syrian,HT,2023-11-13,,,IRM,NA_,No,Yes,No,No,No,,nan
+LA,75,R1127,احمد,هواش,Male,61,Syrian,HT,2023-11-13,,,IRM,NA_,No,Yes,No,No,No,,nan
+LA,76,R0775,ايهاب,السبع,Male,34,Syrian,HT,2023-11-14,,,IRM,NA_,No,No,No,Yes,No,,nan
+LA,77,R1130,محمد,تركي,Male,36,Syrian,GZT,2023-11-21,,,IRM,NA_,Yes,No,No,No,Yes,,GZT
+LA,78,R0773,خيرو,الأطرش,Male,73,Syrian,HT,2023-11-22,,,IRM,NA_,No,No,No,Yes,No,,nan
+LA,79,R1142,دعاء,منى,Female,28,Syrian,HT,2023-11-22,,,IRM,NA_,No,No,No,No,Yes,,nan
+LA,80,R1144,فيروز,شيخ حامد,Female,42,Syrian,HT,2023-11-22,,,IRM,NA_,No,No,No,Yes,No,,nan
+LA,81,R1145,وفاء,طوزان,Female,60,Syrian,MR,2023-11-22,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,82,R1146,سهام,شعبان,Female,32,Syrian,MR,2023-11-22,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+LA,83,R0502,قدرية,الويس,Female,50,Syrian,GZT,2023-12-04,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+LA,84,R1136,يوسف,العلي,Male,42,Syrian,HT,2023-11-27,,,IRM,NA_,No,No,No,No,Yes,تم عمل السكريينغ بتاريخ 27-11-2023 ولكن تم ادخال البيانات بتاريخ 11-12-2023,nan
+MT,1,R0627,محمد,ثابت,Male,59,Syrian,GZT,2023-04-05,,,ADMSP_Member,NA_,No,No,No,No,No,تم الاغلاق- غير محتاج للخدمة,GZT
+MT,2,R0629,نور,الزعبي,Female,25,Syrian,GZT,2023-04-06,,,Family_or_Friend,NA_,Yes,No,No,No,No,جلسات جماعي,GZT
+MT,3,R0646,سارة,صعب,Female,28,Syrian,GZT,2023-04-06,,,Family_or_Friend,NA_,No,No,No,No,No,تم الاغلاق- لاتريد الاستمرار,GZT
+MT,4,R0626,عزيزة,هنداوي,Female,33,Syrian,GZT,2023-05-03,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,جلسات جماعي - جلسات زلزال,GZT
+MT,5,R0631,ليلى,شاهين,Female,45,Syrian,GZT,2023-05-03,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,ورشة مقاومة الصدمات ,GZT
+MT,6,R0625,سمية,العلو,Female,26,Syrian,GZT,2023-05-03,,,ADMSP_Beneficiary,NA_,No,No,Yes,No,No,تم وضع خطة حماية وتحويلها للداعم الاجتماعي من أجل التحويل لسامز تم اجراء جلستين متابعة وتجديد للموعد بسبب عدم ذهابها للموعد الأول,GZT
+MT,7,R0712,محمد,منصور الأطرش,Male,41,Syrian,GZT,2023-05-10,,,IRM,NA_,Yes,No,No,No,No,محول من مشروع جبر الضرر- جلسات جماعي,GZT
+MT,8,R0715,محمد,ناموس,Male,34,Syrian,GZT,2023-05-11,,,IRM,NA_,Yes,No,No,No,Yes,محول من مشروع جبر الضرر- جلسات جماعي- زلزال لكن مشغول في الفترة الحالية,GZT
+MT,9,R0721,جلال,عبد العال,Male,45,Syrian,GZT,2023-05-16,,,IRM,NA_,Yes,No,No,No,No,محول من مشروع جبر الضرر- جلسات جماعي,GZT
+MT,10,R0722,محمد,كلاوي,Male,42,Syrian,GZT,2023-05-16,,,IRM,NA_,No,Yes,No,No,No,محول من مشروع جبر الضرر- ورشة مقاومة الصدمات,GZT
+MT,11,R0729,نذير,وتي,Male,36,Syrian,GZT,2023-05-18,,,IRM,NA_,No,Yes,No,No,No,محول من مشروع جبر الضرر - ورشة مقاومة الصدمات,GZT
+MT,12,R0057,رحاب,المصري,Male,39,Syrian,GZT,,,2023-06-21,Family_or_Friend,NA_,No,No,No,No,Yes,,GZT
+MT,13,R0623,علي,زين العابدين,Male,31,Syrian,GZT,,2023-06-22,,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,GZT
+MT,14,R0750,محمد غازي,سعيد,Male,73,Syrian,,2023-07-05,,,IRM,NA_,No,No,No,No,No,صرح الشخص انه لا يريد تلقي أي خدمة من مركز العائلة وأن اموره بخير - كلس - جلسات توعية,nan
+MT,15,R0748,كمال,شحادة,Male,71,Syrian,,2023-07-06,,,IRM,NA_,No,No,No,No,No,صرح الشخص انه لا يريد تلقي أي خدمة من مركز العائلة وأن اموره بخير - كلس - جلسات توعية,nan
+MT,16,R0382,وحيد,عبد الله,Male,59,Syrian,GZT,,,2023-07-14,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,GZT
+MT,17,R0327,شريفة,إبراهيم,Female,45,Syrian,GZT,,,2023-06-14,ADMSP_Beneficiary,NA_,Yes,Yes,No,No,No,,GZT
+MT,18,R0354,الاء,الجلم,Female,44,Syrian,GZT,,,2023-06-14,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,,GZT
+MT,19,R0794,عمر,الجمال,Male,35,Syrian,GZT,2023-06-04,,,IRM,NA_,Yes,No,No,No,No,كنت قد نسيت تسجيله لذلك وضعته اليوم,GZT
+MT,23,R0865,لميا,الخالد,Female,36,Syrian,GZT,2023-09-01,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+MT,24,R0869,نسرين,فهد,Female,40,Syrian,GZT,2023-09-06,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+MT,25,R0870,سحر,العمر,Female,47,Syrian,GZT,2023-09-06,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+MT,26,R0897,ندى,القيم,Female,53,Syrian,GZT,2023-09-06,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+MT,27,R0913,آلاء,الديري,Female,27,Syrian,SF,2023-09-07,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,28,R0914,محمد زكريا,الحاج صقر,Male,66,Syrian,SF,2023-09-07,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,29,R0915,فاطمة,الحسن,Female,47,Syrian,SF,2023-09-07,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+MT,30,R0916,ناصر,البدر,Male,53,Syrian,SF,2023-09-07,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,31,R0891,إبراهيم,اجفيف,Male,30,Syrian,GZT,2023-09-10,,,IRM,NA_,No,No,No,Yes,No,المستفيد من كلس والجلسة كانت اونلاين لكن لا يوجد خيار مدينة كلس,GZT
+MT,32,R0866,حسنا,عمر,Female,42,Syrian,GZT,2023-09-11,,,ADMSP_Beneficiary,NA_,No,No,No,No,No,لا تستطيع الحضور بسبب الالتزام بالعمل- اغلاق,GZT
+MT,33,R0879,محمد,السعيد,Male,41,Syrian,GZT,2023-09-11,,,IRM,NA_,Yes,No,No,No,No,,GZT
+MT,34,R0927,جميلة,الكردي,Female,38,Syrian,SF,2023-09-12,,,IRM,NA_,No,No,No,No,No,لا ترغب بتلقي أي نوع من أنواع خدمة الدعم النفسي وترفض الإحالة لطبيب نفسي,nan
+MT,35,R0928,عبد الفتاح,العجيل,Male,27,Syrian,SF,2023-09-13,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,36,R0701,محمد,حميش,Male,43,Syrian,SF,,2023-09-13,,IRM,NA_,No,No,No,Yes,Yes,,nan
+MT,37,R0929,خالد,مرزوك,Male,56,Syrian,SF,2023-09-13,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+MT,38,R0561,نجاح,العبد الله,Female,53,Syrian,SF,,,2023-09-15,IRM,NA_,No,No,Yes,No,No,تم اجراء سكريننغ سابقا وتم تحويلها لمنظمة سامز تاريخ السكريننغ السابق في الشهر العاشر 2022- وسيتم تحويلها مجددا بسب عدم القدرة على التدخل حاليا,nan
+MT,39,R0930,ظافر,غزال,Male,64,Syrian,SF,2023-09-19,,,IRM,NA_,No,No,No,No,No,لا يوحد لدية أي شكااية على المستوى النفسي وغير محتاج للخدمة,nan
+MT,40,R0931,ريم,العواد,Female,46,Syrian,SF,2023-09-19,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,41,R0940,عصام,محملجي,Male,29,Syrian,SF,2023-09-19,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,42,R0934,علي,الكداب,Male,33,Syrian,SF,2023-09-25,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+MT,43,R0747,عبد الله,الصطوف,Male,42,Syrian,GZT,2023-10-03,,,IRM,NA_,No,No,No,Yes,No,مقيم حاليا في ايلازاغ,GZT
+MT,44,R0751,غياث,زنكيح,Male,31,Syrian,GZT,2023-10-03,,,IRM,NA_,No,No,No,No,No,لا يوجد احتياج وليس عنده رغبة بتلقي الخدمة,GZT
+MT,45,R0856,جيهان,عبد العظيم,Female,34,Syrian,GZT,2023-10-09,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,,GZT
+MT,46,R0892,أسماء,حميد التركي,Female,36,Syrian,GZT,2023-10-09,,,IRM,NA_,No,No,No,Yes,No,تقيم في كلس - من مشروع جبر الضرر,GZT
+MT,47,R0626,عزيزة,هنداوي,Female,34,Syrian,GZT,,2023-10-09,,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,GZT
+MT,48,R0631,ليلى,شاهين,Female,44,Syrian,GZT,,2023-10-09,,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,GZT
+MT,49,R0392,ليالي,الخليف,Female,41,Syrian,SF,2023-10-10,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,50,R0937,يزيد,الحاج,Male,30,Syrian,SF,2023-10-13,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,51,R0951,نورا,رباح,Female,41,Syrian,SF,2023-10-13,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+MT,52,R1025,عبد الرزاق,الشحود,Male,22,Syrian,HT,2023-10-25,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,53,R1030,عوض,الزعبي,Male,48,Syrian,HT,2023-10-25,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,54,R1077,رحاب,نويران,Female,30,Syrian,SF,2023-10-30,,,ADMSP_Member,NA_,No,No,No,No,Yes,,nan
+MT,55,R1080,صدام,الجاسر,Male,47,Syrian,SF,2023-10-31,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,56,R1093,الاء,موريلي,Female,33,Syrian,HT,2023-11-06,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,57,R1102,نواف,شنتوت,Male,46,Syrian,HT,2023-11-07,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,58,R1103,ياسر,الضرغام,Male,54,Syrian,HT,2023-11-07,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,59,R1105,سوسن,لطوف,Female,42,Syrian,HT,2023-11-07,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,60,R0978,ياسمين,تركمان,Female,40,Syrian,GZT,2023-10-16,,,NGO,,No,Yes,No,No,No,محولة من منظمة سامز تأخر الأدخال حتى تم مناقشة الحالة مع المشرف,GZT
+MT,61,R1128,يحيى,سيدة,Male,28,Syrian,GZT,2023-11-15,,,IRM,NA_,No,No,No,Yes,No,,GZT
+MT,62,R0688,منيرة,مطلق,Female,52,Syrian,GZT,2023-11-15,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,,GZT
+MT,63,R0778,عبد الكريم,الصبوح,Male,40,Syrian,HT,2023-11-20,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,64,R0779,عبد الهادي,النجار,Male,34,Syrian,HT,2023-11-20,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,65,R1137,محمد,شعبان,Male,31,Syrian,HT,2023-11-20,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,66,R1138,بلال,التلاوي,Male,35,Syrian,HT,2023-11-20,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,67,R0777,محمد,عجينة,Male,53,Syrian,HT,2023-11-20,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,68,R1139,عمر,دويك,Male,31,Syrian,HT,2023-11-21,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,69,R1140,المثنى,المروح,Male,31,Syrian,HT,2023-11-21,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,70,R1141,عبد الرحمن,عثمان,Male,22,Syrian,HT,2023-11-22,,,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,nan
+MT,71,R1143,ملاك,عثمان اوغلو,Female,23,Syrian,HT,2023-11-22,,,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,nan
+MT,72,R1158,عبد الرحمن,خطاب,Male,74,Syrian,HT,2023-12-06,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,73,R0253,رويدا,القاسمي,Female,31,Syrian,HT,2023-12-06,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+MT,74,R1159,أحمد,دوشانية,Male,49,Syrian,HT,2023-12-06,,,IRM,NA_,No,No,No,No,No,,nan
+MT,75,R1161,عماد,بكداش,Male,29,Syrian,HT,2023-12-06,,,IRM,NA_,No,No,No,Yes,No,,nan
+MT,76,R1157,طارق,الابرش,Male,37,Syrian,HT,2023-12-08,,,IRM,NA_,No,No,No,No,Yes,,nan
+MT,77,R1162,محمد,المحلي,Male,42,Syrian,HT,2023-12-13,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+MT,78,R1160,نبيل,اندرون,Male,61,Syrian,HT,2023-12-13,,,IRM,NA_,No,No,No,No,No,لا يرغب بتلقي الخدمة- اغلاق,nan
+MT,79,R1163,قدري,الصوفي,Male,37,Syrian,HT,2023-12-13,,,IRM,NA_,No,No,No,No,No,ليس لديه حاجة او رغبة- اغلاق,nan
+MT,80,R1169,حاتم,الحاج أحمد,Male,38,Syrian,HT,2023-12-15,,,IRM,NA_,No,No,No,No,No,ليس لديه حاجة او رغبة- اغلاق,nan
+SA,1,R0050,عدوية,صباغ,Female,53,Syrian,GZT,2021-04-14,,,NGO,جمعية الحياة ,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,2,R0076,أديبة,شيخو,Female,43,Syrian,GZT,2021-06-24,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,3,R0063,آمنة,رزوق,Female,41,Syrian,GZT,2021-07-09,,,NGO,FFF,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,4,R0131,رضوان,حياني,Male,35,Syrian,GZT,2021-09-07,,,Family_or_Friend,NA_,No,No,Yes,No,No,لا ينطبق مع خدماتنا-تم تحويله لجهة أخرى تناسب احتياجه,nan
+SA,5,R0090,بسام,الوسي,Male,50,Syrian,GZT,2021-10-05,,,NGO,SAMS,Yes,No,No,No,No,تم  تحويله للخدمات المتخصصة,nan
+SA,6,R0091,خزامى,حميدة,Female,45,Syrian,GZT,2021-10-07,,,Family_or_Friend,NA_,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,7,R0092,إيمان,الصالح,Female,46,Syrian,GZT,2021-10-18,,,ADMSP_Member,NA_,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,8,R0093,خليل,أحمد علي,Male,31,Syrian,GZT,2021-10-18,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,تم تحويله لورشة مقاومة الصدمات,nan
+SA,9,R0094,وفاء,السيد,Female,40,Syrian,GZT,2021-10-19,,,Outreach_Session,IDA,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,10,R0095,نوى,عطونو,Female,43,Syrian,GZT,2021-10-20,,,Outreach_Session,IDA,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة,nan
+SA,11,R0102,خديجة,رمضان,Female,37,Syrian,GZT,2021-11-03,,,Outreach_Session,FC,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة,nan
+SA,12,R0101,ليلى,ريحاوي,Female,65,Syrian,GZT,2021-11-03,,,Outreach_Session,FC,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة,nan
+SA,13,R0104,فاطمة,الأحمد,Female,39,Syrian,GZT,2021-11-05,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,تم تحويلها  للخدمات المتخصصة,nan
+SA,14,R0106,ديدار,علي,Female,42,Syrian,GZT,2021-11-09,,,Social_Media,NA_,No,No,Yes,No,No,لا ينطبق مع خدماتنا- ترغب في التوثيق القاانوني,nan
+SA,15,R0107,بشرى,طه,Female,31,Syrian,GZT,2021-11-10,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,16,R0109,نديمة,المصري,Female,55,Syrian,GZT,2021-11-16,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,17,R0114,إيباء,دوارة,Female,34,Syrian,GZT,2021-11-19,,,Outreach_Session,FC,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,18,R0111,ابتسام,مرعشلي,Female,41,Syrian,GZT,2021-11-19,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,19,R0110,فريال,عيسى,Female,44,Syrian,GZT,2021-11-19,,,Outreach_Session,IDA,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,20,R0112,خديجة,دندل,Female,36,Syrian,GZT,2021-11-19,,,Outreach_Session,IDA,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,21,R0121,مفيدة,خواتمي,Female,34,Syrian,GZT,2021-11-29,,2022-11-02,Outreach_Session,IDA,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,22,R0125,نهلة,جبارة,Female,41,Syrian,GZT,2021-12-02,,,Outreach_Session,FC,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,23,R0124,نرجس,سعيد,Female,43,Syrian,GZT,2021-12-02,,,Outreach_Session,FC,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,24,R0128,أسمهان,سعيد رشيد,Female,47,Syrian,GZT,2021-12-09,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,25,R0129,بشرى,محمد,Female,48,Syrian,GZT,2021-12-13,,,Outreach_Session,FC,Yes,No,No,No,No,تم تحويلها للخدمات المتخصصة,nan
+SA,26,R0181,أحمد,رزوق,Male,18,Syrian,GZT,2021-12-15,,,ADMSP_Member,NA_,Yes,No,Yes,No,No,تم تحويله للخدمات المتخصصة,nan
+SA,27,R0182,حليمة,خنوس,Female,41,Syrian,GZT,2021-12-17,,,Family_or_Friend,NA_,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,28,R0009,نور,ديري,Female,26,Syrian,GZT,2021-10-20,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,29,R0122,آية,تيت,Female,25,Syrian,GZT,2021-11-30,,,Outreach_Session,IDA,Yes,No,Yes,No,No,تم تحويلها للخدمات المتخصصة-وتحويلها لسامز,nan
+SA,30,R0100,أميرة,بكران,Female,45,Syrian,GZT,2021-11-30,,,Outreach_Session,FC,Yes,No,Yes,No,No,تم تحويلها للخدمات المتخصصة- وتحويلها لسامز,nan
+SA,31,R0123,خولة,فرجاني,Female,51,Syrian,GZT,2021-11-30,,,Outreach_Session,FC,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,32,R0187,زليخة,الناصر,Female,40,Syrian,,2022-01-04,2023-10-06,,ADMSP_Member,NA_,Yes,No,No,No,Yes,تم تحويلها للخدمات المتخصصة - الجلسة الثانية للسكريننغ كانت لتقييم الزلزال ,nan
+SA,33,R0188,سهاد,عديل,Female,46,Syrian,GZT,2022-01-04,,,ADMSP_Member,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,34,R0066,غادة,عرجة,Female,55,Syrian,GZT,2021-04-22,,,NGO,FFF,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) ,nan
+SA,35,R0190,ميساء,الجراقي,Female,48,Syrian,GZT,2022-01-07,,,ADMSP_Member,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,36,R0189,هالة,غزال,Female,58,Syrian,GZT,2022-01-06,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,37,R0191,لطيفة,حسناتو,Female,63,Syrian,GZT,2022-01-07,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,38,R0049,شهناز,منلا,Female,47,Syrian,GZT,2021-04-13,,,NGO,جمعية الحياة ,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) ,nan
+SA,39,R0077,فاطمة,الحريري,Female,56,Syrian,GZT,2021-06-30,,,Family_or_Friend,NA_,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) ,nan
+SA,40,R0088,ابراهيم,العلي,Male,51,Syrian,GZT,2021-09-02,,,Social_Media,NA_,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) ,nan
+SA,41,R0065,عروبة,دوارة,Female,56,Syrian,GZT,2021-04-22,,,NGO,FFF,,,,,,الأخصائي المسؤول عن السكريننغ بيان (تم تحويل هذا الملف لي) ,nan
+SA,42,R0133,حليمة,عابد,Female,46,Syrian,GZT,2022-03-02,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة-مسؤول السكريننغ محمد,nan
+SA,43,R0194,فاطمة,شواخ,Female,43,Syrian,GZT,2022-03-02,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة-وتحويلها للتوثيق وخدمات غير نفسية- مسؤول السكريننغ محمد,nan
+SA,44,R0361,آمنة,عبد السلام,Female,23,Syrian,GZT,2022-03-08,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,45,R0357,ضحى,مبيض,Female,41,Syrian,GZT,2022-03-09,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة-وتحويلها للتوثيق وخدمات غير نفسية,nan
+SA,46,R0221,عائشة,خالد الحمد,Female,38,Syrian,GZT,2022-03-09,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة-وتحويلها لسامز,nan
+SA,47,R0174,ماجدة,السبتي,Female,48,Syrian,GZT,2022-03-09,,,Outreach_Session,FC,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,48,R0208,رسمية,محمد أمين,Female,65,Syrian,GZT,2022-03-09,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة-إحالة لسامز للعلاج الفيزيائي,nan
+SA,49,R0226,مها,الكردي,Female,60,Syrian,GZT,2022-03-09,,,ADMSP_Member,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,50,R0360,هدى,نور أوزدمير,Female,45,Syrian,GZT,2022-03-09,,,Family_or_Friend,NA_,,,,,,لا تنطبق مع خدماتنا-تم توجيهها لسامز لتلقي الخدمة المناسبة,nan
+SA,51,R0259,مياس,عمر,Female,37,Syrian,GZT,2022-03-10,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,52,R0285,مزجين,أوزترك,Female,26,Syrian,GZT,2022-03-10,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,53,R0224,غفران,جزار,Female,31,Syrian,GZT,2022-03-10,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,54,R0258,نورس,عبد الكريم جبر,Female,41,Syrian,GZT,2022-03-10,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,55,R0235,سامر,عبود,Male,45,Syrian,GZT,2022-03-11,,,ADMSP_Member,NA_,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,56,R0400,فاطمة,عايد,Female,53,Syrian,GZT,2022-03-15,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة - التوثيق القانوني ,nan
+SA,57,R0247,فاطمة,شوكة,Female,56,Syrian,GZT,2022-03-15,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة - التوثيق القانوني ,nan
+SA,58,R0362,إيمان,عبد السلام,Female,26,Syrian,GZT,2022-03-25,,,ADMSP_Beneficiary,NA_,,,,,,تحويل للخدمات المتخصصة,nan
+SA,59,R0352,محمود,السبيني,Male,35,Syrian,GZT,2022-03-28,,,NGO,SAMS,,,,,,تم تحويله للخدمات المتخصصة- للتوثيق القانوني,nan
+SA,60,R0218,فدوى,نعمة,Female,26,Syrian,GZT,2022-03-28,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,61,R0365,إيمان,قاسم,Female,37,Syrian,GZT,2022-03-28,,,NGO,SAMS,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,62,R0335,هنادي,عجيل,Female,35,Syrian,GZT,2022-03-30,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,63,R0210,كفاء,رمضان,Female,51,Syrian,GZT,2022-03-31,,,Outreach_Session,FC,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,64,R0401,أسماء,حسين,Female,55,Syrian,GZT,2022-03-31,,,Family_or_Friend,NA_,,,,,,لا تنطبق مع خدماتنا,nan
+SA,65,R0406,إبتسام,غزال,Female,50,Syrian,GZT,2022-04-01,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,66,R0409,ابتهال,كعكة,Female,40,Syrian,GZT,2022-04-05,,,Family_or_Friend,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,67,R0213,ذكاء,نعمة,Female,45,Syrian,GZT,2022-04-05,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,68,R0257,غفران,خالد,Female,22,Syrian,GZT,2022-04-07,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,69,R0411,إتحاد,حسن السيد,Female,51,Syrian,GZT,2022-04-07,,,Social_Media,NA_,,,,,,تم تحويلها للخدمات المتخصصة-إحالة لسامز للطبيب النفسي,nan
+SA,70,R0317,رهف,الأحمر,Female,37,Syrian,GZT,2022-04-11,,,Family_or_Friend,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات- وتزويدها برقم سامز لإبنها,nan
+SA,71,R0269,منار,خالد نديوي,Female,44,Syrian,GZT,2022-04-12,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات ,nan
+SA,72,R0277,عبد,الرزاق هلال,Male,62,Syrian,GZT,2022-04-13,,,Family_or_Friend,NA_,,,,,,تم تحويله لورشة مقاومة الصدمات - التوثيق القانوني,nan
+SA,73,R0283,ميادة,يوسف,Female,46,Syrian,GZT,2022-04-13,,,Family_or_Friend,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,74,R0237,هدى,عبد الفتاح طالب,Female,42,Syrian,GZT,2022-04-14,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,75,R0231,نجلاء,العويدات,Female,26,Syrian,GZT,2022-04-18,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,76,R0281,مريم,طالب,Female,21,Syrian,GZT,2022-04-18,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,77,R0293,مرح,محمد,Female,23,Syrian,GZT,2022-04-19,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات-التوثيق القانوني,nan
+SA,78,R0347,أسمهان,سلو,Female,27,Syrian,GZT,2022-04-20,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,79,R0346,فضيلة,حمدني,Female,30,Syrian,GZT,2022-04-20,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,80,R0238,سميرة,نعسان قويدر,Female,56,Syrian,GZT,2022-04-22,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,81,R0336,إيمان,محمد,Female,41,Syrian,GZT,2022-04-25,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,82,R0326,أسماء,محمد عزيزة,Female,32,Syrian,,2022-04-27,,2023-08-08,Family_or_Friend,NA_,Yes,,,,,تم تحويلها لورشة مقاومة الصدمات - بجلسة إعادة السكريننغ تم تحويلها للجلسات الجماعية العلاجية,nan
+SA,83,R0423,مطيعة,شريف,Female,61,Syrian,GZT,2022-04-29,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,84,R0430,منصور,الصيني,Male,39,Syrian,GZT,2022-05-11,,,NGO,Taafe,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,85,R0438,هدى,طقطق,Female,30,Syrian,GZT,2022-05-17,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,86,R0439,إيمان,الصيني,Female,37,Syrian,GZT,2022-05-17,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويها للخدمات المتخصصة,nan
+SA,87,R0308,هيام,بادنجكي,Female,59,Syrian,GZT,2022-05-27,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة- تم التواصل معها للتقييم ، لا تستطيع الحضور  بالمواصلات العامة,nan
+SA,88,R0310,غنوة,سواس,Female,55,Syrian,GZT,2022-05-27,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,89,R0311,ريم,كرمان,Female,39,Syrian,GZT,2022-05-27,,,Outreach_Session,FC,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,90,R0315,نعيمة,الحمد,Female,54,Syrian,GZT,2022-06-06,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,91,R0455,مريم,الحسين,Female,41,Syrian,GZT,2022-06-06,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,92,R0330,مها,ريحاوي,Female,41,Syrian,GZT,2022-06-06,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,93,R0441,فاطمة,حسن الأحمد,Female,43,Syrian,GZT,2022-06-03,,,Family_or_Friend,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,94,R0444,فاطمة,حج علي,Female,29,Syrian,,2022-06-06,,2023-06-22,ADMSP_Beneficiary,NA_,Yes,,,,Yes,تم تحويلها للخدمات المتخصصة,nan
+SA,95,R0340,وردة,حمدان,Female,24,Syrian,GZT,2022-06-08,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,96,R0486,زكريا,هدلة,Female,55,Syrian,GZT,2022-06-17,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,97,R0391,رقية,عبد الله,Female,44,Syrian,GZT,2022-06-20,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,98,R0382,وحيد,عبد الله,Male,58,Syrian,GZT,2022-06-20,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,99,R0485,أحمد,الصيني,Male,44,Syrian,GZT,2022-06-20,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,100,R0390,هناء,خطيب,Female,54,Syrian,GZT,2022-06-20,,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,101,R0378,عائشة,الخاطر,Female,38,Syrian,GZT,2022-06-22,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,102,R0387,ختام,كحلاوي,Female,34,Syrian,GZT,2022-06-30,,,Outreach_Session,FC,Yes,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,103,R0388,ثريا,النجار,Female,56,Syrian,GZT,2022-06-30,,,Outreach_Session,FC,,,,,,تم تحويلها لورشة مقاومة الصدمات- التوثيق القانوني,nan
+SA,104,R0503,جواهر,حشيشو,Female,51,Syrian,GZT,2022-07-05,,,Family_or_Friend,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات - تحويل لسامز لخدمة الطبيب النفسي,nan
+SA,105,R0458,مروة,عدنان عشموطي,Female,34,Syrian,GZT,2022-07-19,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,106,R0466,انتصار,دعاس,Female,46,Syrian,GZT,2022-07-27,,,Outreach_Session,FC,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,107,R0513,عدوية,عيد,Female,32,Syrian,GZT,2022-07-28,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,108,R0323,دلال,الحسن,Female,52,Syrian,GZT,2022-08-18,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,109,R0519,سارة,نديوي,Female,19,Syrian,GZT,2022-08-18,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,110,R0473,منال,محمد,Female,23,Syrian,,2022-08-18,,2023-06-22,Outreach_Session,FC,Yes,,,,Yes,تم تحويلها للخدمات المتخصصة,nan
+SA,111,R0379,سوسن,الأسود,Female,52,Syrian,GZT,2022-08-19,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات-للتوثيق القانوني من أجل أخيها المفقود,nan
+SA,112,R0386,فهيمة,شيخ إبراهيم,Female,51,Syrian,GZT,2022-08-22,,,Outreach_Session,FC,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,113,R0331,جيزان,عبد الله جار الله,Female,40,Syrian,GZT,2022-08-24,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,114,R0507,بسمة,الحريري,Female,28,Syrian,GZT,2022-08-29,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,115,R0526,نوال,السليم,Female,58,Syrian,GZT,2022-08-29,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,116,R0484,سمية,مروح,Female,50,Syrian,GZT,2022-09-01,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,117,R0527,أحمد,أبو عابد,Male,18,Syrian,GZT,2022-09-01,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويله لورشة مقاومة الصدمات- تحويل لسامز لتلقي جلسات دعم نفسي,nan
+SA,118,R0528,وائل,يسقي,Male,33,Syrian,GZT,2022-09-07,,,NGO,LDHR,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,119,R0532,راما,أبو راس,Female,23,Syrian,GZT,2022-09-14,,,ADMSP_Beneficiary,NA_,,,,,,لا تنطبق مع خدماتنا-تم تزويدها برقم خدمة نفسية في إسطنبول لأنها عائدة لاسطنبول,nan
+SA,120,R0535,هالة,أكتيش,Female,28,Other,GZT,2022-09-29,,,ADMSP_Beneficiary,NA_,,,,,,لا تنطبق مع خدماتنا-تم توجيهها لسامز لتلقي الخدمة المناسبة,nan
+SA,121,R0534,دلال,الجادر,Female,37,Syrian,GZT,2022-09-30,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,122,R0553,أمارة,الضاهر,Female,31,Syrian,GZT,2022-10-03,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,123,R0393,زهراء,علوش,Female,48,Syrian,,2022-10-10,2023-09-09,,Outreach_Session,FC,,,,,,تم تحويلها للخدمات المتخصصة- جلسة السكريننغ الثانية كانت لتقييم بعد الزلزال,nan
+SA,124,R0558,فيصل,بلال براز,Male,49,Syrian,GZT,2022-10-21,,,ADMSP_Beneficiary,NA_,,,,,,لا ينطبق مع خدماتنا-تم تزويده برقم تواصل لسامز لتلقي الخدمة المناسبة,nan
+SA,125,R0540,غزالة,سقا عكة,Female,46,Syrian,GZT,2022-10-25,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة,nan
+SA,127,R0582,حمزة,الحريري,Male,32,Syrian,,2022-12-08,,2023-06-22,ADMSP_Member,NA_,Yes,,,,Yes,تم تحويله للخدمات المتخصصة,nan
+SA,128,R0591,نور,العلبي,Female,31,Syrian,GZT,2022-12-12,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويلها للخدمات المتخصصة-والعلاج الطبيعي,nan
+SA,129,R0599,بسام,محمد,Male,56,Syrian,,2022-12-28,,2023-07-06,ADMSP_Beneficiary,NA_,Yes,,,,Yes,تم تحويله للخدمات المتخصصة,nan
+SA,130,R0203,أنس,عبد الله,Male,37,Syrian,,2022-12-28,,2023-07-06,ADMSP_Beneficiary,NA_,Yes,,,,Yes,تم تحويله للخدمات المتخصصة,nan
+SA,131,R0592,مهند,صعب,Male,30,Syrian,GZT,2022-12-21,,,ADMSP_Member,NA_,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,132,R0633,جميلة,منصور,Female,48,Syrian,,2023-01-05,,,ADMSP_Beneficiary,NA_,Yes,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,133,R0707,عمر,جمول,Male,52,Syrian,,2023-04-29,,,IRM,NA_,Yes,No,No,No,Yes,تم تحويله للخدمات المتخصصة-لورشة الزلزال,nan
+SA,134,R0623,زين,العابدين العلي,Male,31,Syrian,,2023-05-03,,,ADMSP_Beneficiary,NA_,,,,,,تم تحويله للخدمات المتخصصة,nan
+SA,135,R0701,محمد,حميش,Male,43,Syrian,,2023-05-06,,,IRM,NA_,Yes,No,No,No,No,تم تحويله للخدمات المتخصصة,nan
+SA,136,R0705,أماني,عموري,Female,36,Syrian,,2023-05-09,,,IRM,NA_,No,No,No,Yes,Yes,مقيمة خارج عنتاب,nan
+SA,137,R0711,ممدوح,عبد القادر,Male,52,Syrian,,2023-05-11,,,IRM,NA_,No,Yes,No,No,No,تم تحويله لورشة مقاومة الصدمات,nan
+SA,138,R0365,إيمان,القاسم,Female,43,Syrian,,,,2023-05-11,IRM,NA_,No,No,No,No,No,غير مهتمة بخدمة الدعم النفسي ,nan
+SA,139,R0742,ولاء,الخطيب,Female,32,Syrian,,2023-06-23,,,IRM,NA_,No,Yes,No,No,No,مقيمة خارج عنتاب,nan
+SA,140,R0057,رحاب,المصري,Female,38,Syrian,,2023-05-11,,,IRM,NA_,Yes,,,,,تم تحويلها للخدمات المتخصصة ,nan
+SA,141,R0406,ابتسام,غزال,Female,51,Syrian,,,,2023-05-11,IRM,NA_,No,Yes,No,No,No,تم تحويلها لورشة مقاومة الصدمات,nan
+SA,142,R0102,خديجة,رمضان,Female,38,Syrian,,,,2023-05-17,IRM,NA_,,,,,Yes,تم تحويلها لورشة الزلزال,nan
+SA,143,R0749,بشير,العبدو,Male,38,Syrian,MR,2023-06-15,,,IRM,NA_,No,No,No,Yes,No,مقيم خارج غنتاب,nan
+SA,144,R0725,ربى,قطشة,Female,33,Syrian,,2023-06-16,,,IRM,NA_,Yes,No,No,No,Yes,تم عمل خطة أمان لوجود محاولات انتحار - تقييم الزلازل بعد التقييم ,nan
+SA,145,R0757,أحمد,برو,Male,59,Syrian,,2023-06-19,,,IRM,NA_,No,No,No,No,No,غير مهتم بخدمة الدعم النفسي ,nan
+SA,146,R0487,رياض,أسعد,Male,59,Syrian,,,,2023-06-21,,,No,No,No,No,Yes,,nan
+SA,147,R0117,آية,حمد,Female,26,Syrian,,,,2023-06-21,,,No,No,No,No,Yes,,nan
+SA,148,R0795,محمد,حلوم,Male,37,Syrian,,2023-06-23,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,,nan
+SA,149,R0855,آمنة,سلامة,Female,42,Syrian,,2023-08-17,,,ADMSP_Member,NA_,Yes,No,No,No,No,محولة من قسم التوثيق - ستكون في سوريا خلال 4 أشهر القادمة - سيتم التواصل معها بعد عودتها للتقييم,nan
+SA,150,R0825,أسعد,محمد,Male,54,Syrian,,2023-08-17,,,ADMSP_Member,NA_,Yes,No,No,No,No,محول من قسم التوثيق - تم تحويله للجلسات العلاجية الجماعية,nan
+SA,151,R0585,هناء,قشعم,Female,53,Syrian,,2023-09-01,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,تم أيضاً تقييم بعد الزلزال بعد السكريننغ مباشرة,nan
+SA,152,R0860,رانيا,غرير,Female,40,Syrian,,2023-09-01,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,nan
+SA,153,R0864,فدوى,حفيان,Female,44,Syrian,,2023-09-01,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,,nan
+SA,154,R0863,صالحة,عطية,Female,50,Syrian,,2023-09-01,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,nan
+SA,155,R0906,عبد الله,الخطاب,Male,36,Syrian,,2023-09-05,,,IRM,NA_,Yes,No,Yes,No,No,بحاجة لخدمات الصحة النفسية - تم تحويله لسامز لتلقي الخدمة وخاصة الدوائية,nan
+SA,156,R0887,محمد,مدلج,Male,68,Syrian,,2023-09-06,,,IRM,NA_,Yes,No,No,No,No,بحاجة لخدمات الصحة النفسية - إذا كان هناك كروب في كلس ممكن ضمه للكروب-لا يرغب ب Tele,nan
+SA,157,R0888,عهد,اسماعيل,Female,29,Syrian,,2023-09-06,,,IRM,NA_,Yes,No,No,No,No, ترغب بالخدمة النفسية من قبلنا إذا توفرت في كلس - ليس لديها مشكلة في الحضور لعنتاب لتلقي العلاج النفسي,nan
+SA,158,R0910,أمينة,اسماعيل,Female,47,Syrian,,2023-09-06,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No, ترغب بالخدمة النفسية من قبلنا إذا توفرت في كلس - ليس لديها مشكلة في الحضور لعنتاب لتلقي العلاج النفسي,nan
+SA,159,R0912,حسناء,عيد,Female,21,Syrian,,2023-09-07,,,ADMSP_Beneficiary,NA_,No,No,Yes,No,No,لا تنطبق مع خدماتنا- تم تزويدها برقم تواصل مع سامز لتلقي الخدمة المناسبة,nan
+SA,160,R0889,أحمد,الإمام,Male,47,Syrian,,2023-09-07,,,IRM,NA_,Yes,No,No,Yes,No,,nan
+SA,161,R0890,عبد القادر,حمشو,Male,53,Syrian,,2023-09-08,,,IRM,NA_,No,No,No,No,No,المراجع ليس بحاجة لأي خدمة نفسية ,nan
+SA,162,R0907,خديجة,دندل,Female,43,Syrian,,2023-09-08,,,ADMSP_Beneficiary,NA_,No,Yes,Yes,No,Yes,,nan
+SA,163,R0909,أحمد,الفارس,Male,39,Syrian,,2023-09-08,2023-09-27,,ADMSP_Beneficiary,NA_,No,Yes,No,No,Yes,,nan
+SA,164,R0918,عامر,محمد,Male,62,Syrian,SF,2023-09-08,,,IRM,NA_,Yes,No,No,Yes,No,,nan
+SA,165,R0917,محمد,مطلق,Male,26,Syrian,GZT,2023-09-08,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+SA,166,R0702,حسن,علي خلف,Male,37,Syrian,SF,,,2023-09-12,IRM,NA_,Yes,No,No,Yes,,لم يجري تقييم الزلزال بعد - يرغب بحضور الجلسات العلاجية إن كانت ستتم في أورفا,nan
+SA,167,R0505,حسناء,حسكل,Female,53,Syrian,GZT,,,2023-10-13,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+SA,168,R0993,هاندي,حسين,Female,37,Syrian,SF,2023-10-13,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+SA,169,R0992,عمر,الخلف,Male,51,Syrian,SF,2023-10-16,,,IRM,NA_,No,No,No,No,Yes,,nan
+SA,170,R0510,غالية,شحرور,Female,60,Syrian,GZT,2022-09-01,,,Family_or_Friend,NA_,Yes,No,No,No,No,,GZT
+SA,171,R1021,زياد,محمد,Male,39,Syrian,GZT,2023-10-23,2023-10-26,,ADMSP_Member,NA_,Yes,No,No,No,Yes,,GZT
+SA,172,R1024,نظيرة,محمد,Female,30,Syrian,GZT,2023-10-24,2023-10-26,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+SA,173,R1026,محمد,خطاب,Male,46,Syrian,Rey,2023-10-24,,,IRM,NA_,No,No,No,No,Yes,,nan
+SA,174,R1027,إيمان,المحمود,Female,26,Syrian,Rey,2023-10-24,,,IRM,NA_,No,Yes,No,No,No,,nan
+SA,175,R1028,أيمن,الدرغام,Male,32,Syrian,Rey,2023-10-24,,,IRM,NA_,No,No,No,No,Yes,,nan
+SA,176,R1029,هبة,أوغلو,Female,37,Syrian,Rey,2023-10-24,,,IRM,NA_,No,No,No,No,Yes,,nan
+SA,177,R1023,باري,عبد اللطيف,Male,41,Syrian,GZT,2023-10-25,,,NGO,,Yes,No,No,No,No,,GZT
+SA,178,R1032,عائشة,خوالدة,Female,48,Syrian,GZT,2023-10-25,,,ADMSP_Beneficiary,NA_,No,Yes,No,No,Yes,,GZT
+SA,179,R1076,زيلان,مصطفى,Female,27,Syrian,GZT,2023-10-30,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,,GZT
+SA,180,R1118,محمد,سامر صالح,Male,53,Syrian,Rey,2023-11-10,,,IRM,NA_,No,No,No,No,No,تقييمه النفسي لا يستدعي الدعم والعلاج النفسي,nan
+SA,181,R1119,حميدة,خليف,Female,62,Syrian,Rey,2023-11-10,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+SA,182,R1120,فدوى,زينة,Female,51,Syrian,Rey,2023-11-10,,,IRM,NA_,No,No,No,Yes,No,,nan
+SA,183,R1121,أحمد,الراغب,Male,40,Syrian,Rey,2023-11-10,,,IRM,NA_,No,Yes,No,No,No,,nan
+SA,184,R1122,أيمن,المحيميد,Male,36,Syrian,Rey,2023-11-10,,,IRM,NA_,No,No,No,Yes,No,,nan
+SA,185,R1132,وفاء,عبود,Female,42,Syrian,GZT,2023-11-17,,,ADMSP_Member,NA_,Yes,No,No,No,Yes,,GZT
+SA,186,R1151,محمد,منى,Male,42,Syrian,HT,2023-11-24,,,IRM,NA_,No,Yes,No,No,Yes,,nan
+SA,187,R1153,هيثم,العمر,Male,43,Syrian,HT,2023-11-24,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+SA,188,R1148,هشام,سويد,Male,68,Syrian,HT,2023-11-24,,,IRM,NA_,No,No,No,Yes,No,موجود حالياً في قيصري ,nan
+SA,189,R1150,خالد,قاسم,Male,30,Syrian,HT,2023-11-24,,,IRM,NA_,No,No,No,Yes,No,,nan
+SA,190,R1149,عبد الكافي,سليم,Male,38,Syrian,Rey,2023-11-24,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+SA,191,R1154,رويدة,ماميك,Female,48,Syrian,GZT,2023-12-06,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,No,,GZT
+SA,192,R1164,ماجد,حج سليمان,Male,56,Syrian,HT,2023-12-14,,,IRM,NA_,No,No,No,Yes,No,,nan
+SA,193,R1165,حامد,النابو,Male,38,Syrian,Rey,2023-12-14,,,IRM,NA_,No,No,No,No,Yes,,nan
+SA,194,R1166,محمد,المحمد,Male,28,Syrian,HT,2023-12-14,,,IRM,NA_,No,No,No,No,No,,nan
+SA,195,R1167,لؤي,قدور,Male,29,Syrian,HT,2023-12-14,,,IRM,NA_,No,No,No,Yes,No,,nan
+YQ,1,R0028,جميلة,مصطفى,Female,48,Syrian,GZT,2020-06-23,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,2,R0031,يحيى,يحيى,Male,59,Syrian,GZT,2020-07-02,,,Social_Media,NA_,,,,,,,nan
+YQ,3,R0034,محمد,موفق مرجان,Male,34,Syrian,GZT,2020-07-03,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,4,R0029,ميساء,جمعة,Female,46,Syrian,GZT,2020-06-24,,,NGO,MASSARAT ,,,,,,,nan
+YQ,5,R0055,تيم,سيوفي,Male,26,Syrian,GZT,2020-12-08,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,6,R0043,ميساء,حديدي,Female,40,Syrian,GZT,2020-12-17,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,7,R0039,بارعة,زبيدي,Female,43,Syrian,GZT,2020-11-10,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,8,R0046,منيب,نصار,Male,19,Syrian,GZT,2021-01-06,,,NGO,Taafe,,,,,,,nan
+YQ,9,R0062,سوسن,دومان,Female,48,Syrian,GZT,2021-04-21,,,NGO,عائلات من أجل الحرية ,,,,,,,nan
+YQ,10,R0061,خديجة,كوسا,Female,45,Syrian,GZT,2021-04-21,,,NGO,عائلات من أجل الحرية ,,,,,,,nan
+YQ,11,R0084,خالد,الأغا,Male,56,Syrian,GZT,2021-08-12,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,12,R0096,عائشة,إبراهيم,Female,39,Syrian,GZT,2021-10-21,,,Outreach_Session,,,,,,,,nan
+YQ,13,R0097,أمينة,محمد,Female,31,Syrian,GZT,2021-10-22,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,14,R0098,غالية,منلا,Female,32,Syrian,GZT,2021-10-22,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,15,R0099,أحمد,دخان,Male,55,Syrian,GZT,2021-10-27,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,16,R0103,مروة,رحمون,Female,24,Syrian,GZT,2021-11-04,,,Outreach_Session,,,,,,,,nan
+YQ,17,R0105,نورا,ماملي,Female,33,Syrian,GZT,2021-11-09,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,18,R0132,معينة,ديري,Female,40,Syrian,GZT,2021-11-09,,,Outreach_Session,,,,,,,,nan
+YQ,19,R0108,منى,العمر,Female,53,Syrian,GZT,2021-11-11,,,Outreach_Session,,,,,,,,nan
+YQ,20,R0113,نبيهة,حسن,Female,42,Syrian,GZT,2021-11-19,,,Outreach_Session,,,,,,,,nan
+YQ,21,R0115,رقية,عبيد,Female,34,Syrian,GZT,2021-11-22,,,Outreach_Session,,,,,,,,nan
+YQ,22,R0127,جوهرة,إبراهيم,Female,44,Syrian,GZT,2021-12-06,,,Outreach_Session,,,,,,,,nan
+YQ,23,R0183,رفيق,الخنوس,Male,48,Syrian,,2021-12-17,,2023-06-21,Outreach_Session,,,,,,Yes,,nan
+YQ,24,R0184,أمل,العلي,Female,42,Syrian,GZT,2021-12-21,,,Outreach_Session,,,,,,,,nan
+YQ,25,R0185,محمد,رمضان,Male,35,Syrian,,2021-12-22,2023-10-09,,Outreach_Session,,Yes,No,No,No,Yes,,nan
+YQ,26,R0186,مريم,الشيخ محمد,Female,46,Syrian,GZT,2021-12-22,,,Outreach_Session,,,,,,,,nan
+YQ,27,R0118,فاطمة,علي سليمان,Female,43,Syrian,,2021-11-25,2023-10-09,,Outreach_Session,,Yes,No,No,No,Yes,,nan
+YQ,28,R0120,رعد,دندل,Male,44,Syrian,,2021-11-29,,2023-06-21,Outreach_Session,,Yes,No,No,No,Yes,,nan
+YQ,29,R0089,حنان,جزار,Female,43,Syrian,GZT,2021-09-03,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,30,R0071,صباح,حمادة,Female,39,Syrian,GZT,2021-06-18,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,31,R0069,أمينة,الغلاص,Female,44,Syrian,GZT,2021-06-16,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,32,R0083,منال,المصري,Female,36,Syrian,GZT,2021-08-05,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,33,R0070,هيفاء,العبد الله,Female,42,Syrian,GZT,2021-06-16,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,34,R0078,جميلة,حويلي,Female,40,Syrian,GZT,2021-07-06,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,35,R0119,ياسمين,العمر,Female,23,Syrian,GZT,2021-11-25,,,Outreach_Session,,,,,,,,nan
+YQ,36,R0126,رقية,القيم,Female,46,Syrian,GZT,2021-12-06,,,Outreach_Session,,,,,,,,nan
+YQ,37,R0155,نابغة,عبد اللطيف,Female,51,Syrian,GZT,2022-01-10,,,Outreach_Session,,,,,,,,nan
+YQ,38,R0251,سعاد,بكور,Female,45,Syrian,GZT,2022-02-03,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,39,R0245,علية,شيخ محمد,Female,43,Syrian,GZT,2022-01-31,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,40,R0263,نصرة,كبير,Female,48,Syrian,GZT,2022-02-08,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,41,R0268,رانية,نديوي,Female,46,Syrian,GZT,2022-02-09,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,42,R0273,مريم,الأسود,Female,47,Syrian,GZT,2022-02-10,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,43,R0157,فوزية,غش,Female,56,Syrian,GZT,2022-02-16,,,Outreach_Session,,,,,,,,nan
+YQ,44,R0147,سارية,مروح,Female,29,Syrian,GZT,2022-01-11,,,Outreach_Session,,,,,,,,nan
+YQ,45,R0156,فاطمة,مروح,Female,26,Syrian,GZT,2022-01-11,,,Outreach_Session,,,,,,,,nan
+YQ,46,R0206,نعمة,الصغير,Female,28,Syrian,GZT,2022-01-14,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,47,R0140,مريم,المحمود,Female,56,Syrian,GZT,2022-01-14,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,48,R0192,هدية,طالب,Female,45,Syrian,GZT,2022-01-17,,,Outreach_Session,,,,,,,,nan
+YQ,49,R0214,وفاء,رجو,Female,41,Syrian,GZT,2022-01-17,,,Outreach_Session,,,,,,,,nan
+YQ,50,R0198,فطومة,الشيخ محمد,Female,40,Syrian,GZT,2022-01-17,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,51,R0151,مرشة,عبد ربه,Female,65,Syrian,GZT,2022-01-17,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,52,R0215,أميرة,ريحاوي,Female,40,Syrian,GZT,2022-01-18,,,Outreach_Session,,,,,,,,nan
+YQ,53,R0196,أسماء,بكار,Female,42,Syrian,GZT,2022-01-18,,,Outreach_Session,,,,,,,,nan
+YQ,54,R0217,مسياء,نعمة,Female,47,Syrian,GZT,2022-02-01,,,Outreach_Session,,,,,,,,nan
+YQ,55,R0230,عزيزة,حسن,Female,42,Syrian,GZT,2022-02-02,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,56,R0254,جملية,عمر,Female,39,Syrian,GZT,2022-02-07,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,57,R0138,أمل,يوسف,Female,31,Syrian,GZT,2022-02-25,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,58,R0146,سماح,صالح,Female,31,Syrian,GZT,2022-02-16,,,Outreach_Session,,,,,,,,nan
+YQ,59,R0173,خديجة,يوسف,Female,38,Syrian,GZT,2022-02-25,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,60,R0200,خولة,عبد القادر,Female,21,Syrian,GZT,2022-03-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,61,R0199,جليلة,الشاهر,Female,51,Syrian,GZT,2022-03-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,62,R0145,عائشة,العبد الله,Female,42,Syrian,GZT,2022-03-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,63,R0339,فاطمة,حياني,Female,63,Syrian,GZT,2022-03-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,64,R0202,وفاء,مشاعل,Female,33,Syrian,GZT,2022-03-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,65,R0223,سهام,صبحان,Female,75,Syrian,GZT,2022-03-09,,,Outreach_Session,,,,,,,,nan
+YQ,66,R0222,مفيدة,عبد الكريم,Female,56,Syrian,GZT,2022-03-09,,,Outreach_Session,,,,,,,,nan
+YQ,67,R0207,صبحية,مروح,Female,64,Syrian,GZT,2022-03-09,,,Outreach_Session,,,,,,,,nan
+YQ,68,R0227,أحلام,الحسن,Female,38,Syrian,GZT,2022-03-09,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,69,R0359,رنا,العيسى,Female,39,Syrian,GZT,2022-03-09,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,70,R0241,هديل,الخطيب,Female,41,Syrian,GZT,2022-03-10,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,71,R0334,أمل,صابوني,Female,61,Syrian,GZT,2022-03-15,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,72,R0117,أية,حمد,Female,26,Syrian,GZT,2021-11-25,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,73,R0260,زهور,الحسين,Female,58,Syrian,GZT,2022-04-04,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,74,R0266,فاطمة,العيسى,Female,27,Syrian,GZT,2022-04-04,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,75,R0272,فهمية,قط,Female,63,Syrian,GZT,2022-04-05,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,76,R0279,أمينة,خضر,Female,39,Syrian,GZT,2022-04-05,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,77,R0246,إسراء,العبدالله,Female,20,Syrian,GZT,2022-04-06,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,78,R0274,محمد,نديوي,Male,58,Syrian,GZT,2022-04-07,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,79,R0282,فاطمة,شاشو,Female,43,Syrian,GZT,2022-04-07,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,80,R0290,أسماء,العيسى,Female,34,Syrian,,2022-04-07,,2023-06-16,ADMSP_Beneficiary,NA_,,,,,Yes,,nan
+YQ,81,R0287,أحلام,حمدني,Female,35,Syrian,GZT,2022-04-08,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,82,R0414,سوزان,كليج,Female,40,Syrian,GZT,2022-04-08,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,83,R0261,غصون,كردي,Female,37,Syrian,GZT,2022-04-11,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,84,R0286,ليلى,الفرج,Female,36,Syrian,GZT,2022-04-11,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,85,R0415,قيس,أبو نقطة,Male,25,Syrian,GZT,2022-03-12,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,86,R0284,بدر,الزعبي,Female,54,Syrian,GZT,2022-04-13,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,87,R0297,رنا,الخطيب,Female,41,Syrian,GZT,2022-04-13,,,Outreach_Session,,,,,,,,nan
+YQ,88,R0288,أية,الحسن,Female,19,Syrian,GZT,2022-04-13,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,89,R0295,نجلاء,شمان,Female,35,Syrian,GZT,2022-04-13,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,90,R0298,يسرى,الحويل,Female,36,Syrian,,2022-04-13,,2023-06-20,Outreach_Session,,,,,,Yes,,nan
+YQ,91,R0418,عبد,الله سلامات,Female,39,Syrian,GZT,2022-04-15,,,ADMSP_Member,NA_,,,,,,,nan
+YQ,92,R0280,كوثر,طالب,Female,22,Syrian,GZT,2022-04-18,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,93,R0314,رقية,الحسين,Female,41,Syrian,GZT,2022-04-19,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,94,R0412,زين,المرعي,Female,41,Syrian,GZT,2022-04-20,,,NGO,SAMS ,,,,,,,nan
+YQ,95,R0356,حليمة,حمدني,Female,22,Syrian,GZT,2022-04-20,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,96,R0300,مروة,التريس,Female,44,Syrian,GZT,2022-04-21,,,Outreach_Session,,,,,,,,nan
+YQ,97,R0383,نادين,حمادي,Female,28,Syrian,GZT,2022-04-22,,,Outreach_Session,,,,,,,,nan
+YQ,98,R0337,ايمن,دعاس,Male,53,Syrian,,2022-04-25,,2023-06-19,ADMSP_Beneficiary,NA_,,,,,Yes,,nan
+YQ,99,R0327,شريفة,إبراهيم,Female,46,Syrian,GZT,2022-04-27,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,100,R0376,الاء,حمد,Female,21,Syrian,GZT,2022-05-17,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,101,R0389,بشرى,مطلق,Female,25,Syrian,GZT,2022-05-18,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,102,R0368,فاطمة,بهاء الدين,Female,26,Syrian,GZT,2022-05-18,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,103,R0342,ندى,العمر,Female,24,Syrian,GZT,2022-05-25,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,104,R0341,خالدية,العمر,Female,49,Syrian,GZT,2022-05-25,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,105,R0141,فاطمة,العلي,Female,30,Syrian,GZT,2022-05-26,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,106,R0306,سلمى,المصطفى,Female,51,Syrian,GZT,2022-05-27,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,107,R0294,ريمة,طالب,Female,46,Syrian,,2022-05-27,2023-10-06,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,nan
+YQ,108,R0305,فاطمة,العمر,Female,45,Syrian,GZT,2022-05-27,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,109,R0307,أميرة,العمر,Female,66,Syrian,GZT,2022-05-27,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,110,R0313,حميدة,محمد,Female,57,Syrian,GZT,2022-05-30,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,111,R0318,بدرية,خليل,Female,52,Syrian,GZT,2022-05-30,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,112,R0333,راميا,مراد,Female,41,Syrian,GZT,2022-05-31,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,113,R0329,أمهان,أحمد,Female,47,Syrian,GZT,2022-05-31,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,114,R0348,ناديا,عبد المجيد,Female,43,Syrian,GZT,2022-06-01,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,115,R0332,محمود,جبان,Male,52,Syrian,GZT,2022-06-01,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,116,R0367,أمينة,صباهي,Female,40,Syrian,GZT,2022-06-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,117,R0370,منار,ادريس,Female,39,Syrian,GZT,2022-06-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,118,R0353,دلال,الشيخ,Female,41,Syrian,GZT,2022-06-02,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,119,R0350,خلود,السعد,Female,36,Syrian,GZT,2022-06-17,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,120,R0494,أمل,زيات,Female,40,Syrian,GZT,2022-06-20,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,121,R0309,بدور,صوراني,Female,36,Syrian,GZT,2022-06-21,,,Outreach_Session,,,,,,,,nan
+YQ,122,R0369,سهيلة,بهاء الدين,Female,50,Syrian,GZT,2022-06-21,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,123,R0358,ناريمان,خلف,Female,36,Syrian,GZT,2022-06-23,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,124,R0375,أحلام,خطاب,Female,53,Syrian,GZT,2022-06-24,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,125,R0422,أميرة,عزت,Female,47,Syrian,GZT,2022-06-30,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,126,R0354,الاء,الجلم,Female,43,Syrian,GZT,2022-07-04,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,127,R0431,وصال,حنكي,Female,65,Syrian,GZT,2022-07-04,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,128,R0432,راميا,حمادة,Female,35,Syrian,GZT,2022-07-04,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,129,R0372,مريم,عيد,Female,40,Syrian,GZT,2022-07-19,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,130,R0041,عبيدة,صابرين,Female,41,Syrian,GZT,2021-01-18,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,131,R0003,عبير,الخطيب,Female,37,Syrian,GZT,2021-10-18,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,132,R0074,هويدا,مامو,Female,38,Syrian,GZT,2021-06-24,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,133,R0116,هناء,خليل,Female,43,Syrian,GZT,2021-12-23,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,134,R0299,عليا,الطالب,Female,39,Syrian,GZT,2022-08-16,,,Outreach_Session,,,,,,,,nan
+YQ,135,R0374,نهوى,المصطفى,Female,38,Syrian,GZT,2022-08-18,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,136,R0437,عبد,الله العلي,Male,34,Syrian,GZT,2022-08-18,,,Social_Media,NA_,,,,,,,nan
+YQ,137,R0435,جميل,العلو,Male,27,Syrian,GZT,2022-08-19,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,138,R0396,ألفت,المرزوقي,Female,50,Syrian,GZT,2022-08-22,,,Outreach_Session,,,,,,,,nan
+YQ,139,R0373,سهام,حيدر,Female,39,Syrian,GZT,2022-08-23,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,140,R0476,فطومة,الحسين,Female,50,Syrian,GZT,2022-08-24,,,Outreach_Session,,,,,,,,nan
+YQ,141,R0343,سمية,محمد,Female,46,Syrian,GZT,2022-08-25,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,142,R0497,هلا,الحلبي,Female,47,Syrian,GZT,2022-08-25,,,Family_or_Friend,NA_,,,,,,,nan
+YQ,143,R0205,عائشة,النايف,Female,51,Syrian,GZT,2022-02-01,,,Outreach_Session,,,,,,,ادخالات محمد,nan
+YQ,144,R0255,أمل,باكير,Female,45,Syrian,GZT,2022-02-08,,,ADMSP_Beneficiary,NA_,,,,,,ادخالات محمد,nan
+YQ,145,R0267,ندى,خالد,Female,47,Syrian,GZT,2022-02-09,,,ADMSP_Beneficiary,NA_,,,,,,ادخالات محمد,nan
+YQ,146,R0150,كوثر,خطيب,Female,47,Syrian,GZT,2022-02-23,,,ADMSP_Beneficiary,NA_,,,,,,ادخالات محمد,nan
+YQ,147,R0232,أمل,عزيزة,Female,44,Syrian,GZT,2022-03-21,,,ADMSP_Beneficiary,NA_,,,,,,ادخالات محمد,nan
+YQ,148,R0262,رغد,أبو راس,Female,21,Syrian,GZT,2022-02-07,,,ADMSP_Beneficiary,NA_,,,,,,ادخالات محمد,nan
+YQ,149,R0211,جميلة,أنيس,Female,57,Syrian,GZT,2022-03-09,,,Outreach_Session,,,,,,,ادخالات محمد,nan
+YQ,150,R0209,أماني,محمد,Female,21,Syrian,GZT,2022-03-02,,,Family_or_Friend,NA_,,,,,,ادخالات محمد,nan
+YQ,151,R0638,مرفت,جعجول,Female,35,Syrian,,2023-01-18,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,152,R0193,مصطفى,مصطفى,Male,20,Syrian,GZT,2022-03-02,,,ADMSP_Beneficiary,NA_,,,,,,ادخالات محمد,nan
+YQ,153,R0552,فدوى,حج يوسف,Female,37,Syrian,GZT,2022-10-04,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,154,R0556,ماجد,العلوش,Male,63,Syrian,GZT,2022-10-24,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,155,R0006,فاطمة,محمد,Female,45,Syrian,GZT,2022-11-02,,,ADMSP_Beneficiary,NA_,,,,,,مراجعة قديمة تلقت لدينا كل الخدمات و  لكن لديها انتكاسة فتقرر ادخالها الى ورشة مقاومة الصدمات,nan
+YQ,156,R0571,سميحة,نجمة,Female,25,Syrian,GZT,2022-11-24,,,ADMSP_Beneficiary,NA_,,,,,,,nan
+YQ,157,R0446,إسماعيل,السعدي,Male,38,Syrian,GZT,2023-01-03,,,ADMSP_Beneficiary,NA_,,,,,,لا يرغب بتلقي اي خدمة,GZT
+YQ,158,R0442,إبراهيم,الكردي,Male,36,Syrian,MR,2023-01-25,,,ADMSP_Beneficiary,NA_,,,,,,لا يرغب بتلقي اي خدمة,nan
+YQ,159,R0694,باسل,حج حسين,Male,36,Syrian,GZT,2023-01-27,,,ADMSP_Beneficiary,NA_,,,,,,,GZT
+YQ,160,R0703,أحمد,البطمان,Male,33,Syrian,GZT,2023-04-26,,,ADMSP_Beneficiary,NA_,Yes,No,Yes,No,No,,GZT
+YQ,161,R0142,عبدالعزيز,بيطار,Male,26,Syrian,GZT,2023-05-11,,,IRM,NA_,Yes,No,No,No,No,مشروع جبر الضرر,GZT
+YQ,162,R0709,جمعة,حاج داوود,Male,32,Syrian,GZT,2023-05-11,,,IRM,NA_,Yes,No,No,No,No,مشروع جبر الضرر,GZT
+YQ,163,R0434,فطيم,بكري,Female,38,Syrian,GZT,2023-05-11,,,IRM,NA_,Yes,No,No,No,No,مشروع جبر الضرر,GZT
+YQ,164,R0047,بلال,اللبان,Male,38,Syrian,GZT,2023-05-17,,,IRM,NA_,No,No,No,Yes,No,مشروع جبر الضرر,GZT
+YQ,165,R0702,حسن,الخلف,Male,37,Syrian,SF,2023-05-17,,,IRM,NA_,No,Yes,No,No,Yes,مشروع جبر الضرر  اونلاين المراجع موجود باورفا و لا يرغب بتلقي خدمة الصحة النفسية عن طريق الاونلاين وتم الاتفاق على اعطاء اي خدمة فيزيائية ممكن نقدمها باورفا,nan
+YQ,166,R0706,تمام,الموسى,Male,31,Syrian,MR,2023-05-17,,,IRM,NA_,No,No,Yes,No,No,مشروع جبر الضرر اونلاين المراجع موجود بمرسين ,nan
+YQ,167,R0730,أسامة,شروكي,Male,30,Syrian,MR,2023-05-18,,,IRM,NA_,Yes,No,No,No,No,مشروع  جبر الضرر ,nan
+YQ,168,R0724,المنذر,عكو,Male,31,Syrian,MR,2023-05-30,,,IRM,NA_,No,No,No,Yes,No,مشروع جبر الضرر اونلاين المراجع موجود بمرسين,nan
+YQ,169,R0540,غزالة,السقا,Female,46,Syrian,GZT,,,2023-06-15,ADMSP_Beneficiary,NA_,No,No,No,No,Yes,,GZT
+YQ,170,R0486,زكريا,هدلة,Male,56,Syrian,GZT,,,2023-06-21,IRM,NA_,Yes,No,No,No,Yes,,GZT
+YQ,171,R0553,أمارة,الظاهر,Female,31,Syrian,GZT,,,2023-06-19,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+YQ,172,R0485,أحمد,الصيني,Male,43,Syrian,GZT,,,2023-06-20,IRM,NA_,Yes,No,No,No,Yes,,GZT
+YQ,173,R0801,كاتنة,إسماعيل,Female,42,Syrian,GZT,2023-09-01,2023-10-09,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,ستذهب الى سامز و بعدها سيتم اجراء تقييم نفسي و كذلك تقييم زلزال,GZT
+YQ,174,R0796,بثينة,فياض,Female,48,Syrian,GZT,2023-09-05,,,ADMSP_Beneficiary,NA_,Yes,No,No,No,Yes,,GZT
+YQ,175,R0874,هويدا,الرجب أغا,Female,53,Syrian,GZT,2023-09-06,,,IRM,NA_,Yes,No,Yes,No,Yes,,GZT
+YQ,176,R0922,جمال,الحسين,Male,66,Syrian,SF,2023-09-08,,,IRM,NA_,No,No,No,No,Yes,,nan
+YQ,177,R0923,عبدالله,سلامة,Male,37,Syrian,SF,2023-09-08,,,IRM,NA_,No,Yes,No,Yes,Yes,,nan
+YQ,178,R1035,سمر,عبيد,Female,56,Syrian,Rey,2023-10-26,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+YQ,179,R1034,خالد,زيتون,Male,52,Syrian,Rey,2023-10-26,,,IRM,NA_,No,No,No,No,No,تحويل لجلسة توعية ,nan
+YQ,180,R1033,فادية,زيدان,Female,47,Syrian,Rey,2023-10-26,,,IRM,NA_,No,No,No,Yes,Yes,,nan
+YQ,181,R1022,محمد,منذر عتقي,Male,34,Syrian,GZT,2023-11-08,,,ADMSP_Member,NA_,Yes,No,No,No,No,,GZT
+YQ,182,R1107,عبد القادر,الراغب,Male,34,Syrian,Rey,2023-11-08,,,IRM,NA_,No,No,No,Yes,Yes,,nan
