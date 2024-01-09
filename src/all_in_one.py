@@ -79,7 +79,7 @@ def dtype_trans(
     return dataframe
 
 
-def filter_df_by_date(df, date_column_names, threshold, comparison_type):
+def filter_df_by_date(df, date_column_names, threshold, comparison_type="a"):
     # Ensure specific_date is in datetime format
     threshold_date = pd.to_datetime(threshold)
 
