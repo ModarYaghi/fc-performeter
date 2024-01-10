@@ -3,12 +3,12 @@ import pandas as pd
 
 def normalized_value_counts(series):
     counts = series.value_counts(dropna=False)
-    percentages = series.value_counts(normalize=True, dropna=False).mul(100).round(2).astype(str) + '%'
+    percentages = (
+        series.value_counts(normalize=True, dropna=False).mul(100).round(2).astype(str)
+        + "%"
+    )
     # result = pd.concat([counts, percentages], axis=1, keys=['N', '%'])
-    result = pd.DataFrame({
-        'N': counts,
-        '%': percentages
-    })
+    result = pd.DataFrame({"N": counts, "%": percentages})
     return result
 
 
@@ -30,7 +30,7 @@ def categorize_and_count_ages(ages, start=18, end=80, interval=10):
     bins = list(range(start, end + 1, interval))
 
     # Define the labels for each bin
-    labels = [f'{bins[i]}-{bins[i + 1] - 1}' for i in range(len(bins) - 1)]
+    labels = [f"{bins[i]}-{bins[i + 1] - 1}" for i in range(len(bins) - 1)]
 
     # Create a pandas' series for the ages
     age_series = pd.Series(ages)
@@ -39,10 +39,10 @@ def categorize_and_count_ages(ages, start=18, end=80, interval=10):
     age_groups = pd.cut(age_series, bins=bins, labels=labels, right=False)
 
     # Count the number of occurrences in each bin
-    # age_counts = age_groups.value_counts(sort=True)
+    age_counts = age_groups.value_counts(sort=True)
 
     # return age_counts
-    return age_groups
+    return age_counts
 
 
 if __name__ == "__main__":
