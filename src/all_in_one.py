@@ -5,10 +5,11 @@ from openpyxl import load_workbook
 from openpyxl.styles import NamedStyle
 import datetime
 
-from path_management import config_file, ps_raw_data, pt_raw_data, processed_data
+# from path_management import config_file, ps_raw_data, pt_raw_data, processed_data
+
+from path_management import *
 from src.config_reader import YAMLConfigReader
 from src.dataset import Dataset
-
 
 from src.xlsx_decryptor import ExcelDecryptor
 
@@ -101,61 +102,35 @@ def filter_df_by_date(df, date_column_names, threshold, comparison_type="a"):
         )
 
 
-def append_df_to_excel(
-    filename,
-    df,
-    sheet_name=None,
-    startrow=None,
-    truncate_sheet=False,
-    **to_excel_kwargs
-):
-    """
-    Append a DataFrame [df] to existing Excel file [filename]
-    into a new sheet. If file does not exist, then it will be created.
+def get_df(source_data_path, sheet_name, config_file_path=config_file, b=False):
+    df_dataset = Dataset(config_file_path, sheet_name)
+    df = pd.read_csv(source_data_path)
+    df = dtype_trans(df, df_dataset)
 
-    Parameters:
-    filename : File path or existing ExcelWriter (Example: '/path/to/file.xlsx')
-    df : DataFrame to save to workbook
-    sheet_name : Name of sheet which will contain DataFrame. If None, then use default name ('Sheet1', 'Sheet2', etc.)
-    startrow : Upper left cell row to dump data frame. Per default (startrow=None) calculate the last row in the existing DF and write to the next row...
-    truncate_sheet : Truncate (remove and recreate) [sheet_name] before writing DataFrame to Excel file
-    to_excel_kwargs : Arguments which will be passed to `DataFrame.to_excel()` [can be a dictionary]
-    """
+    if b:
+        # Get the basic Dataframe
+        bdf = df[df_dataset.bvars]
+        bdf = bdf.drop(["firstname", "lastname"], axis=1)
+        return bdf
 
-    # Ensure a default is set for index
-    to_excel_kwargs["index"] = to_excel_kwargs.get("index", False)
+    return df
 
-    # If file does not exist, then create it
-    if not os.path.isfile(filename):
-        df.to_excel(
-            filename,
-            sheet_name=sheet_name,
-            startrow=startrow if startrow is not None else 0,
-            **to_excel_kwargs
-        )
-    else:
-        # If file exists, append to it
-        with pd.ExcelWriter(filename, engine="openpyxl", mode="a") as writer:
-            if startrow is None and sheet_name in writer.book.sheetnames:
-                startrow = writer.book[sheet_name].max_row
 
-            if truncate_sheet and sheet_name in writer.book.sheetnames:
-                # Find worksheet by name and remove it
-                idx = writer.book.sheetnames.index(sheet_name)
-                writer.book.remove(writer.book.worksheets[idx])
+class DFrame:
+    CONFIG = config_file
 
-            # Write the DataFrame
-            df.to_excel(writer, sheet_name, startrow=startrow, **to_excel_kwargs)
+    def __init__(self, source_data_path, sheet_name):
+        self.source_data_path = source_data_path
+        self.sheet_name = sheet_name
+        self.dataset = Dataset(DFrame.CONFIG, self.sheet_name)
 
-            # Apply date format to date columns
-            workbook = writer.book
-            worksheet = writer.sheets[sheet_name]
-            date_style = NamedStyle(name="datetime", number_format="YYYY-MM-DD")
+    def type_casting(self, dataframe: pd.DataFrame):
+        if self.dataset.dvars:
+            dataframe[self.dataset.dvars] = dataframe[self.dataset.dvars].apply(
+                pd.to_datetime
+            )
 
-            for col in df.select_dtypes(include=[np.datetime64, "datetime"]).columns:
-                col_idx = df.columns.get_loc(col) + 1  # +1 because Excel is 1-indexed
-                for row in range(2, len(df) + 2):  # +2 because of header and 1-indexed
-                    worksheet.cell(column=col_idx, row=row).style = date_style
+        if self.dataset.ivars:
+            dataframe[self.dataset.ivars] = dataframe[self.dataset].astype("Int64")
 
-            # Save the workbook
-            workbook.save(filename)
+        return dataframe

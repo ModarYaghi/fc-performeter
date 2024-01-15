@@ -4,7 +4,7 @@ import os
 # Get the environment variable of the project - fc-performeter
 root = os.getenv(
     "FcPerformeter"
-)  # TODO : set the environment variable for the project in the OFFICE
+)  # NOTE : set the environment variable for the project in the OFFICE
 
 
 # Main directories in use
@@ -24,3 +24,67 @@ config_file = os.path.join(root, config, config_yaml)
 ps_raw_data = os.path.join(root, data, raw, data_dir, ps)
 pt_raw_data = os.path.join(root, data, raw, data_dir, pt)
 processed_data = os.path.join(root, data, processed, data_dir)
+
+# --------------------------------------------------------------
+scr_path, scr_sheet = (
+    os.path.join(processed_data, "scr" + "_" + data_dir + ".csv"),
+    "Scr",
+)
+
+int_path, int_sheet = (
+    os.path.join(processed_data, "int" + "_" + data_dir + ".csv"),
+    "Int",
+)
+
+gc_path, gc_sheet = (os.path.join(processed_data, "gc" + "_" + data_dir + ".csv"), "GC")
+
+ic_path, ic_sheet = (os.path.join(processed_data, "ic" + "_" + data_dir + ".csv"), "IC")
+
+psfua_path, psfua_sheet = (
+    os.path.join(processed_data, "psfua" + "_" + data_dir + ".csv"),
+    "FUA",
+)
+
+pei_path, pei_sheet = (
+    os.path.join(processed_data, "pei" + "_" + data_dir + ".csv"),
+    "PEI",
+)
+
+td_path, td_sheet = (os.path.join(processed_data, "td" + "_" + data_dir + ".csv"), "TD")
+
+cws_path, cwa_sheet = (
+    os.path.join(processed_data, "cws" + "_" + data_dir + ".csv"),
+    "CWS",
+)
+
+trw_path, trw_sheet = (
+    os.path.join(processed_data, "trw" + "_" + data_dir + ".csv"),
+    "TRW",
+)
+
+aw_path, aw_sheet = (os.path.join(processed_data, "aw" + "_" + data_dir + ".csv"), "AW")
+
+psfs_path, psfs_sheet = (
+    os.path.join(processed_data, "psfs" + "_" + data_dir + ".csv"),
+    "PSFS",
+)
+
+ptint_path, ptint_sheet = (
+    os.path.join(processed_data, "ptint" + "_" + data_dir + ".csv"),
+    "PT Int",
+)
+
+gpt_path, gpt_sheet = (
+    os.path.join(processed_data, "gpt" + "_" + data_dir + ".csv"),
+    "GPT",
+)
+
+ipt_path, ipt_sheet = (
+    os.path.join(processed_data, "ipt" + "_" + data_dir + ".csv"),
+    "IPT",
+)
+
+ptfua_path, ptfua_sheet = (
+    os.path.join(processed_data, "ptfua" + "_" + data_dir + ".csv"),
+    "FUA",
+)

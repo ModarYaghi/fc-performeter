@@ -761,16 +761,16 @@ datasets:
         level: 0
       - var: pt_i_s21
         type: *dtype
-        level: 3
+        level: 0
       - var: pt_i_s22
         type: *dtype
-        level: 3
+        level: 0
       - var: pt_i_s23
         type: *dtype
-        level: 3
+        level: 0
       - var: pt_i_s24
         type: *dtype
-        level: 3
+        level: 0
       - var: pt_i_total
         type: *itype
         level: 1
