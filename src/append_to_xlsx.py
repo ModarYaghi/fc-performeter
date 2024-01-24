@@ -1,3 +1,9 @@
+import os
+import pandas as pd
+import numpy as np
+from openpyxl.styles import NamedStyle
+
+
 def append_df_to_excel(
     filename,
     df,
@@ -8,12 +14,12 @@ def append_df_to_excel(
 ):
     """
     Append a DataFrame [df] to existing Excel file [filename]
-    into a new sheet. If file does not exist, then it will be created.
+    into a new sheet. If the file does not exist, then it will be created.
 
     Parameters:
     filename : File path or existing ExcelWriter (Example: '/path/to/file.xlsx')
     df : DataFrame to save to workbook
-    sheet_name : Name of sheet which will contain DataFrame. If None, then use default name ('Sheet1', 'Sheet2', etc.)
+    sheet_name : Name of the sheet which will contain DataFrame. If None, then use default name ('Sheet1', 'Sheet2', etc.)
     startrow : Upper left cell row to dump data frame. Per default (startrow=None) calculate the last row in the existing DF and write to the next row...
     truncate_sheet : Truncate (remove and recreate) [sheet_name] before writing DataFrame to Excel file
     to_excel_kwargs : Arguments which will be passed to `DataFrame.to_excel()` [can be a dictionary]
