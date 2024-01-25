@@ -27,18 +27,18 @@ processed_data = os.path.join(root, data, processed, data_dir)
 
 # --------------------------------------------------------------
 scr_path, scr_sheet = (
-    os.path.join(processed_data, "scr" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "ps" + "scr" + "_" + data_dir + ".csv"),
     "Scr",
 )
 
 int_path, int_sheet = (
-    os.path.join(processed_data, "int" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "ps" + "int" + "_" + data_dir + ".csv"),
     "Int",
 )
 
-gc_path, gc_sheet = (os.path.join(processed_data, "gc" + "_" + data_dir + ".csv"), "GC")
+gc_path, gc_sheet = (os.path.join(processed_data, "ps" + "gc" + "_" + data_dir + ".csv"), "GC")
 
-ic_path, ic_sheet = (os.path.join(processed_data, "ic" + "_" + data_dir + ".csv"), "IC")
+ic_path, ic_sheet = (os.path.join(processed_data, "ps" + "ic" + "_" + data_dir + ".csv"), "IC")
 
 psfua_path, psfua_sheet = (
     os.path.join(processed_data, "psfua" + "_" + data_dir + ".csv"),
