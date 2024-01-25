@@ -52,7 +52,7 @@ pei_path, pei_sheet = (
 
 td_path, td_sheet = (os.path.join(processed_data, "td" + "_" + data_dir + ".csv"), "TD")
 
-cws_path, cwa_sheet = (
+cws_path, cws_sheet = (
     os.path.join(processed_data, "cws" + "_" + data_dir + ".csv"),
     "CWS",
 )
