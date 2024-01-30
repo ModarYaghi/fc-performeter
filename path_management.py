@@ -4,7 +4,7 @@ import os
 # Get the environment variable of the project - fc-performeter
 root = os.getenv(
     "FcPerformeter"
-)  # NOTE : set the environment variable for the project in the OFFICE
+)  # NOTE: set the environment variable for the project in the OFFICE
 
 
 # Main directories in use
@@ -70,7 +70,7 @@ psfs_path, psfs_sheet = (
 )
 
 ptint_path, ptint_sheet = (
-    os.path.join(processed_data, "ptint" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "pt" + "ptint" + "_" + data_dir + ".csv"),
     "PT Int",
 )
 
@@ -85,6 +85,6 @@ ipt_path, ipt_sheet = (
 )
 
 ptfua_path, ptfua_sheet = (
-    os.path.join(processed_data, "ptfua" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "pt" + "ptfua" + "_" + data_dir + ".csv"),
     "FUA",
 )
