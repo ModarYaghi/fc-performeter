@@ -85,6 +85,6 @@ ipt_path, ipt_sheet = (
 )
 
 ptfua_path, ptfua_sheet = (
-    os.path.join(processed_data, "pt" + "ptfua" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "ptfua" + "_" + data_dir + ".csv"),
     "FUA",
 )
