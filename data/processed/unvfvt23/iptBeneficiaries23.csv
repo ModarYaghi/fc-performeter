@@ -1,4 +1,4 @@
-rid,fcid,service,date,pt_i_total,family_of_missing,survivor_of_detention,primary_torture,secondary_torture,sexual_violation_a,sexual_violation_p,hrd,journalist,wov,stgbv,lgbti,other,sex,age
+rid,fcid,service,date,session_num,family_of_missing,survivor_of_detention,primary_torture,secondary_torture,sexual_violation_a,sexual_violation_p,hrd,journalist,wov,stgbv,lgbti,other,sex,age
 R0501,8110020120,ipt,2023-06-09,4,No,No,No,Yes,,,,,Yes,Yes,No,No,Female,41
 R0444,8110050070,ipt,2023-06-20,3,No,No,No,Yes,,,,,Yes,No,No,No,Female,29
 R0534,8110050087,ipt,2023-05-31,1,No,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,37
