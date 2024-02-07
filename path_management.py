@@ -53,19 +53,19 @@ pei_path, pei_sheet = (
 td_path, td_sheet = (os.path.join(processed_data, "ps" + "td" + "_" + data_dir + ".csv"), "TD")
 
 cws_path, cws_sheet = (
-    os.path.join(processed_data, "cws" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "ps" + "cws" + "_" + data_dir + ".csv"),
     "CWS",
 )
 
 trw_path, trw_sheet = (
-    os.path.join(processed_data, "trw" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "ps" + "trw" + "_" + data_dir + ".csv"),
     "TRW",
 )
 
-aw_path, aw_sheet = (os.path.join(processed_data, "aw" + "_" + data_dir + ".csv"), "AW")
+aw_path, aw_sheet = (os.path.join(processed_data, "ps" + "aw" + "_" + data_dir + ".csv"), "AW")
 
 psfs_path, psfs_sheet = (
-    os.path.join(processed_data, "psfs" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "pt" + "psfs" + "_" + data_dir + ".csv"),
     "PSFS",
 )
 
