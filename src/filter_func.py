@@ -52,7 +52,7 @@ def filter_by_date(df, date_column, start_date=None, end_date=None, specific_dat
 
 
 def filter_by_date2(df, date_columns, start_date=None, end_date=None, specific_date=None,
-                   last_n_days=None, custom_filter=None):
+                    last_n_days=None, custom_filter=None):
     """
     Filters a DataFrame based on various date filtering criteria, supporting both single and multiple date columns.
 
@@ -88,4 +88,3 @@ def filter_by_date2(df, date_columns, start_date=None, end_date=None, specific_d
                 df = df[df[date_column].apply(custom_filter)]
 
     return df
-
