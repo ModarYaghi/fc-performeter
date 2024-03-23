@@ -15,7 +15,7 @@ ps = "ps"
 pt = "pt"
 processed = "processed"
 
-data_dir = "0124"
+data_dir = "_0124"
 
 # path to config.yaml
 config_file = os.path.join(root, config, config_yaml)
