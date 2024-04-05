@@ -89,3 +89,20 @@ ptfua_path, ptfua_sheet = (
     "FUA",
 )
 
+data_files = {
+    "scr": {"path": os.path.join(processed_data, "00_ps_scr_" + data_dir + ".csv"), "sheet": "Scr"},
+    "int": {"path": os.path.join(processed_data, "01_ps_int_" + data_dir + ".csv"), "sheet": "Int"},
+    "gc": {"path": os.path.join(processed_data, "02_ps_gc_" + data_dir + ".csv"), "sheet": "GC"},
+    "ic": {"path": os.path.join(processed_data, "03_ps_ic_" + data_dir + ".csv"), "sheet": "IC"},
+    "psfua": {"path": os.path.join(processed_data, "04_psfua_" + data_dir + ".csv"), "sheet": "FUA"},
+    "pei": {"path": os.path.join(processed_data, "05_ps_pei_" + data_dir + ".csv"), "sheet": "PEI"},
+    "trw": {"path": os.path.join(processed_data, "06_ps_trw_" + data_dir + ".csv"), "sheet": "TRW"},
+    "td": {"path": os.path.join(processed_data, "07_ps_td_" + data_dir + ".csv"), "sheet": "TD"},
+    "cws": {"path": os.path.join(processed_data, "08_ps_cws_" + data_dir + ".csv"), "sheet": "CWS"},
+    "aw": {"path": os.path.join(processed_data, "09_ps_aw_" + data_dir + ".csv"), "sheet": "AW"},
+    "psfs": {"path": os.path.join(processed_data, "10_pt_psfs_" + data_dir + ".csv"), "sheet": "PSFS"},
+    "ptint": {"path": os.path.join(processed_data, "11_pt_ptint_" + data_dir + ".csv"), "sheet": "PT Int"},
+    "gpt": {"path": os.path.join(processed_data, "12_pt_gpt_" + data_dir + ".csv"), "sheet": "GPT"},
+    "ipt": {"path": os.path.join(processed_data, "13_pt_ipt_" + data_dir + ".csv"), "sheet": "IPT"},
+    "ptfua": {"path": os.path.join(processed_data, "14_ptfua_" + data_dir + ".csv"), "sheet": "FUA"}
+}
