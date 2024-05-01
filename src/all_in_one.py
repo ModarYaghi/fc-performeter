@@ -1,11 +1,5 @@
-import os
 import pandas as pd
-import numpy as np
-from openpyxl import load_workbook
-from openpyxl.styles import NamedStyle
-import datetime
 
-# from path_management import config_file, ps_raw_data, pt_raw_data, processed_data
 
 from path_management import *
 from src.config_reader import YAMLConfigReader
@@ -25,13 +19,6 @@ pd.set_option("display.max_colwidth", None)
 # ----------------------------------------------------------------------------
 
 
-config = YAMLConfigReader(config_file)
-
-# Getting the passwords for the file in raw_data directory - xlsx files
-pspw = config.get_passwords_by_directory(ps_raw_data)
-ptpw = config.get_passwords_by_directory(pt_raw_data)
-
-
 def compiler(sheet_name, files_list, path_to_config, tracking_tools):
     dataframes = []
     # for sheet in sheets_list:
@@ -39,7 +26,7 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools):
     dataset = Dataset(path_to_config, sheet_name)
 
     for file in files_list:
-        sp_init = file[6:8]
+        sp_init = file[7:9]
         dataframe = tracking_tools[file][sheet_name]
 
         # Simplify the column setting and dropping the first row

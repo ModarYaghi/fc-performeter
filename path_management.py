@@ -1,4 +1,5 @@
 import os
+from src.config_reader import YAMLConfigReader
 
 
 # Get the environment variable of the project - fc-performeter
@@ -15,16 +16,23 @@ ps = "ps"
 pt = "pt"
 processed = "processed"
 
-data_dir = "0324"
+data_dir = "0424"
+
 
 # path to config.yaml
 config_file = os.path.join(root, config, config_yaml)
+config = YAMLConfigReader(config_file)
 
 # path to raw data - xlsx files
 ps_raw_data = os.path.join(root, data, raw, data_dir, ps)
+pspw = config.get_passwords_by_directory(ps_raw_data)
+
 pt_raw_data = os.path.join(root, data, raw, data_dir, pt)
+ptpw = config.get_passwords_by_directory(pt_raw_data)
+
 processed_data = os.path.join(root, data, processed, data_dir)
 unvfvt23 = os.path.join(root, data, processed, "unvfvt23")
+
 # --------------------------------------------------------------
 scr_path, scr_sheet = (
     os.path.join(processed_data, "00_" + "ps" + "scr" + "_" + data_dir + ".csv"),

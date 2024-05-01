@@ -3,7 +3,7 @@ import logging
 from typing import Dict, Union, List, Any
 from io import BytesIO
 import pandas as pd
-import polars as pl
+# import polars as pl
 import msoffcrypto
 import concurrent.futures
 import warnings
@@ -80,7 +80,7 @@ class FileProcessor:
 
     def read_sheets_from_file(
         self, decrypted_file: BytesIO
-    ) -> Dict[str, Union[pd.DataFrame, pl.DataFrame]]:
+    ) -> Dict[str, Union[pd.DataFrame]]:
         """
         Reads all sheets from a decrypted Excel file and converts them to the specified format.
 
@@ -99,7 +99,7 @@ class FileProcessor:
 
     def convert_to_desired_format(
         self, df: pd.DataFrame
-    ) -> Union[pd.DataFrame, pl.DataFrame]:
+    ) -> Union[pd.DataFrame]:
         """
         Converts a DataFrame to the desired format.
 
@@ -109,8 +109,6 @@ class FileProcessor:
         Returns:
         - Union[pd.DataFrame, pl.DataFrame]: The converted DataFrame.
         """
-        if self.output_format == "polars":
-            return pl.from_pandas(df)
         return df
 
 
@@ -207,7 +205,7 @@ class ExcelDecryptor:
 
     def process_file(
         self, file: str, password: str
-    ) -> Union[Dict[str, Union[pd.DataFrame, pl.DataFrame]], None]:
+    ) -> Union[Dict[str, Union[pd.DataFrame]], None]:
         """
         Processes a single file, decrypting it and reading its contents.
 
@@ -252,7 +250,7 @@ class ExcelDecryptor:
 
     @staticmethod
     def display_result_structure(
-        processed_data: Dict[str, Dict[str, Union[pd.DataFrame, pl.DataFrame]]]
+        processed_data: Dict[str, Dict[str, Union[pd.DataFrame]]]
     ) -> pd.DataFrame:
         """
         Creates a DataFrame displaying the structure of the result dictionary.
