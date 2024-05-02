@@ -1,8 +1,7 @@
 import pandas as pd
-
-
+from typing import Union, List
+from enum import Enum, auto
 from path_management import *
-from src.config_reader import YAMLConfigReader
 from src.dataset import Dataset
 
 from src.xlsx_decryptor import ExcelDecryptor
@@ -13,6 +12,7 @@ pd.set_option("display.float_format", "{:.1f}".format)
 
 # Display maximum column width:
 pd.set_option("display.max_colwidth", None)
+
 
 # --------------------------Working Period------------------------------------
 
@@ -50,10 +50,10 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools):
 
 
 def dtype_trans(
-    dataframe: pd.DataFrame,
-    dataset: Dataset = None,
-    config_path: str = None,
-    sheet_name: str = None,
+        dataframe: pd.DataFrame,
+        dataset: Dataset = None,
+        config_path: str = None,
+        sheet_name: str = None,
 ):
     if dataset is None:
         dataset = Dataset(config_path, sheet_name)
@@ -67,26 +67,49 @@ def dtype_trans(
     return dataframe
 
 
-def filter_df_by_date(df, date_column_names, threshold, comparison_type="a"):
-    # Ensure specific_date is in datetime format
-    threshold_date = pd.to_datetime(threshold)
+class FilterType(Enum):
+    BF = auto()
+    AF = auto()
+    IN = auto()
+    ON = auto()
 
-    # Convert date columns to datetime if not already
-    # for col in date_column_names:
-    #     df[col] = pd.to_datetime(df[col])
 
-    # Apply the filtering condition
-    # Apply the filtering condition based on the comparison type
-    if comparison_type == "a":
-        return df[(df[date_column_names] > threshold_date).any(axis=1)]
-    elif comparison_type == "b":
-        return df[(df[date_column_names] < threshold_date).any(axis=1)]
-    elif comparison_type == "e":
-        return df[(df[date_column_names] == threshold_date).any(axis=1)]
+def filter_dataframe_on_date(df: pd.DataFrame, date_columns: Union[str, List[str]],
+                             date1: Union[str, pd.Timestamp], date2: Union[str, pd.Timestamp] = None,
+                             filter_type: FilterType = FilterType.IN) -> pd.DataFrame:
+    """
+     Filters the DataFrame based on the date conditions provided.
+     Uses an Enum for filter types to improve code reliability and maintainability.
+
+     Parameters:
+     df (pd.DataFrame): The DataFrame to filter.
+     date_columns (Union[str, List[str]]): The column(s) to apply the filter on.
+     date1 (Union[str, pd.Timestamp], optional): The primary date to filter against.
+     date2 (Union[str, pd.Timestamp], optional): The secondary date to filter against (used for 'between' type).
+     filter_type (FilterType): Type of filter to apply.
+
+     Returns:
+     pd.DataFrame: The filtered DataFrame.
+     """
+
+    if isinstance(date_columns, str):
+        date_columns = [date_columns]  # Convert to list if only one column provided
+
+    if filter_type == FilterType.BF:
+        condition = (df[date_columns] <= date1).any(axis=1)
+    elif filter_type == FilterType.AF:
+        condition = (df[date_columns] >= date1).any(axis=1)
+    elif filter_type == FilterType.ON:
+        condition = (df[date_columns] == date1).any(axis=1)
+    elif filter_type == FilterType.IN:
+        if date2 is None:
+            raise ValueError("date2 must be provided for 'between' filter type.")
+        condition = ((df[date_columns] >= date1) & (df[date_columns] <= date2)).any(axis=1)
     else:
-        raise ValueError(
-            "Invalid comparison type. Choose 'after', 'before', or 'equal'."
-        )
+        raise ValueError("Invalid filter_type. Use 'before', 'after', 'equal', or 'between'.")
+
+    filtered_df = df[condition]
+    return filtered_df
 
 
 def get_df(source_data_path, sheet_name, config_file_path=config_file, b=False):
