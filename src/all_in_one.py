@@ -144,3 +144,7 @@ class DFrame:
             dataframe[self.dataset.ivars] = dataframe[self.dataset].astype("Int64")
 
         return dataframe
+
+
+if __name__ == '__main__':
+    pass
