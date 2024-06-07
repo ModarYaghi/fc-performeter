@@ -26,7 +26,7 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools):
     dataset = Dataset(path_to_config, sheet_name)
 
     for file in files_list:
-        sp_init = file[7:9]
+        sp_init = file[6:8]
         dataframe = tracking_tools[file][sheet_name]
 
         # Simplify the column setting and dropping the first row

@@ -20,7 +20,7 @@ sheets_names:
     aws: &aws AW
   pt:
     psfs: &psfs PSFS
-    pt_int: &pt_int PT Int
+    pt_int: &pt_int PTInt
     pt_group: &pt_group GPT
     pt_individual: &pt_individual IPT
     pt_follow_up: &pt_follow_up FUP
@@ -66,12 +66,12 @@ data_source:
   - service: pt
     sp: HR
     name: hind_ragheb
-    file: tt_pt_HR_v04.1.xlsx
+    file: tt_pt_HR_v04.11.xlsx
     password: Hind002
   - service: pt
     sp: ZN
     name: ziad_nassar
-    file: tt_pt_ZN_v04.1.xlsx
+    file: tt_pt_ZN_v04.11.xlsx
     password: Ziad003
   - service: tracker_td
     sp: DH

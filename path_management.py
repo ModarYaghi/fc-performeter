@@ -79,7 +79,7 @@ psfs_path, psfs_sheet = (
 
 ptint_path, ptint_sheet = (
     os.path.join(processed_data, "11_" + "pt" + "ptint" + "_" + data_dir + ".csv"),
-    "PT Int",
+    "PTInt",
 )
 
 gpt_path, gpt_sheet = (
