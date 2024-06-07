@@ -15,7 +15,8 @@ pd.set_option("display.max_colwidth", None)
 
 
 # --------------------------Working Period------------------------------------
-
+start = '2024-03-01'
+end = '2024-05-31'
 # ----------------------------------------------------------------------------
 
 
@@ -26,7 +27,7 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools):
     dataset = Dataset(path_to_config, sheet_name)
 
     for file in files_list:
-        sp_init = file[6:8]
+        sp_init = file[7:9]
         dataframe = tracking_tools[file][sheet_name]
 
         # Simplify the column setting and dropping the first row
