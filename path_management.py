@@ -78,7 +78,7 @@ psfs_path, psfs_sheet = (
 )
 
 ptint_path, ptint_sheet = (
-    os.path.join(processed_data, "11_" + "pt" + "ptint" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "11_" + "pt" + "int" + "_" + data_dir + ".csv"),
     "PTInt",
 )
 
@@ -93,7 +93,7 @@ ipt_path, ipt_sheet = (
 )
 
 ptfua_path, ptfua_sheet = (
-    os.path.join(processed_data, "14_" + "ptfua" + "_" + data_dir + ".csv"),
+    os.path.join(processed_data, "14_" + "pt" + "fua" + "_" + data_dir + ".csv"),
     "FUA",
 )
 
