@@ -3,65 +3,72 @@ import hashlib
 from typing import Dict, List, Tuple
 
 
-def hash_file(file_path: str, blocksize: int = 65536) -> str:
+def hash_file(filepath: str, blocksize: int = 65536) -> str:
     """
-    Generate SHA-256 hash of the given file.
+    Generates a SHA-256 hash for the given file.
 
     Parameters:
-        file_path (str): The path to the file to hash.
-        blocksize (int): The block size in bytes.
-
+    filepath (str): The path to the file to hash.
+    blocksize (int): The block size to use for reading the file. Defaults to 65536.
 
     Returns:
-        str: The SHA-256 hash of the file.
+    str: The SHA-256 hash of the file.
     """
-
     hasher = hashlib.sha256()
-    with open(file_path, "rb") as f:
-        buf = f.read(blocksize)
-        while len(buf) > 0:
-            hasher.update(buf)
-            buf = f.read(blocksize)
+    try:
+        with open(filepath, 'rb') as file:
+            buf = file.read(blocksize)
+            while len(buf) > 0:
+                hasher.update(buf)
+                buf = file.read(blocksize)
         return hasher.hexdigest()
+    except Exception as e:
+        print(f"Error reading file {filepath}: {e}")
+        return None
 
 
 def find_duplicates(directory: str) -> List[Tuple[str, str]]:
     """
-    Finds and lists duplicate files in the given directory.
+    Finds and lists duplicate files in the given directory and its sub-directories.
 
     Parameters:
-        directory (str): The directory to search for duplicate files.
+    directory (str): The directory to search for duplicate files.
 
     Returns:
-        List[Tuple[str, str]]: A list of tuples, each containing path of duplicate files.
+    List[Tuple[str, str]]: A list of tuples, each containing paths of duplicate files.
     """
     hashes: Dict[str, str] = {}
     duplicates: List[Tuple[str, str]] = []
+    file_count = 0
 
-    for dir_path, _, filenames in os.walk(directory):
+    print(f"Scanning directory: {directory}")
+
+    for dirpath, _, filenames in os.walk(directory):
+        print(f"Checking directory: {dirpath}")
         for filename in filenames:
-            file_path = os.path.join(dir_path, filename)
-            try:
-                filehash = hash_file(file_path)
+            filepath = os.path.join(dirpath, filename)
+            print(f"Processing file: {filepath}")
+            filehash = hash_file(filepath)
+            if filehash:
+                file_count += 1
                 if filehash in hashes:
-                    duplicates.append((file_path, hashes[filehash]))
+                    duplicates.append((filepath, hashes[filehash]))
                 else:
-                    hashes[filehash] = file_path
+                    hashes[filehash] = filepath
+            else:
+                print(f"Skipping file due to error: {filepath}")
 
-            except Exception as e:
-                print(f"Error processing file {file_path}: {e}")
-
+    print(f"Total files processed: {file_count}")
     return duplicates
 
 
-def remove_duplicates(duplicates: List[Tuple[str, str]]) -> None:
+def remove_duplicates(duplicates: List[Tuple[str, str]]):
     """
-        Removes duplicate files, keeping only one instance of each duplicate set.
+    Removes duplicate files, keeping only one instance of each duplicate set.
 
-        Parameters:
-            duplicates (List[Tuple[str, str]]): A list of tuples, each containing path of duplicate files.
+    Parameters:
+    duplicates (List[Tuple[str, str]]): A list of tuples, each containing paths of duplicate files.
     """
-
     for duplicate_set in duplicates:
         for file in duplicate_set[1:]:
             try:
@@ -76,11 +83,11 @@ def main(directory: str):
     Main function to find and remove duplicate files in the given directory.
 
     Parameters:
-        directory (str): The directory to search for and remove duplicate files.
+    directory (str): The directory to search for and remove duplicate files.
     """
     duplicates = find_duplicates(directory)
     if duplicates:
-        print("Found duplicates")
+        print("Found duplicates:")
         for dup in duplicates:
             print(f"{dup[0]} and {dup[1]}")
         remove_duplicates(duplicates)
@@ -92,7 +99,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Find and remove duplicate files.")
-    parser.add_argument("directory", type=str, help="The directory to search for duplicate files ")
+    parser.add_argument("directory", type=str, help="The directory to search for duplicate files.")
     args = parser.parse_args()
 
     main(args.directory)
