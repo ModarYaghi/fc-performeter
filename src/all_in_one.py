@@ -50,12 +50,7 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools):
     return compiled_dataframe
 
 
-def dtype_trans(
-        dataframe: pd.DataFrame,
-        dataset: Dataset = None,
-        config_path: str = None,
-        sheet_name: str = None,
-):
+def dtype_trans(dataframe: pd.DataFrame, dataset: Dataset = None, config_path: str = None, sheet_name: str = None):
     if dataset is None:
         dataset = Dataset(config_path, sheet_name)
 

@@ -1,6 +1,3 @@
-import pandas as pd
-from path_management import *
-
 from src.config_reader import YAMLConfigReader
 
 

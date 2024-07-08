@@ -16,5 +16,5 @@ print(user)
 
 
 # Serializing Python object to JSON
-# user_json = user.josn()
+# user_json = user.json()
 # print(user_json)

@@ -3,7 +3,6 @@ import logging
 from typing import Dict, Union, List, Any
 from io import BytesIO
 import pandas as pd
-# import polars as pl
 import msoffcrypto
 import concurrent.futures
 import warnings
@@ -97,9 +96,7 @@ class FileProcessor:
             sheets[sheet_name] = self.convert_to_desired_format(df)
         return sheets
 
-    def convert_to_desired_format(
-        self, df: pd.DataFrame
-    ) -> Union[pd.DataFrame]:
+    def convert_to_desired_format(self, df: pd.DataFrame) -> Union[pd.DataFrame]:
         """
         Converts a DataFrame to the desired format.
 
@@ -128,12 +125,7 @@ class ExcelDecryptor:
     - display_result_structure: Displays the structure of the result dictionary.
     """
 
-    def __init__(
-        self,
-        directory: str,
-        password_dict: Dict[str, str],
-        output_format: str = "pandas",
-    ):
+    def __init__(self, directory: str, password_dict: Dict[str, str], output_format: str = "pandas"):
         """
         Initializes the ExcelDecryptor with the specified directory, password dictionary, and output format.
 
@@ -151,9 +143,7 @@ class ExcelDecryptor:
         warnings.filterwarnings("ignore", category=UserWarning)
 
     @progress_bar_decorator
-    def read_encrypted_excels(
-        self, selected_files: List[str] = None, progress_tracker=None
-    ) -> dict[str | Any, Any]:
+    def read_encrypted_excels(self, selected_files: List[str] = None, progress_tracker=None) -> dict[str | Any, Any]:
         """
         Reads and decrypts selected Excel files in the specified directory, updating a progress bar for each file
         processed.
@@ -176,9 +166,7 @@ class ExcelDecryptor:
             - This update reflects the real-time progress of file processing within the ThreadPoolExecutor.
         """
         processed_data = {}
-        files_to_process = (
-            self.password_dict.keys() if selected_files is None else selected_files
-        )
+        files_to_process = (self.password_dict.keys() if selected_files is None else selected_files)
 
         with concurrent.futures.ThreadPoolExecutor() as executor:
             futures = {
@@ -203,9 +191,7 @@ class ExcelDecryptor:
         self._processed_data = processed_data
         return processed_data
 
-    def process_file(
-        self, file: str, password: str
-    ) -> Union[Dict[str, Union[pd.DataFrame]], None]:
+    def process_file(self, file: str, password: str) -> Union[Dict[str, Union[pd.DataFrame]], None]:
         """
         Processes a single file, decrypting it and reading its contents.
 
@@ -249,9 +235,7 @@ class ExcelDecryptor:
             return "Data has not been processed yet."
 
     @staticmethod
-    def display_result_structure(
-        processed_data: Dict[str, Dict[str, Union[pd.DataFrame]]]
-    ) -> pd.DataFrame:
+    def display_result_structure(processed_data: Dict[str, Dict[str, Union[pd.DataFrame]]]) -> pd.DataFrame:
         """
         Creates a DataFrame displaying the structure of the result dictionary.
 
