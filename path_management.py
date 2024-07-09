@@ -16,7 +16,7 @@ ps = "ps"
 pt = "pt"
 processed = "processed"
 
-data_dir = "0524"
+data_dir = "0624"
 
 
 # path to config.yaml

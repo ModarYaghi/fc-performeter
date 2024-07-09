@@ -20,14 +20,21 @@ end = '2024-05-31'
 # ----------------------------------------------------------------------------
 
 
-def compiler(sheet_name, files_list, path_to_config, tracking_tools):
+def compiler(sheet_name, files_list, path_to_config, tracking_tools, ser):
+
     dataframes = []
     # for sheet in sheets_list:
     sp = (sheet_name + "sp").lower().replace(" ", "")
     dataset = Dataset(path_to_config, sheet_name)
 
     for file in files_list:
-        sp_init = file[7:9]
+        if ser == "pss":
+            sp_init = file[7:9]
+        elif ser == "pt":
+            sp_init = file[6:8]
+        else:
+            return "sp_init is not valid"
+
         dataframe = tracking_tools[file][sheet_name]
 
         # Simplify the column setting and dropping the first row
