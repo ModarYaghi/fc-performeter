@@ -1,0 +1,175 @@
+rid,fcid,service,date,need,entity,family_of_missing,survivor_of_detention,primary_torture,secondary_torture,sexual_violation_a,sexual_violation_p,hrd,journalist,wov,stgbv,lgbti,other,sex,age
+R1174,,cm,2024-01-05,MHPSS,سامز,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,Male,47
+R0406,8110050045.0,cm,2024-01-05,Physical Therapy,سامز,No,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,50
+R1125,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Female,48
+R1161,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Male,29
+R1162,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Female,21
+R1164,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Male,56
+R1143,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Female,23
+R1167,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Male,29
+R0765,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Female,44
+R1170,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Male,45
+R0780,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Male,47
+R1172,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Male,53
+R1173,,cm,2024-01-08,MHPSS,TMH,,,,,,,,,,,,,Male,38
+R0771,,cm,2024-02-02,MHPSS,TMH,,,,,,,,,,,,,Male,43
+R0807,,cm,2024-02-02,MHPSS,TMH,,,,,,,,,,,,,Male,57
+R0790,,cm,2024-02-02,MHPSS,TMH,,,,,,,,,,,,,Female,40
+R0781,,cm,2024-02-02,MHPSS,TMH,,,,,,,,,,,,,Female,35
+R0788,,cm,2024-02-02,MHPSS,TMH,,,,,,,,,,,,,Male,35
+R1213,,cm,2024-02-02,MHPSS,TMH,,,,,,,,,,,,,Male,30
+R1204,,cm,2024-02-02,MHPSS,TMH,,,,,,,,,,,,,Female,54
+R0510,8110050090.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,60
+R0870,8110110009.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,47
+R0378,8110050066.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,38
+R0638,8110020121.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,35
+R0458,8110050076.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,Yes,Yes,,,,,Yes,No,No,No,Female,34
+R0485,8110020108.0,cm,2024-02-14,Cash assistance,WHH,Yes,Yes,Yes,Yes,,,,,Yes,No,No,No,Male,44
+R0716,8110080013.0,cm,2024-02-14,Cash assistance,WHH,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,Female,29
+R0497,8110020115.0,cm,2024-02-14,Cash assistance,WHH,No,No,No,Yes,,,,,Yes,Yes,No,No,Female,47
+R0553,8110050084.0,cm,2024-02-14,Cash assistance,WHH,No,No,Yes,Yes,,,,,Yes,Yes,No,No,Female,31
+R0290,8110020085.0,cm,2024-02-14,Cash assistance,WHH,No,No,No,Yes,,,,,Yes,No,No,No,Female,34
+R0120,8110020106.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,,,,,Yes,No,No,No,Male,44
+R0415,8110020102.0,cm,2024-02-14,Cash assistance,WHH,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,No,Male,25
+R0879,8110100013.0,cm,2024-02-14,Cash assistance,WHH,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Male,41
+R0794,8110110007.0,cm,2024-02-14,Cash assistance,WHH,No,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,Male,35
+R0872,8110080016.0,cm,2024-02-14,Cash assistance,WHH,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,No,Yes,Male,27
+R0694,8110020126.0,cm,2024-02-14,Cash assistance,WHH,No,No,No,Yes,No,No,No,No,Yes,No,No,No,Male,36
+R0904,8110050103.0,cm,2024-02-14,Cash assistance,WHH,No,Yes,Yes,No,No,Yes,No,No,Yes,No,No,No,Male,38
+R0575,8110080017.0,cm,2024-02-14,Cash assistance,WHH,No,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,41
+R0590,8110080012.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,52
+R0874,8110020127.0,cm,2024-02-14,Cash assistance,WHH,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Female,53
+R0183,8110020101.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,,,,,Yes,No,No,No,Male,48
+R0337,8110020100.0,cm,2024-02-14,Cash assistance,WHH,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Male,53
+R0511,8110020112.0,cm,2024-02-14,Cash assistance,WHH,No,Yes,Yes,Yes,,,,,Yes,No,No,No,Female,47
+R1024,8110050106.0,cm,2024-02-14,Cash assistance,WHH,No,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,30
+R0215,8110020080.0,cm,2024-02-14,Cash assistance,WHH,No,No,No,No,,,,,Yes,No,No,No,Female,40
+R0231,8110050051.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,26
+R0113,8110020060.0,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,42
+R0117,8110050055.0,cm,2024-02-14,Cash assistance,WHH,Yes,Yes,Yes,Yes,,,,,Yes,No,No,No,Female,26
+R1132,,cm,2024-02-14,Cash assistance,WHH,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,42
+R0124,8110050024.0,cm,2024-02-14,Cash assistance,WHH,No,No,No,Yes,,,,,Yes,No,No,No,Female,43
+R0860,8110050101.0,cm,2024-02-23,Cash assistance,أورنج,No,No,Yes,Yes,No,No,No,No,Yes,No,No,No,Female,40
+R0378,8110050066.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,38
+R0239,8110080018.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Female,46
+R0393,8110050086.0,cm,2024-02-23,Cash assistance,أورنج,Yes,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,48
+R0066,8110060006.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,55
+R0343,8110020116.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,Yes,No,No,Female,46
+R0540,8110050091.0,cm,2024-02-23,Cash assistance,أورنج,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,Female,46
+R0510,8110050090.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,60
+R0870,8110110009.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,47
+R0290,8110020085.0,cm,2024-02-23,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,34
+R0874,8110020127.0,cm,2024-02-23,Cash assistance,أورنج,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Female,53
+R0327,8110020095.0,cm,2024-02-23,Cash assistance,أورنج,No,No,Yes,Yes,,,,,Yes,No,No,No,Female,46
+R0801,8110080019.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,42
+R0298,8110020089.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,36
+R0120,8110020106.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Male,44
+R0183,8110020101.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Male,48
+R0599,8110050093.0,cm,2024-02-23,Cash assistance,أورنج,No,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,Male,56
+R0487,8110080005.0,cm,2024-02-23,Cash assistance,أورنج,No,No,No,No,No,No,No,No,Yes,No,No,No,Male,59
+R0904,8110050103.0,cm,2024-02-23,Cash assistance,أورنج,No,Yes,Yes,No,No,Yes,No,No,Yes,No,No,No,Male,38
+R0716,8110080013.0,cm,2024-02-23,Cash assistance,أورنج,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,Female,29
+R0694,8110020126.0,cm,2024-02-23,Cash assistance,أورنج,No,No,No,Yes,No,No,No,No,Yes,No,No,No,Male,36
+R0485,8110020108.0,cm,2024-02-23,Cash assistance,أورنج,Yes,Yes,Yes,Yes,,,,,Yes,No,No,No,Male,44
+R0678,8110080020.0,cm,2024-02-23,Cash assistance,أورنج,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,No,No,Male,49
+R0359,8110050048.0,cm,2024-02-23,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,39
+R0116,8110020062.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,Yes,No,No,Female,43
+R0083,,cm,2024-03-15,Cash assistance,أورنج,Yes,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,36
+R0105,8110020058.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,No,,,,,Yes,No,No,No,Female,33
+R0267,8110070005.0,cm,2024-03-15,Cash assistance,أورنج,No,No,Yes,Yes,,,,,Yes,No,No,No,Female,47
+R0255,8110070004.0,cm,2024-03-15,Cash assistance,أورنج,No,No,Yes,Yes,,,,,Yes,No,No,No,Female,45
+R0187,8110050030.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,40
+R0119,8110020063.0,cm,2024-03-15,Cash assistance,أورنج,Yes,No,Yes,Yes,,,,,Yes,No,No,No,Female,23
+R0314,8110020091.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,41
+R0297,8110020087.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,No,,,,,Yes,No,No,No,Female,41
+R0189,8110050033.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,58
+R0140,8110020070.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,56
+R0118,8110020068.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,43
+R0246,8110020084.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,20
+R0198,8110020072.0,cm,2024-03-15,Cash assistance,أورنج,No,Yes,No,Yes,,,,,Yes,No,No,No,Female,40
+R0074,8110020054.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,No,,,,,Yes,No,No,No,Female,38
+R0205,8110070003.0,cm,2024-03-15,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,51
+R0078,8110040006.0,cm,2024-03-15,Cash assistance,أورنج,No,Yes,Yes,Yes,,,,,Yes,No,No,No,Female,40
+R0070,,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,Yes,No,No,Female,42
+R0101,8110050014.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,65
+R0071,,cm,2024-03-15,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,39
+R0032,8110020037.0,cm,2024-03-15,Cash assistance,أورنج,Yes,Yes,Yes,Yes,,,,,Yes,No,No,Yes,,
+R0108,8110020059.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,53
+R0040,8110020040.0,cm,2024-03-15,Cash assistance,أورنج,No,No,Yes,Yes,,,,,Yes,Yes,No,No,,
+R0273,8110020078.0,cm,2024-03-15,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,47
+R0340,,cm,2024-03-15,Cash assistance,أورنج,,,,,,,,,,,,,Female,24
+R1233,,cm,2024-03-20,MHPSS,سامز,,,,,,,,,,,,,Female,32
+R0898,,cm,2024-03-20,MHPSS,سامز,,,,,,,,,,,,,Female,29
+R0826,,cm,2024-03-20,MHPSS,سامز,Yes,Yes,No,Yes,No,No,No,No,Yes,No,No,No,Female,43
+R0801,8110080019.0,cm,2024-03-20,MHPSS,سامز,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,42
+R0638,8110020121.0,cm,2024-03-20,MHPSS,سامز,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,35
+R0481,8110080002.0,cm,2024-03-20,MHPSS,سامز,No,No,No,Yes,No,No,No,No,Yes,No,No,Yes,Female,39
+R0120,8110020106.0,cm,2024-04-19,Legal documentation,اس جاك,Yes,No,No,Yes,,,,,Yes,No,No,No,Male,44
+R0224,8110050039.0,cm,2024-04-19,Legal documentation,اس جاك,No,No,No,Yes,,,,,Yes,Yes,No,No,Female,31
+R0246,8110020084.0,cm,2024-04-19,Legal documentation,اس جاك,No,No,No,Yes,,,,,Yes,No,No,No,Female,20
+R0485,8110020108.0,cm,2024-04-19,Legal documentation,اس جاك,Yes,Yes,Yes,Yes,,,,,Yes,No,No,No,Male,44
+R0575,8110080017.0,cm,2024-04-19,Legal documentation,اس جاك,No,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,41
+R0198,8110020072.0,cm,2024-04-19,MHPSS,سامز,No,Yes,No,Yes,,,,,Yes,No,No,No,Female,40
+R0797,,cm,2024-04-19,Legal documentation,ADMSP,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,48
+R0869,,cm,2024-04-19,Legal documentation,ADMSP,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,40
+R0562,,cm,2024-04-19,Legal documentation,ADMSP,,,,,,,,,,,,,Female,65
+R0592,8110050096.0,cm,2024-04-19,Legal documentation,ADMSP,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,No,No,Male,30
+R0574,8110080007.0,cm,2024-04-19,Legal documentation,ADMSP,No,No,No,No,No,No,No,No,Yes,No,No,No,Female,43
+R0897,8110110010.0,cm,2024-04-19,Legal documentation,ADMSP,No,No,Yes,Yes,No,No,No,No,Yes,No,No,No,Female,53
+R1283,,cm,2024-04-24,MHPSS,سامز,,,,,,,,,,,,,Female,31
+R0782,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Female,50
+R1198,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Female,46
+R0784,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Male,59
+R0785,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Female,46
+R1177,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Male,49
+R0786,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Male,38
+R1206,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Female,45
+R0791,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Male,31
+R0888,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Female,29
+R0887,,cm,2024-05-06,MHPSS,TMH,,,,,,,,,,,,,Male,68
+R1199,,cm,2024-05-07,MHPSS,TMH,,,,,,,,,,,,,Male,36
+R1210,,cm,2024-05-07,MHPSS,TMH,,,,,,,,,,,,,Male,65
+R1207,,cm,2024-05-07,MHPSS,TMH,,,,,,,,,,,,,Male,46
+R1175,,cm,2024-05-07,MHPSS,TMH,,,,,,,,,,,,,Female,50
+R0783,,cm,2024-05-07,MHPSS,TMH,,,,,,,,,,,,,Female,33
+R0734,,cm,2024-03-29,Cash assistance,أورنج,,,,,,,,,,,,,,
+R0917,,cm,2024-03-29,Cash assistance,أورنج,No,Yes,Yes,No,No,No,No,No,Yes,No,No,No,Male,26
+R0799,8110080024.0,cm,2024-03-29,Cash assistance,أورنج,No,No,No,Yes,No,No,No,No,Yes,No,No,Yes,Female,36
+R0797,8110080023.0,cm,2024-03-29,Cash assistance,أورنج,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,48
+R0382,8110020105.0,cm,2024-03-29,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Male,58
+R0192,8110020071.0,cm,2024-03-29,Cash assistance,أورنج,No,No,No,No,,,,,Yes,No,No,No,Female,45
+R0113,8110020060.0,cm,2024-03-29,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,42
+R0587,8110080015.0,cm,2024-03-29,Cash assistance,أورنج,No,No,Yes,Yes,No,No,No,No,Yes,No,No,No,Female,35
+R0092,8110050011.0,cm,2024-03-29,Cash assistance,أورنج,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,46
+R0873,,cm,2024-03-29,Cash assistance,أورنج,,,,,,,,,,,,,,
+R0104,8110050016.0,cm,2024-03-29,Cash assistance,أورنج,No,No,No,Yes,,,,,Yes,No,No,No,Female,39
+R0393,8110050086.0,cm,2024-05-10,Legal assistance,whh,Yes,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,48
+R0004,,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,Yes,No,,,,,Yes,No,No,No,,
+R0007,8110020016.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,No,Yes,,,,,Yes,No,No,No,,
+R0005,8110020021.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,Yes,Yes,No,,,,,Yes,No,No,No,,
+R0013,8110020015.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,No,Yes,,,,,Yes,No,No,No,,
+R0022,8110020032.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,Yes,Yes,,,,,Yes,No,No,No,,
+R0029,8110020036.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,No,No,,,,,Yes,No,No,No,Female,46
+R0062,8110020048.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,No,No,Female,48
+R0065,8110060004.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,Yes,Yes,,,,,Yes,No,No,No,Female,56
+R0109,8110050020.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,Yes,Yes,,,,,Yes,No,No,No,Female,55
+R0123,8110020069.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,No,No,,,,,Yes,No,No,No,Female,51
+R0126,8110020064.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,No,Yes,,,,,Yes,No,No,No,Female,46
+R0205,8110070003.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,51
+R0255,8110070004.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,Yes,Yes,,,,,Yes,No,No,No,Female,45
+R0334,8110020081.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,61
+R0261,8110020088.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,37
+R0231,8110050051.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,26
+R0390,8110050068.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,54
+R0333,8110020107.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Female,41
+R0510,8110050090.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,60
+R0552,8110050085.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,37
+R0716,8110080013.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,Female,29
+R1282,8110110019.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,39
+R0616,8110110009.0,cm,2024-05-24,Cash assistance,قطر الخيرية,,,,,,,,,,,,,,
+R0387,8110050075.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,Yes,Yes,,,,,Yes,No,No,No,Female,34
+R0353,8110020099.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,Yes,Yes,Yes,,,,,Yes,No,No,No,Female,41
+R0518,8110090004.0,cm,2024-05-24,Cash assistance,قطر الخيرية,No,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,44
+R0298,8110020089.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,36
+R0460,8110090003.0,cm,2024-05-24,Cash assistance,قطر الخيرية,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Female,27
+R0082,,cm,2024-05-31,MHPSS,سامز,,,,,,,,,,,,,,

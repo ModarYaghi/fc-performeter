@@ -1,0 +1,15 @@
+rid,fcid,service,date,family_of_missing,survivor_of_detention,primary_torture,secondary_torture,sexual_violation_a,sexual_violation_p,hrd,journalist,wov,stgbv,lgbti,other,sex,age
+R0534,8110050087,ptfua12,2024-01-05,No,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,37
+R0215,8110020080,ptfua12,2024-01-05,No,No,No,No,,,,,Yes,No,No,No,Female,40
+R0452,8110050080,ptfua12,2024-01-05,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,40
+R0571,8110080004,ptfua12,2024-06-27,No,No,No,No,No,No,No,No,Yes,No,No,No,Female,25
+R0473,8110050083,ptfua12,2024-06-25,Yes,No,Yes,Yes,,,,,Yes,No,No,No,Female,23
+R0382,8110020105,ptfua12,2024-06-25,No,No,No,Yes,,,,,Yes,No,No,No,Male,58
+R0486,8110020103,ptfua12,2024-06-26,No,Yes,Yes,Yes,,,,,Yes,No,No,No,Male,55
+R0508,8110050082,ptfua12,2024-06-26,No,No,No,Yes,,,,,Yes,No,No,No,Female,27
+R0337,8110020100,ptfua12,2024-06-26,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Male,53
+R0444,8110050070,ptfua12,2024-06-28,No,No,No,Yes,,,,,Yes,No,No,No,Female,29
+R0613,8110090006,ptfua12,2024-06-28,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,28
+R0487,8110080005,ptfua12,2024-06-27,No,No,No,No,No,No,No,No,Yes,No,No,No,Male,59
+R0120,8110020106,ptfua12,2024-06-28,Yes,No,No,Yes,,,,,Yes,No,No,No,Male,44
+R0117,8110050055,ptfua12,2024-06-28,Yes,Yes,Yes,Yes,,,,,Yes,No,No,No,Female,26

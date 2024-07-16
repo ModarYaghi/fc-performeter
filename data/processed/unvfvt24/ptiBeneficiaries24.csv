@@ -1,0 +1,12 @@
+rid,fcid,service,date,pt_i_total,family_of_missing,survivor_of_detention,primary_torture,secondary_torture,sexual_violation_a,sexual_violation_p,hrd,journalist,wov,stgbv,lgbti,other,sex,age
+R0725,8110050097,ipt,2024-01-12,11,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,No,No,Female,33
+R0089,8110060012,ipt,2024-02-29,8,Yes,Yes,Yes,Yes,,,,,Yes,Yes,No,No,Female,43
+R0733,8110080014,ipt,2024-02-28,6,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,No,No,Male,42
+R0359,8110050048,ipt,2024-02-28,9,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,39
+R0378,8110050066,ipt,2024-06-27,4,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,38
+R0113,8110020060,ipt,2024-05-09,9,Yes,No,No,Yes,,,,,Yes,No,No,No,Female,42
+R0239,8110080018,ipt,2024-03-14,1,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Female,46
+R0327,8110020095,ipt,2024-05-13,1,No,No,Yes,Yes,,,,,Yes,No,No,No,Female,46
+R0502,8110100015,ipt,2024-07-01,2,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,Female,50
+R0879,8110100013,ipt,2024-03-19,10,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Male,41
+R0904,8110050103,ipt,2024-05-07,3,No,Yes,Yes,No,No,Yes,No,No,Yes,No,No,No,Male,38
