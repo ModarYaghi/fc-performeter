@@ -13,6 +13,8 @@ pd.set_option("display.float_format", "{:.1f}".format)
 # Display maximum column width:
 pd.set_option("display.max_colwidth", None)
 
+# Suppress SettingWithCopyWarning
+pd.options.mode.chained_assignment = None
 
 # --------------------------Working Period------------------------------------
 start = '2024-01-01'
