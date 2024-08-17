@@ -1,7 +1,9 @@
 import os
 from enum import Enum, auto
-from pathlib import Path
-from pydantic import BaseModel, ValidationError
+
+# from pathlib import Path
+from pydantic import BaseModel
+
 from src.config_reader import YAMLConfigReader
 
 
@@ -66,65 +68,95 @@ class PathManger:
         return {
             Category.PS: {
                 PSFile.SCR: DataFile(
-                    path=os.path.join(self.processed_data, f"00_psscr_{self.data_dir}.csv"),
-                    sheet="Scr"
+                    path=os.path.join(
+                        self.processed_data, f"00_psscr_{self.data_dir}.csv"
+                    ),
+                    sheet="Scr",
                 ),
                 PSFile.PSNT: DataFile(
-                    path=os.path.join(self.processed_data, f"01_psint_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"01_psint_{self.data_dir}.csv"
+                    ),
                     sheet="Int",
                 ),
                 PSFile.PSG: DataFile(
-                    path=os.path.join(self.processed_data, f"02_psgc_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"02_psgc_{self.data_dir}.csv"
+                    ),
                     sheet="GC",
                 ),
                 PSFile.PSI: DataFile(
-                    path=os.path.join(self.processed_data, f"03_psic_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"03_psic_{self.data_dir}.csv"
+                    ),
                     sheet="IC",
                 ),
                 PSFile.PSFU: DataFile(
-                    path=os.path.join(self.processed_data, f"04_psfua_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"04_psfua_{self.data_dir}.csv"
+                    ),
                     sheet="FUA",
                 ),
                 PSFile.PEI: DataFile(
-                    path=os.path.join(self.processed_data, f"05_pspei_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"05_pspei_{self.data_dir}.csv"
+                    ),
                     sheet="PEI",
                 ),
                 PSFile.TRW: DataFile(
-                    path=os.path.join(self.processed_data, f"06_pstrw_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"06_pstrw_{self.data_dir}.csv"
+                    ),
                     sheet="TRW",
                 ),
                 PSFile.TD: DataFile(
-                    path=os.path.join(self.processed_data, f"07_pstd_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"07_pstd_{self.data_dir}.csv"
+                    ),
                     sheet="TD",
                 ),
                 PSFile.CDW: DataFile(
-                    path=os.path.join(self.processed_data, f"08_pscws_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"08_pscws_{self.data_dir}.csv"
+                    ),
                     sheet="cws",
                 ),
                 PSFile.AWW: DataFile(
-                    path=os.path.join(self.processed_data, f"09_psaw_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"09_psaw_{self.data_dir}.csv"
+                    ),
                     sheet="AW",
                 ),
             },
             Category.PT: {
                 PTFile.PSFS: DataFile(
-                    path=os.path.join(self.processed_data, f"10_ptpsfs_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"10_ptpsfs_{self.data_dir}.csv"
+                    ),
                     sheet="PSFS",
                 ),
                 PTFile.PTNT: DataFile(
-                    path=os.path.join(self.processed_data, f"11_ptint_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"11_ptint_{self.data_dir}.csv"
+                    ),
                     sheet="PTInt",
                 ),
                 PTFile.PTG: DataFile(
-                    path=os.path.join(self.processed_data, f"12_ptgpt_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"12_ptgpt_{self.data_dir}.csv"
+                    ),
                     sheet="GPT",
                 ),
                 PTFile.PTI: DataFile(
-                    path=os.path.join(self.processed_data, f"13_ptipt_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"13_ptipt_{self.data_dir}.csv"
+                    ),
                     sheet="IPT",
                 ),
                 PTFile.PTFU: DataFile(
-                    path=os.path.join(self.processed_data, f"14_ptfua_{self.data_dir}.csv"),
+                    path=os.path.join(
+                        self.processed_data, f"14_ptfua_{self.data_dir}.csv"
+                    ),
                     sheet="FUA",
                 ),
             },

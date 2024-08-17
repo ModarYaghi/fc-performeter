@@ -1,9 +1,10 @@
-import pandas as pd
-from typing import Union, List
 from enum import Enum, auto
+from typing import List, Union
+
+import pandas as pd
+
 from path_management import *
 from src.dataset import Dataset
-
 from src.xlsx_decryptor import ExcelDecryptor
 
 # --------------------------For Convenient Display----------------------------
@@ -17,8 +18,8 @@ pd.set_option("display.max_colwidth", None)
 pd.options.mode.chained_assignment = None
 
 # --------------------------Working Period------------------------------------
-start = '2024-01-01'
-end = '2024-06-30'
+START = "2024-01-01"
+END = "2024-06-30"
 # ----------------------------------------------------------------------------
 
 
@@ -59,7 +60,12 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools, ser):
     return compiled_dataframe
 
 
-def dtype_trans(dataframe: pd.DataFrame, dataset: Dataset = None, config_path: str = None, sheet_name: str = None):
+def dtype_trans(
+    dataframe: pd.DataFrame,
+    dataset: Dataset = None,
+    config_path: str = None,
+    sheet_name: str = None,
+):
     if dataset is None:
         dataset = Dataset(config_path, sheet_name)
 
@@ -79,23 +85,27 @@ class FilterType(Enum):
     ON = auto()
 
 
-def filter_dataframe_on_date(df: pd.DataFrame, date_columns: Union[str, List[str]],
-                             date1: Union[str, pd.Timestamp], date2: Union[str, pd.Timestamp] = None,
-                             filter_type: FilterType = FilterType.IN) -> pd.DataFrame:
+def filter_dataframe_on_date(
+    df: pd.DataFrame,
+    date_columns: Union[str, List[str]],
+    date1: Union[str, pd.Timestamp],
+    date2: Union[str, pd.Timestamp] = None,
+    filter_type: FilterType = FilterType.IN,
+) -> pd.DataFrame:
     """
-     Filters the DataFrame based on the date conditions provided.
-     Uses an Enum for filter types to improve code reliability and maintainability.
+    Filters the DataFrame based on the date conditions provided.
+    Uses an Enum for filter types to improve code reliability and maintainability.
 
-     Parameters:
-     df (pd.DataFrame): The DataFrame to filter.
-     date_columns (Union[str, List[str]]): The column(s) to apply the filter on.
-     date1 (Union[str, pd.Timestamp], optional): The primary date to filter against.
-     date2 (Union[str, pd.Timestamp], optional): The secondary date to filter against (used for 'between' type).
-     filter_type (FilterType): Type of filter to apply.
+    Parameters:
+    df (pd.DataFrame): The DataFrame to filter.
+    date_columns (Union[str, List[str]]): The column(s) to apply the filter on.
+    date1 (Union[str, pd.Timestamp], optional): The primary date to filter against.
+    date2 (Union[str, pd.Timestamp], optional): The secondary date to filter against (used for 'between' type).
+    filter_type (FilterType): Type of filter to apply.
 
-     Returns:
-     pd.DataFrame: The filtered DataFrame.
-     """
+    Returns:
+    pd.DataFrame: The filtered DataFrame.
+    """
 
     if isinstance(date_columns, str):
         date_columns = [date_columns]  # Convert to list if only one column provided
@@ -109,9 +119,13 @@ def filter_dataframe_on_date(df: pd.DataFrame, date_columns: Union[str, List[str
     elif filter_type == FilterType.IN:
         if date2 is None:
             raise ValueError("date2 must be provided for 'between' filter type.")
-        condition = ((df[date_columns] >= date1) & (df[date_columns] <= date2)).any(axis=1)
+        condition = ((df[date_columns] >= date1) & (df[date_columns] <= date2)).any(
+            axis=1
+        )
     else:
-        raise ValueError("Invalid filter_type. Use 'before', 'after', 'equal', or 'between'.")
+        raise ValueError(
+            "Invalid filter_type. Use 'before', 'after', 'equal', or 'between'."
+        )
 
     filtered_df = df[condition]
     return filtered_df
@@ -151,5 +165,5 @@ class DFrame:
         return dataframe
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pass
