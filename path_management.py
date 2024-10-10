@@ -5,6 +5,12 @@ from enum import Enum, auto
 from pydantic import BaseModel
 
 from src.config_reader import YAMLConfigReader
+from collections import namedtuple
+from typing import NamedTuple
+
+# Import necessary enums and classes (assuming they are defined elsewhere)
+# from .enums import Category, PSFile, PTFile
+# from .path_manager import PathManager
 
 
 class Category(Enum):
@@ -166,9 +172,124 @@ class PathManger:
         return self.data_files[category][file_type]
 
 
-# Usage Example
+
+# Define a named tuple for file information
+FileInfo = namedtuple('FileInfo', ['path', 'sheet'])
+
+class PSFiles:
+    """
+    A class to manage and provide easy access to PS (Primary Source) file information.
+
+    This class encapsulates the paths and sheet names for various PS file types,
+    allowing for convenient attribute-based access to this information.
+
+    Attributes:
+        SCR, PSNT, PSG, PSI, PSFU, PEI, TRW, TD, CDW, AWW (FileInfo):
+            Named tuples containing 'path' and 'sheet' for each PS file type.
+    """
+
+    def __init__(self, path_manager):
+        """
+        Initialize the PSFiles object with file information from the PathManager.
+
+        Args:
+            path_manager (PathManager): An instance of PathManager that provides
+                                        access to file paths and sheet names.
+        """
+        # Initialize each PS file type with its corresponding path and sheet name
+        self.SCR = self._create_file_info(path_manager, PSFile.SCR)
+        self.PSNT = self._create_file_info(path_manager, PSFile.PSNT)
+        self.PSG = self._create_file_info(path_manager, PSFile.PSG)
+        self.PSI = self._create_file_info(path_manager, PSFile.PSI)
+        self.PSFU = self._create_file_info(path_manager, PSFile.PSFU)
+        self.PEI = self._create_file_info(path_manager, PSFile.PEI)
+        self.TRW = self._create_file_info(path_manager, PSFile.TRW)
+        self.TD = self._create_file_info(path_manager, PSFile.TD)
+        self.CDW = self._create_file_info(path_manager, PSFile.CDW)
+        self.AWW = self._create_file_info(path_manager, PSFile.AWW)
+
+    def _create_file_info(self, path_manager, file_type: PSFile) -> FileInfo:
+        """
+        Create a FileInfo named tuple for a given PS file type.
+
+        Args:
+            path_manager (PathManager): The PathManager instance to use.
+            file_type (PSFile): The enum representing the PS file type.
+
+        Returns:
+            FileInfo: A named tuple containing the path and sheet name for the file type.
+        """
+        data_file = path_manager.get_data_file(Category.PS, file_type)
+        return FileInfo(data_file.path, data_file.sheet)
+
+
+class PTFiles:
+    """
+    A class to manage and provide easy access to PT (Processed Table) file information.
+
+    This class encapsulates the paths and sheet names for various PT file types,
+    allowing for convenient attribute-based access to this information.
+
+    Attributes:
+        PSFS, PTNT, PTG, PTI, PTFU (FileInfo):
+            Named tuples containing 'path' and 'sheet' for each PT file type.
+    """
+
+    def __init__(self, path_manager):
+        """
+        Initialize the PTFiles object with file information from the PathManager.
+
+        Args:
+            path_manager (PathManager): An instance of PathManager that provides
+                                        access to file paths and sheet names.
+        """
+        # Initialize each PT file type with its corresponding path and sheet name
+        self.PSFS = self._create_file_info(path_manager, PTFile.PSFS)
+        self.PTNT = self._create_file_info(path_manager, PTFile.PTNT)
+        self.PTG = self._create_file_info(path_manager, PTFile.PTG)
+        self.PTI = self._create_file_info(path_manager, PTFile.PTI)
+        self.PTFU = self._create_file_info(path_manager, PTFile.PTFU)
+
+    def _create_file_info(self, path_manager, file_type: PTFile) -> FileInfo:
+        """
+        Create a FileInfo named tuple for a given PT file type.
+
+        Args:
+            path_manager (PathManager): The PathManager instance to use.
+            file_type (PTFile): The enum representing the PT file type.
+
+        Returns:
+            FileInfo: A named tuple containing the path and sheet name for the file type.
+        """
+        data_file = path_manager.get_data_file(Category.PT, file_type)
+        return FileInfo(data_file.path, data_file.sheet)
+
+
+# Usage example
+# if __name__ == "__main__":
+    # Assume these variables are properly set in your actual code
 root = os.getenv("FcPerformeter")
 data_dir = "0924"
 config_file = os.path.join(root, "config", "config.yaml")
 
 path_manager = PathManger(root, data_dir, config_file)
+
+ps_raw_data = path_manager.ps_raw_data
+pspw = path_manager.pspw
+pt_raw_data = path_manager.pt_raw_data
+ptpw = path_manager.ptpw
+
+# Create instances of PSFiles and PTFiles
+ps_files = PSFiles(path_manager)
+pt_files = PTFiles(path_manager)
+
+    # Examples of accessing PS files
+    # print(f"SCR path: {ps_files.SCR.path}")
+    # print(f"SCR sheet: {ps_files.SCR.sheet}")
+
+    # Examples of accessing PT files
+    # print(f"PSFS path: {pt_files.PSFS.path}")
+    # print(f"PSFS sheet: {pt_files.PSFS.sheet}")
+
+
+# Usage Example
