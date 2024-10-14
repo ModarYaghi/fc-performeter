@@ -18,12 +18,13 @@ pd.set_option("display.max_colwidth", None)
 pd.options.mode.chained_assignment = None
 
 # --------------------------Working Period------------------------------------
-START = "2024-01-01"
-END = "2024-06-30"
+START = "2024-07-01"
+END = "2024-09-30"
 # ----------------------------------------------------------------------------
 
 
 def compiler(sheet_name, files_list, path_to_config, tracking_tools, ser):
+    print(f"Compiler called with sheet_name: {sheet_name}")
 
     dataframes = []
     # for sheet in sheets_list:
@@ -37,9 +38,16 @@ def compiler(sheet_name, files_list, path_to_config, tracking_tools, ser):
             sp_init = file[6:8]
         else:
             return "sp_init is not valid"
+        print(f"Processing file: {file}")
+        print(f"Available sheets in this file: {list(tracking_tools[file].keys())}")
 
-        dataframe = tracking_tools[file][sheet_name]
-
+        try:
+            dataframe = tracking_tools[file][sheet_name]
+            print(f"Successfully accessed sheet: {sheet_name}")
+        except KeyError as e:
+            print(f"KeyError occurred: {e}")
+            print(f"Sheet {sheet_name} not found in file {file}")
+            continue
         # Simplify the column setting and dropping the first row
         dataframe.columns = dataset.vars
         dataframe = dataframe.iloc[1:].reset_index(drop=True)
@@ -145,25 +153,26 @@ def get_df(source_data_path, sheet_name, config_file_path=config_file, b=False):
     return df
 
 
-class DFrame:
-    CONFIG = config_file
+pss_sheet_path = {
+    'screening': (ps_files.SCR.sheet, ps_files.SCR.path),
+    'intake': (ps_files.PSNT.sheet, ps_files.PSNT.path),
+    'group_counseling': (ps_files.PSG.sheet, ps_files.PSG.path),
+    'individual_counseling': (ps_files.PSI.sheet, ps_files.PSI.path),
+    'follow_up_assessment': (ps_files.PSFU.sheet, ps_files.PSFU.path),
+    'post_earthquake_intervention': (ps_files.PEI.sheet, ps_files.PEI.path),
+    'trw': (ps_files.TRW.sheet, ps_files.TRW.path),
+    'therapeutic_documentation': (ps_files.TD.sheet, ps_files.TD.path),
+    'creative_workshop': (ps_files.CWS.sheet, ps_files.CWS.path),
+    'awareness_workshop': (ps_files.AWW.sheet, ps_files.AWW.path),
+}
 
-    def __init__(self, source_data_path, sheet_name):
-        self.source_data_path = source_data_path
-        self.sheet_name = sheet_name
-        self.dataset = Dataset(DFrame.CONFIG, self.sheet_name)
-
-    def type_casting(self, dataframe: pd.DataFrame):
-        if self.dataset.dvars:
-            dataframe[self.dataset.dvars] = dataframe[self.dataset.dvars].apply(
-                pd.to_datetime
-            )
-
-        if self.dataset.ivars:
-            dataframe[self.dataset.ivars] = dataframe[self.dataset].astype("Int64")
-
-        return dataframe
-
+pt_sheet_path = {
+    'psfs': (pt_files.PSFS.sheet, pt_files.PSFS.path),
+    'pt_intake': (pt_files.PTI.sheet, pt_files.PTI.path),
+    'pt_group': (pt_files.PTG.sheet, pt_files.PTG.path),
+    'pt_individual': (pt_files.PTI.sheet, pt_files.PTI.path),
+    'pt_fua': (pt_files.PTFU.sheet, pt_files.PTFU.path),
+}
 
 if __name__ == "__main__":
     pass

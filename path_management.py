@@ -27,7 +27,7 @@ class PSFile(Enum):
     PEI = auto()
     TRW = auto()
     TD = auto()
-    CDW = auto()
+    CWS = auto()
     AWW = auto()
 
 
@@ -75,61 +75,61 @@ class PathManger:
             Category.PS: {
                 PSFile.SCR: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"-01_psscr_{self.data_dir}.csv"
+                        self.processed_data, f"01_psscr_{self.data_dir}.csv"
                     ),
                     sheet="Scr",
                 ),
                 PSFile.PSNT: DataFile(
-                    path=os.path.join(
-                        self.processed_data, f"00_psint_{self.data_dir}.csv"
+                                    path=os.path.join(
+                        self.processed_data, f"02_psint_{self.data_dir}.csv"
                     ),
                     sheet="Int",
                 ),
                 PSFile.PSG: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"01_psgc_{self.data_dir}.csv"
+                        self.processed_data, f"03_psgc_{self.data_dir}.csv"
                     ),
                     sheet="GC",
                 ),
                 PSFile.PSI: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"02_psic_{self.data_dir}.csv"
+                        self.processed_data, f"04_psic_{self.data_dir}.csv"
                     ),
                     sheet="IC",
                 ),
                 PSFile.PSFU: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"03_psfua_{self.data_dir}.csv"
+                        self.processed_data, f"05_psfua_{self.data_dir}.csv"
                     ),
                     sheet="FUA",
                 ),
                 PSFile.PEI: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"04_pspei_{self.data_dir}.csv"
+                        self.processed_data, f"06_pspei_{self.data_dir}.csv"
                     ),
                     sheet="PEI",
                 ),
                 PSFile.TRW: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"05_pstrw_{self.data_dir}.csv"
+                        self.processed_data, f"07_pstrw_{self.data_dir}.csv"
                     ),
                     sheet="TRW",
                 ),
                 PSFile.TD: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"06_pstd_{self.data_dir}.csv"
+                        self.processed_data, f"08_pstd_{self.data_dir}.csv"
                     ),
                     sheet="TD",
                 ),
-                PSFile.CDW: DataFile(
+                PSFile.CWS: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"07_pscws_{self.data_dir}.csv"
+                        self.processed_data, f"09_pscws_{self.data_dir}.csv"
                     ),
-                    sheet="cws",
+                    sheet="CWS",
                 ),
                 PSFile.AWW: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"08_psaw_{self.data_dir}.csv"
+                        self.processed_data, f"10_psaw_{self.data_dir}.csv"
                     ),
                     sheet="AW",
                 ),
@@ -137,31 +137,31 @@ class PathManger:
             Category.PT: {
                 PTFile.PSFS: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"9_ptpsfs_{self.data_dir}.csv"
+                        self.processed_data, f"11_ptpsfs_{self.data_dir}.csv"
                     ),
                     sheet="PSFS",
                 ),
                 PTFile.PTNT: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"10_ptint_{self.data_dir}.csv"
+                        self.processed_data, f"12_ptint_{self.data_dir}.csv"
                     ),
                     sheet="PTInt",
                 ),
                 PTFile.PTG: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"11_ptgpt_{self.data_dir}.csv"
+                        self.processed_data, f"13_ptgpt_{self.data_dir}.csv"
                     ),
                     sheet="GPT",
                 ),
                 PTFile.PTI: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"12_ptipt_{self.data_dir}.csv"
+                        self.processed_data, f"14_ptipt_{self.data_dir}.csv"
                     ),
                     sheet="IPT",
                 ),
                 PTFile.PTFU: DataFile(
                     path=os.path.join(
-                        self.processed_data, f"13_ptfua_{self.data_dir}.csv"
+                        self.processed_data, f"15_ptfua_{self.data_dir}.csv"
                     ),
                     sheet="FUA",
                 ),
@@ -205,7 +205,7 @@ class PSFiles:
         self.PEI = self._create_file_info(path_manager, PSFile.PEI)
         self.TRW = self._create_file_info(path_manager, PSFile.TRW)
         self.TD = self._create_file_info(path_manager, PSFile.TD)
-        self.CDW = self._create_file_info(path_manager, PSFile.CDW)
+        self.CWS = self._create_file_info(path_manager, PSFile.CWS)
         self.AWW = self._create_file_info(path_manager, PSFile.AWW)
 
     def _create_file_info(self, path_manager, file_type: PSFile) -> FileInfo:
