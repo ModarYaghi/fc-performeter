@@ -6,7 +6,7 @@ import pandas as pd
 from path_management import *
 from src.dataset import Dataset
 from src.xlsx_decryptor import ExcelDecryptor
-
+import warnings
 # --------------------------For Convenient Display----------------------------
 pd.set_option("display.float_format", "{:.1f}".format)
 # pd.reset_option('display.float_format')
@@ -17,6 +17,8 @@ pd.set_option("display.max_colwidth", None)
 # Suppress SettingWithCopyWarning
 pd.options.mode.chained_assignment = None
 
+# Suppress openpyxl warning about unsupported Data Validation in Excel file
+warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 # --------------------------Working Period------------------------------------
 START = "2024-07-01"
 END = "2024-09-30"
