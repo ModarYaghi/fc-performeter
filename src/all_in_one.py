@@ -168,7 +168,7 @@ pss_sheet_path = {
 
 pt_sheet_path = {
     'psfs': (pt_files.PSFS.sheet, pt_files.PSFS.path),
-    'pt_intake': (pt_files.PTI.sheet, pt_files.PTI.path),
+    'pt_intake': (pt_files.PTNT.sheet, pt_files.PTNT.path),
     'pt_group': (pt_files.PTG.sheet, pt_files.PTG.path),
     'pt_individual': (pt_files.PTI.sheet, pt_files.PTI.path),
     'pt_fua': (pt_files.PTFU.sheet, pt_files.PTFU.path),
