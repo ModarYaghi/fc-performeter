@@ -19,10 +19,6 @@ pd.options.mode.chained_assignment = None
 
 # Suppress openpyxl warning about unsupported Data Validation in Excel file
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
-# --------------------------Working Period------------------------------------
-START = "2024-03-01"
-END = "2024-09-30"
-# ----------------------------------------------------------------------------
 
 
 def compiler(sheet_name, files_list, path_to_config, tracking_tools, ser):
@@ -187,27 +183,6 @@ def categorize_and_count_ages(ages, start=18, end=80, interval=10):
     # return age_counts
     return age_counts
 
-
-pss_sheet_path = {
-    'screening': (ps_files.SCR.sheet, ps_files.SCR.path),
-    'intake': (ps_files.PSNT.sheet, ps_files.PSNT.path),
-    'group_counseling': (ps_files.PSG.sheet, ps_files.PSG.path),
-    'individual_counseling': (ps_files.PSI.sheet, ps_files.PSI.path),
-    'follow_up_assessment': (ps_files.PSFU.sheet, ps_files.PSFU.path),
-    'post_earthquake_intervention': (ps_files.PEI.sheet, ps_files.PEI.path),
-    'trw': (ps_files.TRW.sheet, ps_files.TRW.path),
-    'therapeutic_documentation': (ps_files.TD.sheet, ps_files.TD.path),
-    'creative_workshop': (ps_files.CWS.sheet, ps_files.CWS.path),
-    'awareness_workshop': (ps_files.AWW.sheet, ps_files.AWW.path),
-}
-
-pt_sheet_path = {
-    'psfs': (pt_files.PSFS.sheet, pt_files.PSFS.path),
-    'pt_intake': (pt_files.PTNT.sheet, pt_files.PTNT.path),
-    'pt_group': (pt_files.PTG.sheet, pt_files.PTG.path),
-    'pt_individual': (pt_files.PTI.sheet, pt_files.PTI.path),
-    'pt_fua': (pt_files.PTFU.sheet, pt_files.PTFU.path),
-}
 
 if __name__ == "__main__":
     pass
