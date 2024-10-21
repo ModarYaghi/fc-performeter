@@ -7,6 +7,7 @@ from path_management import *
 from src.dataset import Dataset
 from src.xlsx_decryptor import ExcelDecryptor
 import warnings
+
 # --------------------------For Convenient Display----------------------------
 pd.set_option("display.float_format", "{:.1f}".format)
 # pd.reset_option('display.float_format')
@@ -18,7 +19,7 @@ pd.set_option("display.max_colwidth", None)
 pd.options.mode.chained_assignment = None
 
 # Suppress openpyxl warning about unsupported Data Validation in Excel file
-warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 
 def compiler(sheet_name, files_list, path_to_config, tracking_tools, ser):
@@ -150,6 +151,7 @@ def get_df(source_data_path, sheet_name, config_file_path=config_file, b=False):
 
     return df
 
+
 def categorize_and_count_ages(ages, start=18, end=80, interval=10):
     """
     Categorize ages into bins and count the number of occurrences in each bin.
@@ -178,7 +180,7 @@ def categorize_and_count_ages(ages, start=18, end=80, interval=10):
 
     # Count the number of occurrences in each bin
     age_counts = age_groups.value_counts(sort=True)
-    age_counts = age_counts.sort_index(na_position='first')
+    age_counts = age_counts.sort_index(na_position="first")
 
     # return age_counts
     return age_counts

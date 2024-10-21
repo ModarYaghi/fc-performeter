@@ -1,4 +1,5 @@
 import os
+import sys
 from enum import Enum, auto
 
 # from pathlib import Path
@@ -80,7 +81,7 @@ class PathManger:
                     sheet="Scr",
                 ),
                 PSFile.PSNT: DataFile(
-                                    path=os.path.join(
+                    path=os.path.join(
                         self.processed_data, f"02_psint_{self.data_dir}.csv"
                     ),
                     sheet="Int",
@@ -172,9 +173,9 @@ class PathManger:
         return self.data_files[category][file_type]
 
 
-
 # Define a named tuple for file information
-FileInfo = namedtuple('FileInfo', ['path', 'sheet'])
+FileInfo = namedtuple("FileInfo", ["path", "sheet"])
+
 
 class PSFiles:
     """
@@ -267,7 +268,7 @@ class PTFiles:
 
 # Usage example
 # if __name__ == "__main__":
-    # Assume these variables are properly set in your actual code
+# Assume these variables are properly set in your actual code
 root = os.getenv("FcPerformeter")
 data_dir = "0924"
 config_file = os.path.join(root, "config", "config.yaml")
@@ -283,13 +284,13 @@ ptpw = path_manager.ptpw
 ps_files = PSFiles(path_manager)
 pt_files = PTFiles(path_manager)
 
-    # Examples of accessing PS files
-    # print(f"SCR path: {ps_files.SCR.path}")
-    # print(f"SCR sheet: {ps_files.SCR.sheet}")
+# Examples of accessing PS files
+# print(f"SCR path: {ps_files.SCR.path}")
+# print(f"SCR sheet: {ps_files.SCR.sheet}")
 
-    # Examples of accessing PT files
-    # print(f"PSFS path: {pt_files.PSFS.path}")
-    # print(f"PSFS sheet: {pt_files.PSFS.sheet}")
+# Examples of accessing PT files
+# print(f"PSFS path: {pt_files.PSFS.path}")
+# print(f"PSFS sheet: {pt_files.PSFS.sheet}")
 
 
 # Usage Example
