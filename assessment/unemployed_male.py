@@ -20,11 +20,11 @@ men_unemployed_columns = [
     "WORKAREAOTH",
 ]
 
-assessment_mapping = {0: "Intake", 3: "3-month", 6: "6-month", 12: "12-month"}
+adminnum_mapping = {0: "Intake", 3: "3-month", 6: "6-month", 12: "12-month"}
 
 gender_mapping = {1: "man", 2: "woman", 3: "other"}
 
-employment_status_mapping = {
+worknow_mapping = {
     1: "Employed (working at a job)",
     2: "Self-employed (work that could include own business, farming, etc)",
     3: "Student",
@@ -36,9 +36,7 @@ employment_status_mapping = {
     9: "None of the above (includes staying at home by choice to take care of children or household)",
 }
 
-employment_status_mapping
-
-occupation_sector_mapping = {
+workareacat_mapping = {
     1: "Farming",
     2: "Fishing, livestock, forestry",
     3: "Industry (manufacturing finished goods)",
@@ -53,3 +51,21 @@ occupation_sector_mapping = {
 
 df = pd.read_excel(r"assessment/221024.xlsx")
 df = df[men_unemployed_columns]
+
+df["SESDATE"] = df["SESDATE"].str.replace("/", "-")
+df["FUSESDATE"] = df["FUSESDATE"].str.replace("/", "-")
+
+# df["REINTAKDATE"] = pd.to_datetime(
+# df["REINTAKDATE"], format="%d-%m-%Y", errors="coerce"
+# )
+
+# df["SESDATE"] = pd.to_datetime(df["SESDATE"], format="%d-%m-%Y", errors="coerce")
+# df["FUSESDATE"] = pd.to_datetime(df["FUSESDATE"], format="%d-%m-%Y", errors="coerce")
+
+df["AGE"] = df["AGE"].astype("Int64")
+df["YOB"] = df["YOB"].astype("Int64")
+
+df["ADMINNUM"] = df["ADMINNUM"].replace(adminnum_mapping)
+df["GENDER"] = df["GENDER"].replace(gender_mapping)
+df["WORKNOW"] = df["WORKNOW"].replace(worknow_mapping)
+df["WORKAREACAT"] = df["WORKAREACAT"].replace(workareacat_mapping)
