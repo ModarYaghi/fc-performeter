@@ -5,6 +5,7 @@ from src.basic_variables import *
 os.getcwd()
 
 men_unemployed_columns = [
+    "CLIENTID",
     "ADMINNUM",
     "REINTAKDATE",
     "PSCNT",
@@ -52,20 +53,57 @@ workareacat_mapping = {
 df = pd.read_excel(r"assessment/221024.xlsx")
 df = df[men_unemployed_columns]
 
+df["REINTAKDATE"] = df["REINTAKDATE"].str.replace("/", "-")
 df["SESDATE"] = df["SESDATE"].str.replace("/", "-")
 df["FUSESDATE"] = df["FUSESDATE"].str.replace("/", "-")
 
-# df["REINTAKDATE"] = pd.to_datetime(
-# df["REINTAKDATE"], format="%d-%m-%Y", errors="coerce"
-# )
-
-# df["SESDATE"] = pd.to_datetime(df["SESDATE"], format="%d-%m-%Y", errors="coerce")
-# df["FUSESDATE"] = pd.to_datetime(df["FUSESDATE"], format="%d-%m-%Y", errors="coerce")
-
 df["AGE"] = df["AGE"].astype("Int64")
 df["YOB"] = df["YOB"].astype("Int64")
+
 
 df["ADMINNUM"] = df["ADMINNUM"].replace(adminnum_mapping)
 df["GENDER"] = df["GENDER"].replace(gender_mapping)
 df["WORKNOW"] = df["WORKNOW"].replace(worknow_mapping)
 df["WORKAREACAT"] = df["WORKAREACAT"].replace(workareacat_mapping)
+
+df_with_rid = pd.merge(
+    df,
+    rebuilt_intake[
+        [
+            "rid",
+            "fcid",
+            "firstname",
+            "lastname",
+        ]
+    ],
+    left_on="CLIENTID",
+    right_on="fcid",
+    how="left",
+)
+
+# Adding phone numbers
+wl = pd.read_excel(r"assessment/wl.xlsx")
+df_with_rid_phone = pd.merge(df_with_rid, wl, on="rid", how="left")
+
+columns_order = [
+    "CLIENTID",
+    "fcid",
+    "rid",
+    "firstname",
+    "lastname",
+    "phone",
+    "ADMINNUM",
+    "REINTAKDATE",
+    "PSCNT",
+    "SESDATE",
+    "FUSESDATE",
+    "CNTFIRSTNAME",
+    "GENDER",
+    "AGE",
+    "YOB",
+    "WORKNOW",
+    "WORKAREA",
+    "WORKAREACAT",
+    "WORKAREAOTH",
+]
+df_with_rid_phone = df_with_rid_phone[columns_order]
