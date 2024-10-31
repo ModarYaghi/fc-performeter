@@ -136,7 +136,7 @@ intake.insert(4, "service", None)
 intake = intake.sort_values(by=["nt_s1", "nt_s2", "nt_s3", "nt_re"], ascending=True)
 # unique_intake = intake.drop_duplicates(subset='rid', keep='last')
 rebuilt_intake = rebuild_dataframe(intake, "fcid")
-rebuilt_intake["fcid"] = rebuilt_intake["fcid"].astype("Int64")
+# rebuilt_intake["fcid"] = rebuilt_intake["fcid"].astype("Int64")
 
 # --------------------------Working Period------------------------------------
 START = "2024-03-01"
