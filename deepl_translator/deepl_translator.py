@@ -1,4 +1,4 @@
-import pandas as pd
+# import pandas as pd
 import requests
 
 # Load DeepL API key form an environment variable or directly
@@ -38,3 +38,30 @@ def translate_text(text, target_lang="EN-US"):
 # print(
 # "Translation complete. Translated phrases have been saved to 'translated_phrases.xlsx'."
 # )
+
+
+def translate_dataframe_column(df, col_to_translate, new_col_name, translate_function):
+    """
+    Translates a specified column in a DataFrame and inserts the translated values as a new column.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame.
+    col_to_translate (str): The name of the column to be translated.
+    new_col_name (str): The name of the new column to store the translated values.
+    translate_function (callable): The function used for translation. Should accept a single value and return the translated value.
+
+    Returns:
+    pd.DataFrame: A DataFrame with the translated column added.
+    """
+    # Ensure the column to translate exists
+    if col_to_translate not in df.columns:
+        raise ValueError(f"Column '{col_to_translate}' not found in DataFrame.")
+
+    # Apply the translation function to the specified column
+    translated_column = df[col_to_translate].apply(translate_function)
+
+    # Insert the new column right after the original column
+    col_position = df.columns.get_loc(col_to_translate) + 1
+    df.insert(col_position, new_col_name, translated_column)
+
+    return df
