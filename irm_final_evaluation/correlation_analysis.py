@@ -9,11 +9,11 @@ This module provides a class `CorrelationAnalyzer` for:
 
 """
 
-import pandas as pd
-import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
-from scipy.stats import pearsonr, spearmanr, kendalltau
+import numpy as np
+import pandas as pd
+import seaborn as sns
+from scipy.stats import kendalltau, pearsonr, spearmanr
 
 
 class CorrelationAnalyzer:
