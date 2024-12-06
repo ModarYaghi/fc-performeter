@@ -30,3 +30,31 @@ for value in rel_columns:  # This is columns names in cb
     target_value = rel_cb.iloc[(row_ind, col_inc)]
     print(target_value)
     col_inc += 1
+
+
+# office
+# import pandas as pd
+# import numpy as np
+
+
+# codebook = pd.read_excel("codebook.xlsx")
+
+# rel_cb = codebook[codebook["relevance"] == 1]
+# rel_questions = rel_cb["question"].tolist()
+# # print(len(rel_questions))  #76
+
+# df = pd.read_csv("encoded_dataset.csv")
+
+# rel_df = df[rel_questions]
+# # print(rel_df.shape)  # (100, 76)
+
+# COUNT = 0
+# for col in rel_df.columns:
+#     for value in rel_questions:
+#         if col == value:
+#             # COUNT += 1
+#             index = np.where(rel_cb == value)
+#             r, c = index
+#             # print(r, c)
+#             variable_name_from_index = rel_cb.iloc[r, c]
+#             print(variable_name_from_index)
