@@ -9,11 +9,18 @@ This module provides a class `CorrelationAnalyzer` for:
 
 """
 
+import logging
+import warnings
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from scipy.stats import kendalltau, pearsonr, spearmanr
+from scipy.stats import ConstantInputWarning, kendalltau, pearsonr, spearmanr
+
+logging.basicConfig(
+    level=logging.WARNING, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 
 class CorrelationAnalyzer:
@@ -110,7 +117,14 @@ class CorrelationAnalyzer:
             raise ValueError(
                 "Invalid method. Choose 'pearson', 'spearman', or 'kendall'."
             )
-        return corr_func(x, y)[1]
+
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", ConstantInputWarning)
+            try:
+                p_value = corr_func(x, y)[1]
+            except ConstantInputWarning:
+                p_value = np.nan  # Undefined p-value due to constant input
+        return p_value
 
     def calculate_p_values(self, method="pearson"):
         """
@@ -148,9 +162,15 @@ class CorrelationAnalyzer:
                         )
                     except (TypeError, ValueError) as e:
                         p_values.loc[i, j] = np.nan  # Mark invalid pairs as Nan
-                        print(
-                            f"Warning: Could not calculate p-value for {i} and {j}. Error: {e}"
+                        logging.warning(
+                            "Could not calculate p-value for %s and %s. Error: %s",
+                            i,
+                            j,
+                            e,
                         )
+        # Round number to 3 decimal places using round
+        p_values = p_values.round(3)
+
         return p_values
 
     def visualize_heatmap(
