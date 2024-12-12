@@ -51,5 +51,5 @@ for _, row in relevant_questions.iterrows():
     dataset[column_name] = dataset[column_name].fillna("NaN")
 
 encoded_dataset = dataset
-encoded_dataset.to_clipboard(index=False)
-# encoded_dataset.to_csv("encoded_dataset.csv", index=False)
+# encoded_dataset.to_clipboard(index=False)
+encoded_dataset.to_csv("encoded_dataset.csv", index=False)
