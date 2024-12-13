@@ -12,10 +12,10 @@ This module provides a class `CorrelationAnalyzer` for:
 import logging
 import warnings
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # type: ignore
 import numpy as np
 import pandas as pd
-import seaborn as sns
+import seaborn as sns  # type: ignore
 from scipy.stats import ConstantInputWarning, kendalltau, pearsonr, spearmanr
 
 logging.basicConfig(
