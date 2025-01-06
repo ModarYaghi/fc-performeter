@@ -139,6 +139,6 @@ rebuilt_intake = rebuild_dataframe(intake, "fcid")
 # rebuilt_intake["fcid"] = rebuilt_intake["fcid"].astype("Int64")
 
 # --------------------------Working Period------------------------------------
-START = "2024-03-01"
-END = "2024-09-30"
+START = "2024-10-01"
+END = "2024-12-31"
 # ----------------------------------------------------------------------------
