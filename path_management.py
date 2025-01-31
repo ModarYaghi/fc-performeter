@@ -271,7 +271,7 @@ class PTFiles:
 # Assume these variables are properly set in your actual code
 
 root = os.getenv("FcPerformeter")
-data_dir = "1224"
+data_dir = "0125"
 config_file = os.path.join(root, "config", "config.yaml")
 
 path_manager = PathManger(root, data_dir, config_file)

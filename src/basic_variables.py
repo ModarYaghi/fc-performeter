@@ -3,11 +3,20 @@ from src.rebuild_dataframe import *
 
 # UNIQUE SCREENING BENEFICIARIES RECORDS
 
-scr_file = path_manager.get_data_file(Category.PS, PSFile.SCR)
-scr = get_df(scr_file.path, scr_file.sheet, config_file)
-scr = scr.sort_values(by=["sc_s1"])
+# scr_file = path_manager.get_data_file(Category.PS, PSFile.SCR)
+# scr = get_df(scr_file.path, scr_file.sheet, config_file)
+# scr = scr.sort_values(by=["sc_s1"])
 # unique_scr = scr.drop_duplicates(subset='rid')
-rebuilt_scr = rebuild_dataframe(scr, "rid")
+# rebuilt_scr = rebuild_dataframe(scr, "rid")
+#
+# int_file = path_manager.get_data_file(Category.PS, PSFile.PSNT)
+# intake = get_df(int_file.path, int_file.sheet, config_file)
+# intake.insert(4, "service", None)
+# intake = intake.sort_values(by=["nt_s1", "nt_s2", "nt_s3", "nt_re"], ascending=True)
+# unique_intake = intake.drop_duplicates(subset='rid', keep='last')
+# rebuilt_intake = rebuild_dataframe(intake, "fcid")
+# rebuilt_intake["fcid"] = rebuilt_intake["fcid"].astype("Int64")
+
 
 # UNIQUE INTAKE BENEFICIARIES RECORD
 intake_s2 = [
@@ -130,15 +139,7 @@ pt_sheet_path = {
     "pt_fua": (pt_files.PTFU.sheet, pt_files.PTFU.path),
 }
 
-int_file = path_manager.get_data_file(Category.PS, PSFile.PSNT)
-intake = get_df(int_file.path, int_file.sheet, config_file)
-intake.insert(4, "service", None)
-intake = intake.sort_values(by=["nt_s1", "nt_s2", "nt_s3", "nt_re"], ascending=True)
-# unique_intake = intake.drop_duplicates(subset='rid', keep='last')
-rebuilt_intake = rebuild_dataframe(intake, "fcid")
-# rebuilt_intake["fcid"] = rebuilt_intake["fcid"].astype("Int64")
-
 # --------------------------Working Period------------------------------------
-START = "2024-10-01"
-END = "2024-12-31"
+START = "2025-01-01"
+END = "2025-01-31"
 # ----------------------------------------------------------------------------
